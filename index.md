@@ -6,7 +6,7 @@ description: >
   A public-facing lab notebook for the VOLT crypto trading engine. Explore backtests, PineScripts, sweep results, and system logs.
 ---
 
-# ⚡ VOLT Strategy Dashboard
+# VOLT Strategy Dashboard
 
 Welcome to the public-facing lab for the **VOLT crypto trading engine** — a modular system for testing, evolving, and deploying automated strategies.
 

@@ -2,44 +2,23 @@ title: "VOLT Trading Dashboard"
 description: >
   Backtest results, PineScript indicators, strategy sweep summaries, and live dev logs.
 
-# Use Just the Docs GitHub Pages-compatible version
 remote_theme: just-the-docs/just-the-docs
-
-# Use the default light theme
 color_scheme: light
 
-# === Collections ===
 collections:
   docs:
     output: true
     permalink: /:path/
 
-# === Just the Docs Navigation ===
 just_the_docs:
   collections:
     docs:
       name: "Documentation"
       nav_fold: true
-      nav:
-        - title: "📊 Strategy Results"
-          url: /results/
-        - title: "📈 PineScripts"
-          url: /pine/
-        - title: "🧠 Build Log"
-          url: /blog/
-        - title: "🙌 Support"
-          url: /support/
-        - title: "📬 Contact"
-          url: /contact/
-        - title: "⚡ About"
-          url: /about/
 
-# === GitHub Pages URL Info ===
 url: "https://cryptocav.github.io"
 baseurl: "/volt-trading-dash"
 
-# === Features ===
 search_enabled: true
 
-# === Favicon (optional, make sure file exists) ===
 favicon_ico: "/assets/images/favicon.ico"
