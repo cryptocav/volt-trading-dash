@@ -2,9 +2,8 @@
 layout: default
 title: "🙌 Support"
 permalink: /support/
-nav_order: 5
 description: >
-  How to contact Cav, support the VOLT project, or contribute to strategy development and open source tooling.
+  How to support or contribute to the VOLT project.
 ---
 
 # 🙌 Support

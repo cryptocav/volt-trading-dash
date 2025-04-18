@@ -2,14 +2,14 @@
 layout: default
 title: "⚡ About"
 permalink: /about/
-nav_order: 7
 description: >
-  Overview of the VOLT Trading Dashboard — a public‑facing lab notebook for automated trading strategy design and deployment.
+  Overview of the VOLT Trading Dashboard — a public‑facing
+  lab notebook for automated trading strategy design and deployment.
 ---
 
 # ⚡ About the Project
 
-**VOLT** is a modular crypto trading system built from scratch in Python + PineScript.
+**VOLT** is a modular crypto trading system written in Python + PineScript.
 
 This site serves as:
 

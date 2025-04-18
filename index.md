@@ -1,20 +1,21 @@
 ---
 layout: home
-title: "VOLT Strategy Dashboard"
-nav_exclude: true
+title: "⚡ VOLT Strategy Dashboard"
 description: >
-  Public-facing lab for the VOLT crypto trading engine — testing, evolving, and deploying automated strategies.
+  Public‑facing lab for the **VOLT crypto trading engine** —
+  a modular system for testing, evolving, and deploying automated strategies.
 ---
 
 # ⚡ VOLT Strategy Dashboard
 
-Welcome to the public‑facing lab for the **VOLT crypto trading engine** — a modular system for testing, evolving, and deploying automated strategies.
+Welcome to the public‑facing lab for the **VOLT crypto trading engine** —  
+a modular system for testing, evolving, and deploying automated strategies.
 
 ## 🔍 Explore
 
 - ✅ Backtest results  
 - 📈 Auto‑generated PineScripts  
-- 🧠 Build logs and dev notes  
+- 🧠 Build log and dev notes  
 - 🧪 Experimental sweep configs  
 
 Jump directly to:

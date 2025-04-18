@@ -3,20 +3,19 @@
 # ───────────────────────────────────────────────────────────
 title: "⚡ VOLT Trading Dashboard"
 description: >
-  Backtest results, PineScript indicators, strategy sweep summaries, and live dev logs for the VOLT crypto trading engine.
-remote_theme: just-the-docs/just-the-docs
-color_scheme: light
+  Backtest results, PineScript indicators, strategy sweep summaries,
+  and live dev logs for the VOLT crypto trading engine.
+remote_theme: pmarsceill/just-the-docs  # pulls in the Just the Docs theme
+color_scheme: light                    # force light mode
 
-# ── Tell Jekyll where your docs live ───────────────────────
-docs_dir: _docs
-
-# ── Define a docs collection so Jekyll outputs each page ──
+# ──  Your “docs” collection lives in _docs/ ─────────────────
 collections:
   docs:
     output: true
+    directory: _docs
     permalink: /:path/
 
-# ── Just the Docs nav structure ────────────────────────────
+# ──  Sidebar nav order and titles ──────────────────────────
 just_the_docs:
   nav:
     - title: "⚡ Home"
@@ -34,10 +33,17 @@ just_the_docs:
     - title: "⚡ About"
       url: "/about/"
 
-# ── GitHub Pages settings ──────────────────────────────────
+# ──  GitHub Pages config ───────────────────────────────────
 url: "https://cryptocav.github.io"
 baseurl: "/volt-trading-dash"
 
-# ── Search + favicon ───────────────────────────────────────
+# ──  Include your docs folder so GitHub Pages picks it up ──
+include:
+  - _docs
+
+# ──  Enable search, favicon, remote-theme plugin ───────────
 search_enabled: true
 favicon_ico: "/assets/images/favicon.ico"
+
+plugins:
+  - jekyll-remote-theme

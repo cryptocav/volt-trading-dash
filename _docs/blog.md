@@ -2,9 +2,8 @@
 layout: default
 title: "🧠 Build Log"
 permalink: /blog/
-nav_order: 4
 description: >
-  Internal notes, development milestones, and evolving strategy design decisions from the VOLT system creator.
+  Internal notes, development milestones, and evolving strategy decisions.
 ---
 
 # 🧠 Build Log
