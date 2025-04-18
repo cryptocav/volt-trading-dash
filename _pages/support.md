@@ -1,5 +1,6 @@
 ---
-title: Support the Project
+title: Support
+layout: default
 permalink: /support/
 ---
 

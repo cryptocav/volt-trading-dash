@@ -1,5 +1,6 @@
 ---
 title: PineScripts
+layout: default
 permalink: /pine/
 ---
 

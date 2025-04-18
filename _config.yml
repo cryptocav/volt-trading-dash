@@ -30,6 +30,10 @@ author:
 
 # --- Markdown settings ---
 markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  parse_block_html: true
 highlighter: rouge
 
 # --- Navigation ---

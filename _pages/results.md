@@ -1,5 +1,6 @@
 ---
 title: Strategy Results
+layout: default
 permalink: /results/
 ---
 
