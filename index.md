@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "⚡ VOLT Strategy Dashboard"
+title: "VOLT Strategy Dashboard"
 nav_exclude: true
 description: >
   A public-facing lab notebook for the VOLT crypto trading engine. Explore backtests, PineScripts, sweep results, and system logs.
