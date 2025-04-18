@@ -2,13 +2,10 @@
 layout: default
 title: "⚡ About"
 permalink: /about/
-collection: docs
-parent: Documentation
-nav_order: 6
+nav_order: 7
 description: >
-  Overview of the VOLT Trading Dashboard — a public-facing lab notebook for automated trading strategy design and deployment.
+  Overview of the VOLT Trading Dashboard — a public‑facing lab notebook for automated trading strategy design and deployment.
 ---
-
 
 # ⚡ About the Project
 
@@ -16,6 +13,6 @@ description: >
 
 This site serves as:
 
-- 📒 A lab notebook
-- 📊 A dashboard for public results
+- 📒 A lab notebook  
+- 📊 A dashboard for public results  
 - 🛠️ A portfolio of trading system design

@@ -1,27 +1,43 @@
-title: "VOLT Trading Dashboard"
+# ───────────────────────────────────────────────────────────
+# volt-trading-dash/_config.yml
+# ───────────────────────────────────────────────────────────
+title: "⚡ VOLT Trading Dashboard"
 description: >
-  Backtest results, PineScript indicators, strategy sweep summaries, and live dev logs.
-
+  Backtest results, PineScript indicators, strategy sweep summaries, and live dev logs for the VOLT crypto trading engine.
 remote_theme: just-the-docs/just-the-docs
 color_scheme: light
 
-# This is the missing piece:
+# ── Tell Jekyll where your docs live ───────────────────────
+docs_dir: _docs
+
+# ── Define a docs collection so Jekyll outputs each page ──
 collections:
   docs:
     output: true
     permalink: /:path/
-    # The following tells Jekyll where the collection lives:
-    directory: _docs
 
+# ── Just the Docs nav structure ────────────────────────────
 just_the_docs:
-  collections:
-    docs:
-      output: true
-      permalink: /:path/
-      directory: _docs   # ← make sure this line is present
+  nav:
+    - title: "⚡ Home"
+      url: "/"
+    - title: "📊 Strategy Results"
+      url: "/results/"
+    - title: "📈 PineScripts"
+      url: "/pine/"
+    - title: "🧠 Build Log"
+      url: "/blog/"
+    - title: "🙌 Support"
+      url: "/support/"
+    - title: "📬 Contact"
+      url: "/contact/"
+    - title: "⚡ About"
+      url: "/about/"
 
+# ── GitHub Pages settings ──────────────────────────────────
 url: "https://cryptocav.github.io"
 baseurl: "/volt-trading-dash"
 
+# ── Search + favicon ───────────────────────────────────────
 search_enabled: true
 favicon_ico: "/assets/images/favicon.ico"
