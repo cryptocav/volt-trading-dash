@@ -1,8 +1,13 @@
 ---
-title: "Contact"
+layout: default
+title: "📬 Contact"
+permalink: /contact/
 parent: Documentation
 nav_order: 5
+description: >
+  Contact Cav via GitHub, X/Twitter, or email. Use this page for inquiries, collabs, or feedback on the VOLT system.
 ---
+
 
 # 📬 Contact
 

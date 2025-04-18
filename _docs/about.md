@@ -1,8 +1,13 @@
 ---
-title: "About"
+layout: default
+title: "⚡ About"
+permalink: /about/
 parent: Documentation
 nav_order: 6
+description: >
+  Learn what the VOLT Trading Dashboard is, how it works, and why it exists. Built from scratch with Python and Pine.
 ---
+
 
 # ⚡ About the Project
 

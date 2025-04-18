@@ -4,17 +4,30 @@ description: >
 remote_theme: just-the-docs/just-the-docs
 color_scheme: light
 
-# Enable local nav + sidebar
 collections:
   docs:
-    permalink: "/:path/"
     output: true
+    permalink: /:path/
 
 just_the_docs:
   collections:
     docs:
-      name: Documentation
+      name: "Documentation"
       nav_fold: true
+      nav:
+        - title: "Strategy Results"
+          url: /results/
+        - title: "PineScripts"
+          url: /pine/
+        - title: "Build Log"
+          url: /blog/
+        - title: "Support"
+          url: /support/
+        - title: "Contact"
+          url: /contact/
+        - title: "About"
+          url: /about/
+
 
 url: "https://cryptocav.github.io"
 baseurl: "/volt-trading-dash"

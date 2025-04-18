@@ -1,7 +1,11 @@
 ---
-title: "PineScripts"
+layout: default
+title: "📈 PineScripts"
+permalink: /pine/
 parent: Documentation
 nav_order: 2
+description: >
+  Auto-generated PineScripts for VOLT strategies with TradingView-compatible entries, exits, alerts, and filter logic.
 ---
 
 # 📈 PineScript Library
