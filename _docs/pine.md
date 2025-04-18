@@ -2,12 +2,13 @@
 layout: default
 title: "📈 PineScripts"
 permalink: /pine/
-parent: Documentation
 collection: docs
+parent: Documentation
 nav_order: 2
 description: >
-  Auto-generated PineScripts for VOLT strategies with TradingView-compatible entries, exits, alerts, and filter logic.
+  Auto-generated TradingView indicators for each VOLT strategy. Includes entries, exits, SL/TP logic, and alert conditions.
 ---
+
 
 # 📈 PineScript Library
 

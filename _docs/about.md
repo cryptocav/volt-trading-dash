@@ -2,11 +2,11 @@
 layout: default
 title: "⚡ About"
 permalink: /about/
-parent: Documentation
 collection: docs
+parent: Documentation
 nav_order: 6
 description: >
-  Learn what the VOLT Trading Dashboard is, how it works, and why it exists. Built from scratch with Python and Pine.
+  Overview of the VOLT Trading Dashboard — a public-facing lab notebook for automated trading strategy design and deployment.
 ---
 
 
