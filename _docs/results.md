@@ -3,6 +3,7 @@ layout: default
 title: "📊 Strategy Results"
 permalink: /results/
 parent: Documentation
+collection: docs
 nav_order: 1
 description: >
   Backtest results for VOLT strategies ranked by Sharpe, Alpha vs HODL, Win Rate, and PnL. Updated regularly with sweep outputs and summaries.

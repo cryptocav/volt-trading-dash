@@ -3,6 +3,7 @@ layout: default
 title: "🙌 Support"
 permalink: /support/
 parent: Documentation
+collection: docs
 nav_order: 4
 description: >
   Need help with VOLT? Here's how to contact Cav, contribute feedback, or support the project with tips or donations.

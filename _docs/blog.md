@@ -3,6 +3,7 @@ layout: default
 title: "🧠 Build Log"
 permalink: /blog/
 parent: Documentation
+collection: docs
 nav_order: 3
 description: >
   Dev notes, system updates, design decisions, and strategic changes in the evolution of the VOLT engine.
