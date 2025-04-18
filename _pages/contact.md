@@ -4,5 +4,5 @@ permalink: /contact/
 ---
 
 - GitHub: [cryptocav](https://github.com/cryptocav)
-- Twitter: [@dominusvenerus](https://twitter.com/dominusvenerus)
-- Email: `volt@proton.me`
+- X: [@cavpatrol](https://x.com/cavpatrol)
+- Email: `volt-signals@proton.me`
