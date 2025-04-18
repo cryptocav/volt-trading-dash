@@ -1,0 +1,69 @@
+/* === Global Styles === */
+body {
+    font-family: system-ui, sans-serif;
+    background-color: #000;
+    color: #ddd;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0 1rem;
+  }
+  
+  a {
+    color: #00bcd4;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* === Feature Cards === */
+  .feature__wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .feature__item {
+    background: #111;
+    border: 1px solid #333;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    color: #eee;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+    transition: all 0.3s ease;
+  }
+  
+  .feature__item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+  }
+  
+  /* === Buttons === */
+  .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #00bcd4;
+    color: #000;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s ease;
+  }
+  
+  .btn--primary {
+    background: #4CAF50;
+    color: white;
+  }
+  
+  .btn--light {
+    background: #eee;
+    color: #000;
+  }
+  
+  .btn--large {
+    padding: 0.75rem 1.25rem;
+    font-size: 1.1rem;
+  }
+  
