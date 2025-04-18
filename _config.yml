@@ -1,0 +1,38 @@
+title: "VOLT Trading Dashboard"
+email: volt@proton.me
+description: >-
+  Strategy lab for the VOLT trading system. Weekly sweeps, PineScripts, and market notes.
+baseurl: ""
+url: "https://cryptocav.github.io"
+repository: cryptocav/volt-trading-dash
+
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: default
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: single
+      author_profile: false
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+      author_profile: false
+
+include:
+  - outputs
+  - pine
