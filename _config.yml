@@ -1,87 +1,26 @@
 title: "VOLT Trading Dashboard"
-email: volt-signals@proton.me
 description: >
-  A public strategy lab for the VOLT crypto trading engine. Backtest results, PineScript indicators,
-  sweep analysis, and weekly market development updates. Built by Cav using Jekyll + GitHub Pages.
+  Backtest results, PineScript indicators, strategy sweep summaries, and live dev logs.
+theme: just-the-docs
+color_scheme: dark
 
-url: "https://cryptocav.github.io"      # Your main site URL
-baseurl: "/volt-trading-dash"           # Subfolder if not using a custom domain
-repository: cryptocav/volt-trading-dash
-
-minimal_mistakes_skin: "contrast"       # Use "default", "dark", or "air" if you want
-
-# --- Plugins ---
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-include-cache
-
-# --- SEO & Meta ---
-logo: "/assets/images/volt-logo.png"    # Optional, if you add branding later
-locale: "en-AU"
-timezone: "Australia/Sydney"
-google_site_verification: ""            # Optional: for Google indexing
-author:
-  name: "Cav"
-  email: "volt-signals@proton.me"
-  github: "cryptocav"
-  twitter: "cavpatrol"
-
-# --- Markdown settings ---
-markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
-  parse_block_html: true
-highlighter: rouge
-
-# --- Navigation ---
-nav:
-  - title: "Home"
-    url: /
-  - title: "Results"
-    url: /results/
-  - title: "PineScripts"
-    url: /pine/
-  - title: "Blog"
-    url: /blog/
-  - title: "Support"
-    url: /support/
-  - title: "Contact"
-    url: /contact/
-
-# --- Content Behavior ---
+# Enable local nav + sidebar
 collections:
-  pages:
+  docs:
+    permalink: "/:path/"
     output: true
-    permalink: /:name/
 
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: single
-      toc: true
-      toc_sticky: true
-      author_profile: false
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: single
-      toc: true
-      toc_sticky: true
-      author_profile: false
+just_the_docs:
+  collections:
+    docs:
+      name: Documentation
+      nav_fold: true
 
-# --- Include folders ---
-include:
-  - outputs
-  - pine
+url: "https://cryptocav.github.io"
+baseurl: "/volt-trading-dash"
 
-# --- Exclude unnecessary files ---
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
+# Enable search
+search_enabled: true
+
+# Favicon support
+favicon_ico: "/assets/images/favicon.ico"
