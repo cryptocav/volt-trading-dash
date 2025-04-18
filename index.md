@@ -1,6 +1,7 @@
 ---
 layout: home
 title: "⚡ VOLT Strategy Dashboard"
+nav_exclude: true
 description: >
   Public‑facing lab for the **VOLT crypto trading engine** —
   a modular system for testing, evolving, and deploying automated strategies.
