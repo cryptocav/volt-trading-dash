@@ -16,8 +16,9 @@ collections:
 just_the_docs:
   collections:
     docs:
-      name: "Documentation"
-      nav_fold: true
+      output: true
+      permalink: /:path/
+      directory: _docs   # ← make sure this line is present
 
 url: "https://cryptocav.github.io"
 baseurl: "/volt-trading-dash"
