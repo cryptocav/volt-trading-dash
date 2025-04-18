@@ -5,10 +5,13 @@ description: >
 remote_theme: just-the-docs/just-the-docs
 color_scheme: light
 
+# This is the missing piece:
 collections:
   docs:
     output: true
     permalink: /:path/
+    # The following tells Jekyll where the collection lives:
+    directory: _docs
 
 just_the_docs:
   collections:
@@ -20,5 +23,4 @@ url: "https://cryptocav.github.io"
 baseurl: "/volt-trading-dash"
 
 search_enabled: true
-
 favicon_ico: "/assets/images/favicon.ico"
