@@ -85,3 +85,32 @@ body {
     color: #fff;
   }
   
+  .hero {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: linear-gradient(to right, #0a0f10, #0e1c1d);
+  }
+  .hero h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+  }
+  .hero p {
+    color: #bbb;
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto 1.5rem;
+  }
+  .hero__actions {
+    margin-top: 1rem;
+  }
+  .hero__actions .btn {
+    margin: 0.25rem;
+    background: #00bcd4;
+    color: #000;
+  }
+  
+  body {
+    padding-top: 2rem;
+  }
+  
