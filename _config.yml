@@ -1,7 +1,7 @@
 title: "VOLT Trading Dashboard"
 description: >
   Backtest results, PineScript indicators, strategy sweep summaries, and live dev logs.
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 color_scheme: dark
 
 # Enable local nav + sidebar
