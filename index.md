@@ -1,16 +1,24 @@
 ---
 layout: default
-title: "VOLT Trading Dashboard"
+title: "⚡ VOLT Strategy Dashboard"
 nav_exclude: true
+description: >
+  A public-facing lab notebook for the VOLT crypto trading engine. Explore backtests, PineScripts, sweep results, and system logs.
 ---
 
 # ⚡ VOLT Strategy Dashboard
 
-Welcome to the public-facing lab for the VOLT crypto trading engine.
+Welcome to the public-facing lab for the **VOLT crypto trading engine** — a modular system for testing, evolving, and deploying automated strategies.
+
+## 🔍 Explore
 
 - ✅ Backtest results
 - 📈 Auto-generated PineScripts
-- 🧠 Build logs and strategy insights
+- 🧠 Build logs and dev notes
 - 🧪 Experimental sweep configs
 
-Browse the [Results](/results/), [PineScripts](/pine/), or [Support](/support) pages to get started.
+Use the sidebar or jump directly to:
+
+- [📊 Results]({{ "/results/" | relative_url }})
+- [📈 PineScripts]({{ "/pine/" | relative_url }})
+- [🙌 Support]({{ "/support/" | relative_url }})
