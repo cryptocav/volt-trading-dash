@@ -6,7 +6,7 @@ baseurl: ""
 url: "https://cryptocav.github.io"
 repository: cryptocav/volt-trading-dash
 
-theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes@4.24.0
 minimal_mistakes_skin: default
 
 plugins:
