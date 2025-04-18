@@ -1,9 +1,19 @@
 ---
 layout: home
 title: VOLT Trading Dashboard
-excerpt: A public trading lab powered by the VOLT engine — backtests, signals, and PineScripts.
-author_profile: false
+excerpt: >
+  A public lab for the VOLT trading system. Backtests, signals, PineScripts, and strategy dev logs.
+header:
+  overlay_image: /assets/images/banner.jpg
+  overlay_filter: "0.2"
+  overlay_color: "#000"
+  actions:
+    - label: "View Results"
+      url: "/results/"
+    - label: "Explore PineScripts"
+      url: "/pine/"
 ---
+
 
 Welcome to the **VOLT Strategy Dashboard**.
 
