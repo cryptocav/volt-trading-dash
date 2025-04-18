@@ -8,7 +8,6 @@ url: "https://cryptocav.github.io"      # Your main site URL
 baseurl: "/volt-trading-dash"           # Subfolder if not using a custom domain
 repository: cryptocav/volt-trading-dash
 
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "contrast"       # Use "default", "dark", or "air" if you want
 
 # --- Plugins ---
