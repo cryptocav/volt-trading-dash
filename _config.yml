@@ -1,19 +1,53 @@
 title: "VOLT Trading Dashboard"
-email: volt@proton.me
-description: >-
-  Strategy lab for the VOLT trading system. Weekly sweeps, PineScripts, and market notes.
-baseurl: ""
-url: "https://cryptocav.github.io"
+email: volt-signals@proton.me
+description: >
+  A public strategy lab for the VOLT crypto trading engine. Backtest results, PineScript indicators,
+  sweep analysis, and weekly market development updates. Built by Cav using Jekyll + GitHub Pages.
+
+url: "https://cryptocav.github.io"      # Your main site URL
+baseurl: "/volt-trading-dash"           # Subfolder if not using a custom domain
 repository: cryptocav/volt-trading-dash
 
-remote_theme: mmistakes/minimal-mistakes@4.24.0
-minimal_mistakes_skin: default
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "contrast"       # Use "default", "dark", or "air" if you want
 
+# --- Plugins ---
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-include-cache
 
+# --- SEO & Meta ---
+logo: "/assets/images/volt-logo.png"    # Optional, if you add branding later
+locale: "en-AU"
+timezone: "Australia/Sydney"
+google_site_verification: ""            # Optional: for Google indexing
+author:
+  name: "Cav"
+  email: "volt-signals@proton.me"
+  github: "cryptocav"
+  twitter: "cavpatrol"
+
+# --- Markdown settings ---
+markdown: kramdown
+highlighter: rouge
+
+# --- Navigation ---
+nav:
+  - title: "Home"
+    url: /
+  - title: "Results"
+    url: /results/
+  - title: "PineScripts"
+    url: /pine/
+  - title: "Blog"
+    url: /blog/
+  - title: "Support"
+    url: /support/
+  - title: "Contact"
+    url: /contact/
+
+# --- Content Behavior ---
 collections:
   pages:
     output: true
@@ -25,14 +59,26 @@ defaults:
       type: "pages"
     values:
       layout: single
+      toc: true
+      toc_sticky: true
       author_profile: false
   - scope:
       path: ""
       type: "posts"
     values:
       layout: single
+      toc: true
+      toc_sticky: true
       author_profile: false
 
+# --- Include folders ---
 include:
   - outputs
   - pine
+
+# --- Exclude unnecessary files ---
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
