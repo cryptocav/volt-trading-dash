@@ -1,9 +1,11 @@
 ---
 layout: default
-title: "VOLT Strategy Dashboard"
-nav_exclude: true
+title: "⚡ VOLT Strategy Dashboard"
+collection: docs
+parent: Documentation
+nav_order: 0
 description: >
-  Public-facing lab for the VOLT crypto trading engine. Explore backtests, indicators, sweep outputs, and logs.
+  Public-facing lab for the VOLT crypto trading engine. Explore backtests, PineScripts, strategy sweeps, and dev logs.
 ---
 
 # ⚡ VOLT Strategy Dashboard
