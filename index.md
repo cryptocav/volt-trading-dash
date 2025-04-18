@@ -16,11 +16,26 @@ header:
 
 
 Welcome to the **VOLT Strategy Dashboard**.
+---
 
-Here you'll find:
-- 🔬 Weekly backtest results from the VOLT engine
-- 📈 PineScript indicators from top configs
-- 🗞 Market and process updates
-- 🧪 Experimental strategy logs
+<section class="feature__wrapper">
 
-Explore [results](/results), [Pine scripts](/pine), or [read more about VOLT](/about).
+<div class="feature__item">
+  <h3>🔍 Strategy Results</h3>
+  <p>Weekly sweep summaries, top Sharpe configs, alpha vs HODL, and RR metrics.</p>
+  <a href="/results/" class="btn btn--primary">View Results</a>
+</div>
+
+<div class="feature__item">
+  <h3>📈 PineScripts</h3>
+  <p>Auto-generated TradingView indicators for all top strategies with full entry/exit logic.</p>
+  <a href="/pine/" class="btn btn--primary">Explore Pine</a>
+</div>
+
+<div class="feature__item">
+  <h3>🧪 Build Log</h3>
+  <p>Engineering notes, market observations, and strategy evolutions from the VOLT engine.</p>
+  <a href="/blog/" class="btn btn--primary">Read the Blog</a>
+</div>
+
+</section>
