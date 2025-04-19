@@ -3,7 +3,7 @@ description: >
   Backtest results, PineScript indicators, strategy sweep summaries,
   and live dev logs for the VOLT crypto trading engine.
 
-remote_theme: just-the-docs/just-the-docs
+remote_theme: pmarsceill/just-the-docs
 color_scheme: light
 
 collections:
