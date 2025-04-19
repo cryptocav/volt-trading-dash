@@ -25,7 +25,7 @@ VOLT is a command-line powered system built for modularity and visibility. It in
 - 🧪 [Backtest Engine]({{ "/results/" | relative_url }})  
   Simulates trade execution with slippage, commissions, and risk management.
 
-- 🔁 [Sweep System]({{ "/results/btc_15m_20250419" | relative_url }})  
+- 🔁 Sweep System
   Explores multiple configs and ranks them based on your goals (Sharpe, win rate, alpha vs HODL).
 
 - 🧠 [Postprocessing + Dev Log]({{ "/blog/" | relative_url }})  
@@ -34,7 +34,7 @@ VOLT is a command-line powered system built for modularity and visibility. It in
 - 📈 [PineScript Generator]({{ "/pine/" | relative_url }})  
   Produces clean, alert-ready TradingView scripts from tested configs.
 
-- 📡 Signal Monitor (Python)  
+- 📡 Signal Monitor (TradingView)  
   Monitors live markets and dispatches alerts to Telegram in real-time.
 
 All strategy results are published with downloadable `.json` and `.pine` files. The entire system is transparent, reproducible, and improving with each iteration.
