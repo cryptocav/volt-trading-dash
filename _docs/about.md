@@ -25,7 +25,7 @@ VOLT is a command-line powered system built for modularity and visibility. It in
 - 🧪 [Backtest Engine]({{ "/results/" | relative_url }})  
   Simulates trade execution with slippage, commissions, and risk management.
 
-- 🔁 Sweep System
+- 🔁 Sweep System   
   Explores multiple configs and ranks them based on your goals (Sharpe, win rate, alpha vs HODL).
 
 - 🧠 [Postprocessing + Dev Log]({{ "/blog/" | relative_url }})  
