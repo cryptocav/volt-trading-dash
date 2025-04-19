@@ -15,6 +15,10 @@ collections:
     output: true
     directory: _results
     permalink: /results/:name/
+  blog:
+    output: true
+    directory: _blog
+    permalink: /blog/:name/
 
 just_the_docs:
   nav:
@@ -29,7 +33,12 @@ just_the_docs:
     - title: "📈 PineScripts"
       url: "/pine/"
     - title: "🧠 Build Log"
-      url: "/blog/"
+      children:
+        - title: "🧠 Overview"
+          url: "/blog/"
+        # Future entries here, like:
+        # - title: "Sweep Dev – Apr 19"
+        #   url: "/blog/dev_notes_20250419"
     - title: "🙌 Support"
       url: "/support/"
     - title: "📬 Contact"
@@ -46,6 +55,7 @@ baseurl: "/volt-trading-dash"
 include:
   - _docs
   - _results
+  - _blog
 
 search_enabled: true
 favicon_ico: "/assets/images/favicon.ico"
