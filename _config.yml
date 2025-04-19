@@ -28,6 +28,7 @@ just_the_docs:
       url: "/contact/"
     - title: "⚡ About"
       url: "/about/"
+  include_head: head-custom 
 
 url: "https://cryptocav.github.io"
 baseurl: "/volt-trading-dash"
