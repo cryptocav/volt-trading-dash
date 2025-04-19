@@ -1,7 +1,6 @@
-/* 💜 VOLT custom styles */
-
-/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&family=Roboto+Mono&display=swap');
+
+/* 💜 VOLT custom styles */
 
 body {
   font-family: 'Space Grotesk', sans-serif;
@@ -22,7 +21,7 @@ a, .nav-list-link:hover {
   color: #6f42c1;
 }
 
-/* ⚡ Selection */
+/* ⚡ Highlighted text */
 ::selection {
   background-color: #6f42c1;
   color: #fff;
