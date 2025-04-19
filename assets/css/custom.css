@@ -38,9 +38,66 @@ code {
 /* 📉 Sidebar tweaks */
 .nav-list .nav-list-item > a {
   font-weight: 500;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+}
+
+/* 🌟 Current page highlight */
+.nav-list .nav-list-item > a.current {
+  color: #6f42c1;
+  font-weight: bold;
+}
+
+/* 📌 Sticky top nav */
+.site-header {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  z-index: 1000;
+  border-bottom: 1px solid #eee;
+}
+
+/* 🔍 Larger search input */
+.site-search input[type="search"] {
+  font-size: 1rem;
+  padding: 0.4rem 0.6rem;
 }
 
 /* 🧹 Footer cleanup */
 .site-footer {
   display: none !important;
+}
+
+/* 🌙 Dark Mode (respects user system preference) */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1e1e1e;
+    color: #eee;
+  }
+
+  a, .nav-list-link:hover {
+    color: #bb86fc;
+  }
+
+  code {
+    background-color: #2e2e3e;
+  }
+
+  .site-header {
+    background-color: #111;
+    border-bottom: 1px solid #333;
+  }
+
+  .nav-list .nav-list-item > a {
+    color: #ccc;
+  }
+
+  .nav-list .nav-list-item > a.current {
+    color: #bb86fc;
+  }
+
+  ::selection {
+    background-color: #bb86fc;
+    color: #000;
+  }
 }
