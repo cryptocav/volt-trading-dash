@@ -1,7 +1,7 @@
-<!-- volt-trading-dash/_includes/head-custom.html -->
 <style>
     body {
       background-color: #f8f9fc;
+      font-family: system-ui, sans-serif;
     }
   
     .site-title {
@@ -13,11 +13,19 @@
     }
   
     .nav-list .nav-list-item > a {
-      color: #6c63ff; /* volt-purple */
+      color: #6c63ff;
     }
-  </style>
-
-<style>
+  
+    .nav-list .nav-list-item > a:hover {
+      color: #4c3fff;
+    }
+  
+    .nav-list .nav-list-item.active > a {
+      background-color: #e8ebff;
+      border-left: 4px solid #6c63ff;
+      font-weight: bold;
+    }
+  
     .site-footer {
       display: none !important;
     }
