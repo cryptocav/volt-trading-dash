@@ -5,7 +5,7 @@ title: "⚡ VOLT Trading Dashboard"
 description: >
   Backtest results, PineScript indicators, strategy sweep summaries,
   and live dev logs for the VOLT crypto trading engine.
-remote_theme: just-the-docs/just-the-docs@v0.5.4  # pulls in the Just the Docs theme
+theme: just-the-docs
 color_scheme: light                    # force light mode
 
 # ──  Your “docs” collection lives in _docs/ ─────────────────
