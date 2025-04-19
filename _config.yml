@@ -28,8 +28,7 @@ just_the_docs:
       url: "/contact/"
     - title: "⚡ About"
       url: "/about/"
-  # ✅ This enables your head override
-  include_head: head-custom
+  css: "assets/css/main.scss"
 
 url: "https://cryptocav.github.io"
 baseurl: "/volt-trading-dash"
