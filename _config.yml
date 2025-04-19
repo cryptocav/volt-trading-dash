@@ -5,8 +5,9 @@ title: "⚡ VOLT Trading Dashboard"
 description: >
   Backtest results, PineScript indicators, strategy sweep summaries,
   and live dev logs for the VOLT crypto trading engine.
+
 remote_theme: just-the-docs/just-the-docs@v0.5.4
-color_scheme: light                    # force light mode
+color_scheme: light
 
 # ──  Your “docs” collection lives in _docs/ ─────────────────
 collections:
@@ -32,9 +33,8 @@ just_the_docs:
       url: "/contact/"
     - title: "⚡ About"
       url: "/about/"
-  
-  # 👇 ADD THIS LINE
-  include_head: custom-head
+  custom_css:
+    - /assets/css/custom.css
 
 # ──  GitHub Pages config ───────────────────────────────────
 url: "https://cryptocav.github.io"
@@ -47,6 +47,12 @@ include:
 # ──  Enable search, favicon, remote-theme plugin ───────────
 search_enabled: true
 favicon_ico: "/assets/images/favicon.ico"
+
+# ──  Custom SASS include path (for CSS injection) ──────────
+sass:
+  load_paths:
+    - _sass
+    - assets/css
 
 plugins:
   - jekyll-remote-theme
