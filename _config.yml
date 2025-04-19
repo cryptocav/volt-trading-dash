@@ -11,13 +11,21 @@ collections:
     output: true
     directory: _docs
     permalink: /:path/
+  results:
+    output: true
+    directory: _results
+    permalink: /results/:name/
 
 just_the_docs:
   nav:
     - title: "⚡ Home"
       url: "/"
     - title: "📊 Strategy Results"
-      url: "/results/"
+      children:
+        - title: "📊 Overview"
+          url: "/results/"
+        - title: "BTC 15m · Apr 19, 2025"
+          url: "/results/btc_15m_20250419"
     - title: "📈 PineScripts"
       url: "/pine/"
     - title: "🧠 Build Log"
@@ -28,14 +36,16 @@ just_the_docs:
       url: "/contact/"
     - title: "⚡ About"
       url: "/about/"
+
   include_head:
-   - head-custom.html 
+    - head-custom.html
 
 url: "https://cryptocav.github.io"
 baseurl: "/volt-trading-dash"
 
 include:
   - _docs
+  - _results
 
 search_enabled: true
 favicon_ico: "/assets/images/favicon.ico"

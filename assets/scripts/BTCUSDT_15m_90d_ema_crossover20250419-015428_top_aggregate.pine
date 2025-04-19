@@ -1,0 +1,179 @@
+//@version=5
+indicator("VOLT – EMA Crossover + Alerts + Dynamic Trail + Green TPs", overlay=true)
+
+// === Inputs ===
+fast           = input.int(10,     "EMA Fast")
+slow           = input.int(34,    "EMA Slow")
+trendLen       = input.int(200,  "Macro Trend EMA")
+atrLen         = input.int(14, "ATR Length")
+slMult         = input.float(1.75, "SL Multiplier")
+useTrailing    = input.bool(true, "Use Trailing Stop")
+trailRatio     = input.float(0.15, "Trailing Stop Ratio", step=0.05)
+usePartialTP   = input.bool(true, "Use Partial TP")
+tpMultipliers  = array.from(2.0, 3.0)
+useMACD        = input.bool(false, "Use MACD Confirm")
+useRSI         = input.bool(true, "Use RSI Filter")
+rsiMin         = input.int(40, "RSI Min")
+rsiMax         = input.int(60, "RSI Max")
+rsiPeriod      = input.int(14, "RSI Period")
+macdFast       = input.int(12, "MACD Fast")
+macdSlow       = input.int(26, "MACD Slow")
+macdSignal     = input.int(9, "MACD Signal")
+useTrendFilter = input.bool(false, "Use Trend Filter")
+
+// === State vars ===
+var bool   inPosition          = false
+var string positionDir         = ""
+var bool   hasReset            = false
+var float  entry               = na
+var float  sl                  = na
+var float  tp1                 = na
+var float  tp2                 = na
+var float  long_trail          = na
+var float  short_trail         = na
+var float  trailSL             = na
+var line   longTrailLine       = na
+var line   shortTrailLine      = na
+var label  longTrailStopLabel  = na
+var label  shortTrailStopLabel = na
+
+// reset state on attach to real‑time chart
+if barstate.isrealtime and not hasReset
+    inPosition  := false
+    positionDir := ""
+    hasReset    := true
+
+// === Indicators ===
+emaFast    = ta.ema(close, fast)
+emaSlow    = ta.ema(close, slow)
+trend      = ta.ema(close, trendLen)
+atr        = ta.atr(atrLen)
+macdLine   = ta.ema(close, macdFast) - ta.ema(close, macdSlow)
+signalLine = ta.ema(macdLine, macdSignal)
+rsi        = ta.rsi(close, rsiPeriod)
+
+// === Entry & Filter Conditions ===
+crossLong        = ta.crossover(emaFast, emaSlow)
+crossShort       = ta.crossunder(emaFast, emaSlow)
+trendPassLong    = not useTrendFilter or close > trend
+trendPassShort   = not useTrendFilter or close < trend
+rsiBlocked       = useRSI   and (rsi >= rsiMin and rsi <= rsiMax)
+macdBlockedLong  = useMACD  and (macdLine <= signalLine)
+macdBlockedShort = useMACD  and (macdLine >= signalLine)
+
+longEntry    = crossLong  and trendPassLong  and not rsiBlocked  and not macdBlockedLong
+shortEntry   = crossShort and trendPassShort and not rsiBlocked  and not macdBlockedShort
+longFiltered = crossLong  and trendPassLong  and not longEntry
+shortFiltered= crossShort and trendPassShort and not shortEntry
+
+// === Exit Conditions ===
+slHitLong     = inPosition and positionDir == "long"  and low  <= sl
+tp1HitLong    = inPosition and positionDir == "long"  and high >= tp1
+tp2HitLong    = inPosition and positionDir == "long"  and high >= tp2
+trailHitLong  = inPosition and useTrailing               and low  <= trailSL
+
+slHitShort    = inPosition and positionDir == "short" and high >= sl
+tp1HitShort   = inPosition and positionDir == "short" and low  <= tp1
+tp2HitShort   = inPosition and positionDir == "short" and low  <= tp2
+trailHitShort = inPosition and useTrailing               and high >= trailSL
+
+// === Long Entry ===
+if longEntry and not inPosition
+    entry       := close
+    sl          := entry - atr * slMult
+    tp1         := entry + atr * array.get(tpMultipliers, 0)
+    tp2         := entry + atr * array.get(tpMultipliers, 1)
+    long_trail  := entry
+    positionDir := "long"
+    inPosition  := true
+
+    if not na(longTrailLine)
+        line.delete(longTrailLine)
+    longTrailLine := line.new(bar_index, entry, bar_index, entry, color=color.yellow, width=1)
+
+    label.new(bar_index, entry, "🟢 LONG @ " + str.tostring(entry),
+              style=label.style_label_up, color=color.green, textcolor=color.white)
+    label.new(bar_index, sl,    "🔴 SL @ "   + str.tostring(sl),
+              style=label.style_label_down, color=color.red,   textcolor=color.white)
+    if usePartialTP
+        label.new(bar_index, tp1, "🏁 TP1 @ " + str.tostring(tp1),
+                  style=label.style_label_up, color=color.green, textcolor=color.white)
+        label.new(bar_index, tp2, "🏁 TP2 @ " + str.tostring(tp2),
+                  style=label.style_label_up, color=color.green, textcolor=color.white)
+
+    alert("🟢 VOLT LONG Entry @ " + str.tostring(entry), alert.freq_once_per_bar_close)
+
+// === Short Entry ===
+if shortEntry and not inPosition
+    entry        := close
+    sl           := entry + atr * slMult
+    tp1          := entry - atr * array.get(tpMultipliers, 0)
+    tp2          := entry - atr * array.get(tpMultipliers, 1)
+    short_trail  := entry
+    positionDir  := "short"
+    inPosition   := true
+
+    if not na(shortTrailLine)
+        line.delete(shortTrailLine)
+    shortTrailLine := line.new(bar_index, entry, bar_index, entry, color=color.orange, width=1)
+
+    label.new(bar_index, entry, "🔴 SHORT @ " + str.tostring(entry),
+              style=label.style_label_down, color=color.red, textcolor=color.white)
+    label.new(bar_index, sl,    "🔴 SL @ "    + str.tostring(sl),
+              style=label.style_label_down, color=color.red, textcolor=color.white)
+    if usePartialTP
+        label.new(bar_index, tp1, "🏁 TP1 @ " + str.tostring(tp1),
+                  style=label.style_label_up, color=color.green, textcolor=color.white)
+        label.new(bar_index, tp2, "🏁 TP2 @ " + str.tostring(tp2),
+                  style=label.style_label_up, color=color.green, textcolor=color.white)
+
+    alert("🔴 VOLT SHORT Entry @ " + str.tostring(entry), alert.freq_once_per_bar_close)
+
+// === Dynamic Trailing‑Stop Update ===
+if useTrailing and inPosition and positionDir == "long"
+    long_trail := math.max(long_trail, high)
+    trailSL    := long_trail - (long_trail - close) * trailRatio
+    line.set_xy1(longTrailLine, bar_index[1], trailSL)
+    line.set_xy2(longTrailLine, bar_index,   trailSL)
+    if not na(longTrailStopLabel)
+        label.delete(longTrailStopLabel)
+    longTrailStopLabel := label.new(bar_index, trailSL, "⚠️ Trail SL: " + str.tostring(trailSL), style=label.style_label_down, color=color.orange, textcolor=color.white)
+
+if useTrailing and inPosition and positionDir == "short"
+    short_trail := math.min(short_trail, low)
+    trailSL     := short_trail + (close - short_trail) * trailRatio
+    line.set_xy1(shortTrailLine, bar_index[1], trailSL)
+    line.set_xy2(shortTrailLine, bar_index,   trailSL)
+    if not na(shortTrailStopLabel)
+        label.delete(shortTrailStopLabel)
+    shortTrailStopLabel := label.new(bar_index, trailSL, "⚠️ Trail SL: " + str.tostring(trailSL), style=label.style_label_up,   color=color.orange, textcolor=color.white)
+
+// === Exit Alerts & Reset ===
+if slHitLong
+    alert("🔴 VOLT SL hit LONG @ " + str.tostring(sl), alert.freq_once_per_bar_close), inPosition := false
+if tp1HitLong
+    alert("🏁 VOLT TP1 hit LONG @ " + str.tostring(tp1), alert.freq_once_per_bar_close), inPosition := false
+if tp2HitLong
+    alert("🏁 VOLT TP2 hit LONG @ " + str.tostring(tp2), alert.freq_once_per_bar_close), inPosition := false
+if trailHitLong
+    alert("⚠️ VOLT Trailing Stop hit LONG @ " + str.tostring(trailSL), alert.freq_once_per_bar_close), inPosition := false
+
+if slHitShort
+    alert("🔴 VOLT SL hit SHORT @ " + str.tostring(sl), alert.freq_once_per_bar_close), inPosition := false
+if tp1HitShort
+    alert("🏁 VOLT TP1 hit SHORT @ " + str.tostring(tp1), alert.freq_once_per_bar_close), inPosition := false
+if tp2HitShort
+    alert("🏁 VOLT TP2 hit SHORT @ " + str.tostring(tp2), alert.freq_once_per_bar_close), inPosition := false
+if trailHitShort
+    alert("⚠️ VOLT Trailing Stop hit SHORT @ " + str.tostring(trailSL), alert.freq_once_per_bar_close), inPosition := false
+
+// === Visual markers ===
+plotshape(longEntry,      title="Long Signal",    location=location.belowbar, color=color.green,  style=shape.triangleup,   size=size.small)
+plotshape(shortEntry,     title="Short Signal",   location=location.abovebar, color=color.red,    style=shape.triangledown, size=size.small)
+plotshape(longFiltered,   title="Filtered Long",  location=location.belowbar, color=color.yellow, style=shape.triangleup,   size=size.tiny)
+plotshape(shortFiltered,  title="Filtered Short", location=location.abovebar, color=color.orange, style=shape.triangledown, size=size.tiny)
+
+// === EMA plots ===
+plot(emaFast, title="EMA Fast",        color=color.orange)
+plot(emaSlow, title="EMA Slow",        color=color.blue)
+plot(trend,   title="Macro Trend EMA", color=color.gray)

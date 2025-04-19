@@ -1,0 +1,6482 @@
+[
+  {
+    "pnl": 30.71,
+    "sharpe": 0.11,
+    "max_drawdown": 12.3,
+    "trades": 69,
+    "win_rate": 40.58,
+    "hodl_pnl": -1867.32,
+    "alpha_vs_hodl": 1898.04,
+    "trades_log": [
+      {
+        "entry_time": "2025-01-18 19:30:00",
+        "entry_price": 104439.29,
+        "direction": "long",
+        "exit_time": "2025-01-18 19:45:00",
+        "exit_price": 104479.784,
+        "reason": "Trailing Stop",
+        "pnl": -0.81
+      },
+      {
+        "entry_time": "2025-01-19 09:00:00",
+        "entry_price": 104121.85,
+        "direction": "short",
+        "exit_time": "2025-01-19 09:15:00",
+        "exit_price": 103551.364,
+        "reason": "Trailing Stop",
+        "pnl": 1.74
+      },
+      {
+        "entry_time": "2025-01-19 21:45:00",
+        "entry_price": 103684.44,
+        "direction": "short",
+        "exit_time": "2025-01-19 22:00:00",
+        "exit_price": 102860.11,
+        "reason": "Trailing Stop",
+        "pnl": 2.98
+      },
+      {
+        "entry_time": "2025-01-20 06:30:00",
+        "entry_price": 104689.49,
+        "direction": "long",
+        "exit_time": "2025-01-20 06:45:00",
+        "exit_price": 108853.2235,
+        "reason": "Trailing Stop",
+        "pnl": 18.86
+      },
+      {
+        "entry_time": "2025-01-20 16:00:00",
+        "entry_price": 104513.09,
+        "direction": "short",
+        "exit_time": "2025-01-20 16:15:00",
+        "exit_price": 104359.1635,
+        "reason": "Trailing Stop",
+        "pnl": -0.26
+      },
+      {
+        "entry_time": "2025-01-23 14:30:00",
+        "entry_price": 104940.95,
+        "direction": "long",
+        "exit_time": "2025-01-23 14:45:00",
+        "exit_price": 105884.3735,
+        "reason": "Trailing Stop",
+        "pnl": 3.5
+      },
+      {
+        "entry_time": "2025-01-23 21:15:00",
+        "entry_price": 102734.0,
+        "direction": "short",
+        "exit_time": "2025-01-23 21:30:00",
+        "exit_price": 102364.1735,
+        "reason": "Trailing Stop",
+        "pnl": 0.8
+      },
+      {
+        "entry_time": "2025-01-26 00:15:00",
+        "entry_price": 104664.36,
+        "direction": "short",
+        "exit_time": "2025-01-26 00:30:00",
+        "exit_price": 104564.434,
+        "reason": "Trailing Stop",
+        "pnl": -0.52
+      },
+      {
+        "entry_time": "2025-01-26 03:45:00",
+        "entry_price": 105062.42,
+        "direction": "long",
+        "exit_time": "2025-01-26 04:00:00",
+        "exit_price": 105135.367,
+        "reason": "Trailing Stop",
+        "pnl": -0.66
+      },
+      {
+        "entry_time": "2025-01-26 09:30:00",
+        "entry_price": 104629.16,
+        "direction": "short",
+        "exit_time": "2025-01-26 09:45:00",
+        "exit_price": 104553.0425,
+        "reason": "Trailing Stop",
+        "pnl": -0.64
+      },
+      {
+        "entry_time": "2025-01-28 14:00:00",
+        "entry_price": 101962.98,
+        "direction": "short",
+        "exit_time": "2025-01-28 14:15:00",
+        "exit_price": 101941.084,
+        "reason": "Trailing Stop",
+        "pnl": -0.89
+      },
+      {
+        "entry_time": "2025-01-29 13:15:00",
+        "entry_price": 101896.01,
+        "direction": "short",
+        "exit_time": "2025-01-29 13:30:00",
+        "exit_price": 101788.7145,
+        "reason": "Trailing Stop",
+        "pnl": -0.47
+      },
+      {
+        "entry_time": "2025-01-29 17:30:00",
+        "entry_price": 102600.0,
+        "direction": "long",
+        "exit_time": "2025-01-29 17:45:00",
+        "exit_price": 102651.714,
+        "reason": "Trailing Stop",
+        "pnl": -0.75
+      },
+      {
+        "entry_time": "2025-01-29 19:15:00",
+        "entry_price": 101547.87,
+        "direction": "short",
+        "exit_time": "2025-01-29 19:30:00",
+        "exit_price": 101485.174,
+        "reason": "Trailing Stop",
+        "pnl": -0.69
+      },
+      {
+        "entry_time": "2025-01-31 11:15:00",
+        "entry_price": 104823.5,
+        "direction": "long",
+        "exit_time": "2025-01-31 11:30:00",
+        "exit_price": 104823.5,
+        "reason": "Trailing Stop",
+        "pnl": -1.0
+      },
+      {
+        "entry_time": "2025-01-31 18:15:00",
+        "entry_price": 104018.68,
+        "direction": "short",
+        "exit_time": "2025-01-31 18:30:00",
+        "exit_price": 103152.8105,
+        "reason": "Trailing Stop",
+        "pnl": 3.17
+      },
+      {
+        "entry_time": "2025-02-03 13:15:00",
+        "entry_price": 94374.36,
+        "direction": "short",
+        "exit_time": "2025-02-03 13:30:00",
+        "exit_price": 94372.337,
+        "reason": "Trailing Stop",
+        "pnl": -0.99
+      },
+      {
+        "entry_time": "2025-02-04 14:30:00",
+        "entry_price": 100147.6,
+        "direction": "long",
+        "exit_time": "2025-02-04 14:45:00",
+        "exit_price": 100252.762,
+        "reason": "Trailing Stop",
+        "pnl": -0.48
+      },
+      {
+        "entry_time": "2025-02-04 20:15:00",
+        "entry_price": 98274.48,
+        "direction": "short",
+        "exit_time": "2025-02-04 20:30:00",
+        "exit_price": 98181.6345,
+        "reason": "Trailing Stop",
+        "pnl": -0.53
+      },
+      {
+        "entry_time": "2025-02-06 14:45:00",
+        "entry_price": 97835.98,
+        "direction": "short",
+        "exit_time": "2025-02-06 15:00:00",
+        "exit_price": 97670.859,
+        "reason": "Trailing Stop",
+        "pnl": -0.16
+      },
+      {
+        "entry_time": "2025-02-07 06:45:00",
+        "entry_price": 96746.87,
+        "direction": "short",
+        "exit_time": "2025-02-07 07:00:00",
+        "exit_price": 96717.8255,
+        "reason": "Trailing Stop",
+        "pnl": -0.85
+      },
+      {
+        "entry_time": "2025-02-09 10:45:00",
+        "entry_price": 96762.01,
+        "direction": "short",
+        "exit_time": "2025-02-09 11:00:00",
+        "exit_price": 96762.0015,
+        "reason": "Trailing Stop",
+        "pnl": -1.0
+      },
+      {
+        "entry_time": "2025-02-10 00:00:00",
+        "entry_price": 96946.65,
+        "direction": "long",
+        "exit_time": "2025-02-10 00:15:00",
+        "exit_price": 97103.747,
+        "reason": "Trailing Stop",
+        "pnl": -0.19
+      },
+      {
+        "entry_time": "2025-02-10 03:30:00",
+        "entry_price": 96996.97,
+        "direction": "long",
+        "exit_time": "2025-02-10 03:45:00",
+        "exit_price": 97062.7685,
+        "reason": "Trailing Stop",
+        "pnl": -0.66
+      },
+      {
+        "entry_time": "2025-02-11 00:00:00",
+        "entry_price": 97735.32,
+        "direction": "long",
+        "exit_time": "2025-02-11 00:15:00",
+        "exit_price": 97837.405,
+        "reason": "Trailing Stop",
+        "pnl": -0.48
+      },
+      {
+        "entry_time": "2025-02-12 13:30:00",
+        "entry_price": 94520.37,
+        "direction": "short",
+        "exit_time": "2025-02-12 13:45:00",
+        "exit_price": 94460.5555,
+        "reason": "Trailing Stop",
+        "pnl": -0.68
+      },
+      {
+        "entry_time": "2025-02-12 16:45:00",
+        "entry_price": 96986.14,
+        "direction": "long",
+        "exit_time": "2025-02-12 17:00:00",
+        "exit_price": 97211.985,
+        "reason": "Trailing Stop",
+        "pnl": 0.16
+      },
+      {
+        "entry_time": "2025-02-14 14:45:00",
+        "entry_price": 97290.95,
+        "direction": "long",
+        "exit_time": "2025-02-14 15:00:00",
+        "exit_price": 97391.5475,
+        "reason": "Trailing Stop",
+        "pnl": -0.48
+      },
+      {
+        "entry_time": "2025-02-14 16:45:00",
+        "entry_price": 97658.7,
+        "direction": "long",
+        "exit_time": "2025-02-14 17:00:00",
+        "exit_price": 97658.7,
+        "reason": "Trailing Stop",
+        "pnl": -1.0
+      },
+      {
+        "entry_time": "2025-02-17 15:45:00",
+        "entry_price": 95659.46,
+        "direction": "short",
+        "exit_time": "2025-02-17 16:00:00",
+        "exit_price": 95566.419,
+        "reason": "Trailing Stop",
+        "pnl": -0.51
+      },
+      {
+        "entry_time": "2025-02-18 05:45:00",
+        "entry_price": 95609.49,
+        "direction": "short",
+        "exit_time": "2025-02-18 06:00:00",
+        "exit_price": 95346.4235,
+        "reason": "Trailing Stop",
+        "pnl": 0.38
+      },
+      {
+        "entry_time": "2025-02-18 15:15:00",
+        "entry_price": 95403.51,
+        "direction": "short",
+        "exit_time": "2025-02-18 15:30:00",
+        "exit_price": 95368.439,
+        "reason": "Trailing Stop",
+        "pnl": -0.82
+      },
+      {
+        "entry_time": "2025-02-19 18:45:00",
+        "entry_price": 95670.54,
+        "direction": "short",
+        "exit_time": "2025-02-19 19:00:00",
+        "exit_price": 95446.8795,
+        "reason": "Trailing Stop",
+        "pnl": 0.17
+      },
+      {
+        "entry_time": "2025-02-21 15:30:00",
+        "entry_price": 97600.6,
+        "direction": "short",
+        "exit_time": "2025-02-21 15:45:00",
+        "exit_price": 97450.0905,
+        "reason": "Trailing Stop",
+        "pnl": -0.23
+      },
+      {
+        "entry_time": "2025-02-24 03:15:00",
+        "entry_price": 95515.01,
+        "direction": "short",
+        "exit_time": "2025-02-24 03:30:00",
+        "exit_price": 95341.6015,
+        "reason": "Trailing Stop",
+        "pnl": -0.09
+      },
+      {
+        "entry_time": "2025-02-24 14:00:00",
+        "entry_price": 95412.01,
+        "direction": "short",
+        "exit_time": "2025-02-24 14:15:00",
+        "exit_price": 95389.9015,
+        "reason": "Trailing Stop",
+        "pnl": -0.89
+      },
+      {
+        "entry_time": "2025-02-26 12:15:00",
+        "entry_price": 88333.38,
+        "direction": "short",
+        "exit_time": "2025-02-26 12:30:00",
+        "exit_price": 88244.9885,
+        "reason": "Trailing Stop",
+        "pnl": -0.5
+      },
+      {
+        "entry_time": "2025-02-27 14:45:00",
+        "entry_price": 84968.65,
+        "direction": "short",
+        "exit_time": "2025-02-27 15:00:00",
+        "exit_price": 84689.935,
+        "reason": "Trailing Stop",
+        "pnl": 0.64
+      },
+      {
+        "entry_time": "2025-03-02 15:30:00",
+        "entry_price": 88081.19,
+        "direction": "long",
+        "exit_time": "2025-03-02 15:45:00",
+        "exit_price": 88216.17,
+        "reason": "Trailing Stop",
+        "pnl": -0.24
+      },
+      {
+        "entry_time": "2025-03-03 14:45:00",
+        "entry_price": 89278.88,
+        "direction": "short",
+        "exit_time": "2025-03-03 15:00:00",
+        "exit_price": 89141.282,
+        "reason": "Trailing Stop",
+        "pnl": -0.23
+      },
+      {
+        "entry_time": "2025-03-05 17:15:00",
+        "entry_price": 90040.81,
+        "direction": "long",
+        "exit_time": "2025-03-05 17:30:00",
+        "exit_price": 90410.1265,
+        "reason": "Trailing Stop",
+        "pnl": 1.05
+      },
+      {
+        "entry_time": "2025-03-07 00:15:00",
+        "entry_price": 87037.48,
+        "direction": "short",
+        "exit_time": "2025-03-07 00:30:00",
+        "exit_price": 85815.622,
+        "reason": "Trailing Stop",
+        "pnl": 6.03
+      },
+      {
+        "entry_time": "2025-03-07 16:15:00",
+        "entry_price": 87476.22,
+        "direction": "short",
+        "exit_time": "2025-03-07 16:30:00",
+        "exit_price": 87036.753,
+        "reason": "Trailing Stop",
+        "pnl": 1.52
+      },
+      {
+        "entry_time": "2025-03-10 08:30:00",
+        "entry_price": 81466.02,
+        "direction": "short",
+        "exit_time": "2025-03-10 08:45:00",
+        "exit_price": 81198.253,
+        "reason": "Trailing Stop",
+        "pnl": 0.65
+      },
+      {
+        "entry_time": "2025-03-10 14:00:00",
+        "entry_price": 80162.28,
+        "direction": "short",
+        "exit_time": "2025-03-10 14:15:00",
+        "exit_price": 79456.542,
+        "reason": "Trailing Stop",
+        "pnl": 3.41
+      },
+      {
+        "entry_time": "2025-03-11 14:30:00",
+        "entry_price": 79470.69,
+        "direction": "short",
+        "exit_time": "2025-03-11 14:45:00",
+        "exit_price": 79304.0815,
+        "reason": "Trailing Stop",
+        "pnl": 0.05
+      },
+      {
+        "entry_time": "2025-03-12 08:30:00",
+        "entry_price": 82690.86,
+        "direction": "long",
+        "exit_time": "2025-03-12 08:45:00",
+        "exit_price": 82788.0575,
+        "reason": "Trailing Stop",
+        "pnl": -0.41
+      },
+      {
+        "entry_time": "2025-03-12 14:45:00",
+        "entry_price": 81535.72,
+        "direction": "short",
+        "exit_time": "2025-03-12 15:00:00",
+        "exit_price": 80746.8605,
+        "reason": "Trailing Stop",
+        "pnl": 3.85
+      },
+      {
+        "entry_time": "2025-03-16 16:15:00",
+        "entry_price": 84350.65,
+        "direction": "long",
+        "exit_time": "2025-03-16 16:30:00",
+        "exit_price": 84368.3725,
+        "reason": "Trailing Stop",
+        "pnl": -0.9
+      },
+      {
+        "entry_time": "2025-03-17 12:45:00",
+        "entry_price": 83052.0,
+        "direction": "short",
+        "exit_time": "2025-03-17 13:00:00",
+        "exit_price": 82883.0285,
+        "reason": "Trailing Stop",
+        "pnl": 0.02
+      },
+      {
+        "entry_time": "2025-03-20 14:15:00",
+        "entry_price": 86344.29,
+        "direction": "long",
+        "exit_time": "2025-03-20 14:30:00",
+        "exit_price": 86366.6195,
+        "reason": "Trailing Stop",
+        "pnl": -0.87
+      },
+      {
+        "entry_time": "2025-03-20 15:45:00",
+        "entry_price": 84691.76,
+        "direction": "short",
+        "exit_time": "2025-03-20 16:00:00",
+        "exit_price": 84409.016,
+        "reason": "Trailing Stop",
+        "pnl": 0.67
+      },
+      {
+        "entry_time": "2025-03-22 18:30:00",
+        "entry_price": 84318.17,
+        "direction": "long",
+        "exit_time": "2025-03-22 18:45:00",
+        "exit_price": 84319.7255,
+        "reason": "Trailing Stop",
+        "pnl": -0.99
+      },
+      {
+        "entry_time": "2025-03-23 02:30:00",
+        "entry_price": 84221.07,
+        "direction": "long",
+        "exit_time": "2025-03-23 02:45:00",
+        "exit_price": 84268.67,
+        "reason": "Trailing Stop",
+        "pnl": -0.72
+      },
+      {
+        "entry_time": "2025-03-27 11:00:00",
+        "entry_price": 87179.3,
+        "direction": "short",
+        "exit_time": "2025-03-27 11:15:00",
+        "exit_price": 86946.4255,
+        "reason": "Trailing Stop",
+        "pnl": 0.34
+      },
+      {
+        "entry_time": "2025-04-01 14:00:00",
+        "entry_price": 82796.1,
+        "direction": "short",
+        "exit_time": "2025-04-01 14:15:00",
+        "exit_price": 82581.815,
+        "reason": "Trailing Stop",
+        "pnl": 0.3
+      },
+      {
+        "entry_time": "2025-04-01 15:00:00",
+        "entry_price": 84906.0,
+        "direction": "long",
+        "exit_time": "2025-04-01 15:15:00",
+        "exit_price": 85179.0795,
+        "reason": "Trailing Stop",
+        "pnl": 0.61
+      },
+      {
+        "entry_time": "2025-04-02 09:00:00",
+        "entry_price": 85311.84,
+        "direction": "long",
+        "exit_time": "2025-04-02 09:15:00",
+        "exit_price": 85352.776,
+        "reason": "Trailing Stop",
+        "pnl": -0.76
+      },
+      {
+        "entry_time": "2025-04-02 21:00:00",
+        "entry_price": 84549.91,
+        "direction": "short",
+        "exit_time": "2025-04-02 21:15:00",
+        "exit_price": 84258.6575,
+        "reason": "Trailing Stop",
+        "pnl": 0.73
+      },
+      {
+        "entry_time": "2025-04-04 11:00:00",
+        "entry_price": 82153.64,
+        "direction": "short",
+        "exit_time": "2025-04-04 11:15:00",
+        "exit_price": 81749.346,
+        "reason": "Trailing Stop",
+        "pnl": 1.47
+      },
+      {
+        "entry_time": "2025-04-08 12:00:00",
+        "entry_price": 79986.01,
+        "direction": "long",
+        "exit_time": "2025-04-08 12:15:00",
+        "exit_price": 79988.764,
+        "reason": "Trailing Stop",
+        "pnl": -0.99
+      },
+      {
+        "entry_time": "2025-04-08 14:45:00",
+        "entry_price": 78479.91,
+        "direction": "short",
+        "exit_time": "2025-04-08 15:00:00",
+        "exit_price": 78237.6175,
+        "reason": "Trailing Stop",
+        "pnl": 0.55
+      },
+      {
+        "entry_time": "2025-04-09 11:30:00",
+        "entry_price": 75952.72,
+        "direction": "short",
+        "exit_time": "2025-04-09 11:45:00",
+        "exit_price": 75833.5755,
+        "reason": "Trailing Stop",
+        "pnl": -0.22
+      },
+      {
+        "entry_time": "2025-04-11 02:00:00",
+        "entry_price": 80316.64,
+        "direction": "long",
+        "exit_time": "2025-04-11 02:15:00",
+        "exit_price": 80752.163,
+        "reason": "Trailing Stop",
+        "pnl": 1.71
+      },
+      {
+        "entry_time": "2025-04-13 17:30:00",
+        "entry_price": 84843.75,
+        "direction": "long",
+        "exit_time": "2025-04-13 17:45:00",
+        "exit_price": 84911.954,
+        "reason": "Trailing Stop",
+        "pnl": -0.6
+      },
+      {
+        "entry_time": "2025-04-13 19:30:00",
+        "entry_price": 83530.86,
+        "direction": "short",
+        "exit_time": "2025-04-13 19:45:00",
+        "exit_price": 83430.339,
+        "reason": "Trailing Stop",
+        "pnl": -0.4
+      },
+      {
+        "entry_time": "2025-04-14 00:30:00",
+        "entry_price": 84782.6,
+        "direction": "long",
+        "exit_time": "2025-04-14 00:45:00",
+        "exit_price": 84819.49,
+        "reason": "Trailing Stop",
+        "pnl": -0.79
+      },
+      {
+        "entry_time": "2025-04-14 15:45:00",
+        "entry_price": 84101.16,
+        "direction": "short",
+        "exit_time": "2025-04-14 16:00:00",
+        "exit_price": 83899.2595,
+        "reason": "Trailing Stop",
+        "pnl": 0.2
+      },
+      {
+        "entry_time": "2025-04-17 14:15:00",
+        "entry_price": 84040.0,
+        "direction": "short",
+        "exit_time": "2025-04-17 14:30:00",
+        "exit_price": 83781.821,
+        "reason": "Trailing Stop",
+        "pnl": 0.54
+      }
+    ],
+    "params": {
+      "fast": 10,
+      "slow": 34,
+      "sl_mult": 1.75,
+      "tp_mult": 4.5,
+      "tp_multipliers": [
+        2.0,
+        3.0
+      ],
+      "trailing_stop_ratio": 0.15,
+      "use_trailing_stop": true,
+      "use_partial_tp": true,
+      "use_rsi_filter": true,
+      "use_macd_confirm": false
+    },
+    "aggregate_score": 0.9252
+  },
+  {
+    "pnl": 30.71,
+    "sharpe": 0.11,
+    "max_drawdown": 12.3,
+    "trades": 69,
+    "win_rate": 40.58,
+    "hodl_pnl": -1867.32,
+    "alpha_vs_hodl": 1898.04,
+    "trades_log": [
+      {
+        "entry_time": "2025-01-18 19:30:00",
+        "entry_price": 104439.29,
+        "direction": "long",
+        "exit_time": "2025-01-18 19:45:00",
+        "exit_price": 104479.784,
+        "reason": "Trailing Stop",
+        "pnl": -0.81
+      },
+      {
+        "entry_time": "2025-01-19 09:00:00",
+        "entry_price": 104121.85,
+        "direction": "short",
+        "exit_time": "2025-01-19 09:15:00",
+        "exit_price": 103551.364,
+        "reason": "Trailing Stop",
+        "pnl": 1.74
+      },
+      {
+        "entry_time": "2025-01-19 21:45:00",
+        "entry_price": 103684.44,
+        "direction": "short",
+        "exit_time": "2025-01-19 22:00:00",
+        "exit_price": 102860.11,
+        "reason": "Trailing Stop",
+        "pnl": 2.98
+      },
+      {
+        "entry_time": "2025-01-20 06:30:00",
+        "entry_price": 104689.49,
+        "direction": "long",
+        "exit_time": "2025-01-20 06:45:00",
+        "exit_price": 108853.2235,
+        "reason": "Trailing Stop",
+        "pnl": 18.86
+      },
+      {
+        "entry_time": "2025-01-20 16:00:00",
+        "entry_price": 104513.09,
+        "direction": "short",
+        "exit_time": "2025-01-20 16:15:00",
+        "exit_price": 104359.1635,
+        "reason": "Trailing Stop",
+        "pnl": -0.26
+      },
+      {
+        "entry_time": "2025-01-23 14:30:00",
+        "entry_price": 104940.95,
+        "direction": "long",
+        "exit_time": "2025-01-23 14:45:00",
+        "exit_price": 105884.3735,
+        "reason": "Trailing Stop",
+        "pnl": 3.5
+      },
+      {
+        "entry_time": "2025-01-23 21:15:00",
+        "entry_price": 102734.0,
+        "direction": "short",
+        "exit_time": "2025-01-23 21:30:00",
+        "exit_price": 102364.1735,
+        "reason": "Trailing Stop",
+        "pnl": 0.8
+      },
+      {
+        "entry_time": "2025-01-26 00:15:00",
+        "entry_price": 104664.36,
+        "direction": "short",
+        "exit_time": "2025-01-26 00:30:00",
+        "exit_price": 104564.434,
+        "reason": "Trailing Stop",
+        "pnl": -0.52
+      },
+      {
+        "entry_time": "2025-01-26 03:45:00",
+        "entry_price": 105062.42,
+        "direction": "long",
+        "exit_time": "2025-01-26 04:00:00",
+        "exit_price": 105135.367,
+        "reason": "Trailing Stop",
+        "pnl": -0.66
+      },
+      {
+        "entry_time": "2025-01-26 09:30:00",
+        "entry_price": 104629.16,
+        "direction": "short",
+        "exit_time": "2025-01-26 09:45:00",
+        "exit_price": 104553.0425,
+        "reason": "Trailing Stop",
+        "pnl": -0.64
+      },
+      {
+        "entry_time": "2025-01-28 14:00:00",
+        "entry_price": 101962.98,
+        "direction": "short",
+        "exit_time": "2025-01-28 14:15:00",
+        "exit_price": 101941.084,
+        "reason": "Trailing Stop",
+        "pnl": -0.89
+      },
+      {
+        "entry_time": "2025-01-29 13:15:00",
+        "entry_price": 101896.01,
+        "direction": "short",
+        "exit_time": "2025-01-29 13:30:00",
+        "exit_price": 101788.7145,
+        "reason": "Trailing Stop",
+        "pnl": -0.47
+      },
+      {
+        "entry_time": "2025-01-29 17:30:00",
+        "entry_price": 102600.0,
+        "direction": "long",
+        "exit_time": "2025-01-29 17:45:00",
+        "exit_price": 102651.714,
+        "reason": "Trailing Stop",
+        "pnl": -0.75
+      },
+      {
+        "entry_time": "2025-01-29 19:15:00",
+        "entry_price": 101547.87,
+        "direction": "short",
+        "exit_time": "2025-01-29 19:30:00",
+        "exit_price": 101485.174,
+        "reason": "Trailing Stop",
+        "pnl": -0.69
+      },
+      {
+        "entry_time": "2025-01-31 11:15:00",
+        "entry_price": 104823.5,
+        "direction": "long",
+        "exit_time": "2025-01-31 11:30:00",
+        "exit_price": 104823.5,
+        "reason": "Trailing Stop",
+        "pnl": -1.0
+      },
+      {
+        "entry_time": "2025-01-31 18:15:00",
+        "entry_price": 104018.68,
+        "direction": "short",
+        "exit_time": "2025-01-31 18:30:00",
+        "exit_price": 103152.8105,
+        "reason": "Trailing Stop",
+        "pnl": 3.17
+      },
+      {
+        "entry_time": "2025-02-03 13:15:00",
+        "entry_price": 94374.36,
+        "direction": "short",
+        "exit_time": "2025-02-03 13:30:00",
+        "exit_price": 94372.337,
+        "reason": "Trailing Stop",
+        "pnl": -0.99
+      },
+      {
+        "entry_time": "2025-02-04 14:30:00",
+        "entry_price": 100147.6,
+        "direction": "long",
+        "exit_time": "2025-02-04 14:45:00",
+        "exit_price": 100252.762,
+        "reason": "Trailing Stop",
+        "pnl": -0.48
+      },
+      {
+        "entry_time": "2025-02-04 20:15:00",
+        "entry_price": 98274.48,
+        "direction": "short",
+        "exit_time": "2025-02-04 20:30:00",
+        "exit_price": 98181.6345,
+        "reason": "Trailing Stop",
+        "pnl": -0.53
+      },
+      {
+        "entry_time": "2025-02-06 14:45:00",
+        "entry_price": 97835.98,
+        "direction": "short",
+        "exit_time": "2025-02-06 15:00:00",
+        "exit_price": 97670.859,
+        "reason": "Trailing Stop",
+        "pnl": -0.16
+      },
+      {
+        "entry_time": "2025-02-07 06:45:00",
+        "entry_price": 96746.87,
+        "direction": "short",
+        "exit_time": "2025-02-07 07:00:00",
+        "exit_price": 96717.8255,
+        "reason": "Trailing Stop",
+        "pnl": -0.85
+      },
+      {
+        "entry_time": "2025-02-09 10:45:00",
+        "entry_price": 96762.01,
+        "direction": "short",
+        "exit_time": "2025-02-09 11:00:00",
+        "exit_price": 96762.0015,
+        "reason": "Trailing Stop",
+        "pnl": -1.0
+      },
+      {
+        "entry_time": "2025-02-10 00:00:00",
+        "entry_price": 96946.65,
+        "direction": "long",
+        "exit_time": "2025-02-10 00:15:00",
+        "exit_price": 97103.747,
+        "reason": "Trailing Stop",
+        "pnl": -0.19
+      },
+      {
+        "entry_time": "2025-02-10 03:30:00",
+        "entry_price": 96996.97,
+        "direction": "long",
+        "exit_time": "2025-02-10 03:45:00",
+        "exit_price": 97062.7685,
+        "reason": "Trailing Stop",
+        "pnl": -0.66
+      },
+      {
+        "entry_time": "2025-02-11 00:00:00",
+        "entry_price": 97735.32,
+        "direction": "long",
+        "exit_time": "2025-02-11 00:15:00",
+        "exit_price": 97837.405,
+        "reason": "Trailing Stop",
+        "pnl": -0.48
+      },
+      {
+        "entry_time": "2025-02-12 13:30:00",
+        "entry_price": 94520.37,
+        "direction": "short",
+        "exit_time": "2025-02-12 13:45:00",
+        "exit_price": 94460.5555,
+        "reason": "Trailing Stop",
+        "pnl": -0.68
+      },
+      {
+        "entry_time": "2025-02-12 16:45:00",
+        "entry_price": 96986.14,
+        "direction": "long",
+        "exit_time": "2025-02-12 17:00:00",
+        "exit_price": 97211.985,
+        "reason": "Trailing Stop",
+        "pnl": 0.16
+      },
+      {
+        "entry_time": "2025-02-14 14:45:00",
+        "entry_price": 97290.95,
+        "direction": "long",
+        "exit_time": "2025-02-14 15:00:00",
+        "exit_price": 97391.5475,
+        "reason": "Trailing Stop",
+        "pnl": -0.48
+      },
+      {
+        "entry_time": "2025-02-14 16:45:00",
+        "entry_price": 97658.7,
+        "direction": "long",
+        "exit_time": "2025-02-14 17:00:00",
+        "exit_price": 97658.7,
+        "reason": "Trailing Stop",
+        "pnl": -1.0
+      },
+      {
+        "entry_time": "2025-02-17 15:45:00",
+        "entry_price": 95659.46,
+        "direction": "short",
+        "exit_time": "2025-02-17 16:00:00",
+        "exit_price": 95566.419,
+        "reason": "Trailing Stop",
+        "pnl": -0.51
+      },
+      {
+        "entry_time": "2025-02-18 05:45:00",
+        "entry_price": 95609.49,
+        "direction": "short",
+        "exit_time": "2025-02-18 06:00:00",
+        "exit_price": 95346.4235,
+        "reason": "Trailing Stop",
+        "pnl": 0.38
+      },
+      {
+        "entry_time": "2025-02-18 15:15:00",
+        "entry_price": 95403.51,
+        "direction": "short",
+        "exit_time": "2025-02-18 15:30:00",
+        "exit_price": 95368.439,
+        "reason": "Trailing Stop",
+        "pnl": -0.82
+      },
+      {
+        "entry_time": "2025-02-19 18:45:00",
+        "entry_price": 95670.54,
+        "direction": "short",
+        "exit_time": "2025-02-19 19:00:00",
+        "exit_price": 95446.8795,
+        "reason": "Trailing Stop",
+        "pnl": 0.17
+      },
+      {
+        "entry_time": "2025-02-21 15:30:00",
+        "entry_price": 97600.6,
+        "direction": "short",
+        "exit_time": "2025-02-21 15:45:00",
+        "exit_price": 97450.0905,
+        "reason": "Trailing Stop",
+        "pnl": -0.23
+      },
+      {
+        "entry_time": "2025-02-24 03:15:00",
+        "entry_price": 95515.01,
+        "direction": "short",
+        "exit_time": "2025-02-24 03:30:00",
+        "exit_price": 95341.6015,
+        "reason": "Trailing Stop",
+        "pnl": -0.09
+      },
+      {
+        "entry_time": "2025-02-24 14:00:00",
+        "entry_price": 95412.01,
+        "direction": "short",
+        "exit_time": "2025-02-24 14:15:00",
+        "exit_price": 95389.9015,
+        "reason": "Trailing Stop",
+        "pnl": -0.89
+      },
+      {
+        "entry_time": "2025-02-26 12:15:00",
+        "entry_price": 88333.38,
+        "direction": "short",
+        "exit_time": "2025-02-26 12:30:00",
+        "exit_price": 88244.9885,
+        "reason": "Trailing Stop",
+        "pnl": -0.5
+      },
+      {
+        "entry_time": "2025-02-27 14:45:00",
+        "entry_price": 84968.65,
+        "direction": "short",
+        "exit_time": "2025-02-27 15:00:00",
+        "exit_price": 84689.935,
+        "reason": "Trailing Stop",
+        "pnl": 0.64
+      },
+      {
+        "entry_time": "2025-03-02 15:30:00",
+        "entry_price": 88081.19,
+        "direction": "long",
+        "exit_time": "2025-03-02 15:45:00",
+        "exit_price": 88216.17,
+        "reason": "Trailing Stop",
+        "pnl": -0.24
+      },
+      {
+        "entry_time": "2025-03-03 14:45:00",
+        "entry_price": 89278.88,
+        "direction": "short",
+        "exit_time": "2025-03-03 15:00:00",
+        "exit_price": 89141.282,
+        "reason": "Trailing Stop",
+        "pnl": -0.23
+      },
+      {
+        "entry_time": "2025-03-05 17:15:00",
+        "entry_price": 90040.81,
+        "direction": "long",
+        "exit_time": "2025-03-05 17:30:00",
+        "exit_price": 90410.1265,
+        "reason": "Trailing Stop",
+        "pnl": 1.05
+      },
+      {
+        "entry_time": "2025-03-07 00:15:00",
+        "entry_price": 87037.48,
+        "direction": "short",
+        "exit_time": "2025-03-07 00:30:00",
+        "exit_price": 85815.622,
+        "reason": "Trailing Stop",
+        "pnl": 6.03
+      },
+      {
+        "entry_time": "2025-03-07 16:15:00",
+        "entry_price": 87476.22,
+        "direction": "short",
+        "exit_time": "2025-03-07 16:30:00",
+        "exit_price": 87036.753,
+        "reason": "Trailing Stop",
+        "pnl": 1.52
+      },
+      {
+        "entry_time": "2025-03-10 08:30:00",
+        "entry_price": 81466.02,
+        "direction": "short",
+        "exit_time": "2025-03-10 08:45:00",
+        "exit_price": 81198.253,
+        "reason": "Trailing Stop",
+        "pnl": 0.65
+      },
+      {
+        "entry_time": "2025-03-10 14:00:00",
+        "entry_price": 80162.28,
+        "direction": "short",
+        "exit_time": "2025-03-10 14:15:00",
+        "exit_price": 79456.542,
+        "reason": "Trailing Stop",
+        "pnl": 3.41
+      },
+      {
+        "entry_time": "2025-03-11 14:30:00",
+        "entry_price": 79470.69,
+        "direction": "short",
+        "exit_time": "2025-03-11 14:45:00",
+        "exit_price": 79304.0815,
+        "reason": "Trailing Stop",
+        "pnl": 0.05
+      },
+      {
+        "entry_time": "2025-03-12 08:30:00",
+        "entry_price": 82690.86,
+        "direction": "long",
+        "exit_time": "2025-03-12 08:45:00",
+        "exit_price": 82788.0575,
+        "reason": "Trailing Stop",
+        "pnl": -0.41
+      },
+      {
+        "entry_time": "2025-03-12 14:45:00",
+        "entry_price": 81535.72,
+        "direction": "short",
+        "exit_time": "2025-03-12 15:00:00",
+        "exit_price": 80746.8605,
+        "reason": "Trailing Stop",
+        "pnl": 3.85
+      },
+      {
+        "entry_time": "2025-03-16 16:15:00",
+        "entry_price": 84350.65,
+        "direction": "long",
+        "exit_time": "2025-03-16 16:30:00",
+        "exit_price": 84368.3725,
+        "reason": "Trailing Stop",
+        "pnl": -0.9
+      },
+      {
+        "entry_time": "2025-03-17 12:45:00",
+        "entry_price": 83052.0,
+        "direction": "short",
+        "exit_time": "2025-03-17 13:00:00",
+        "exit_price": 82883.0285,
+        "reason": "Trailing Stop",
+        "pnl": 0.02
+      },
+      {
+        "entry_time": "2025-03-20 14:15:00",
+        "entry_price": 86344.29,
+        "direction": "long",
+        "exit_time": "2025-03-20 14:30:00",
+        "exit_price": 86366.6195,
+        "reason": "Trailing Stop",
+        "pnl": -0.87
+      },
+      {
+        "entry_time": "2025-03-20 15:45:00",
+        "entry_price": 84691.76,
+        "direction": "short",
+        "exit_time": "2025-03-20 16:00:00",
+        "exit_price": 84409.016,
+        "reason": "Trailing Stop",
+        "pnl": 0.67
+      },
+      {
+        "entry_time": "2025-03-22 18:30:00",
+        "entry_price": 84318.17,
+        "direction": "long",
+        "exit_time": "2025-03-22 18:45:00",
+        "exit_price": 84319.7255,
+        "reason": "Trailing Stop",
+        "pnl": -0.99
+      },
+      {
+        "entry_time": "2025-03-23 02:30:00",
+        "entry_price": 84221.07,
+        "direction": "long",
+        "exit_time": "2025-03-23 02:45:00",
+        "exit_price": 84268.67,
+        "reason": "Trailing Stop",
+        "pnl": -0.72
+      },
+      {
+        "entry_time": "2025-03-27 11:00:00",
+        "entry_price": 87179.3,
+        "direction": "short",
+        "exit_time": "2025-03-27 11:15:00",
+        "exit_price": 86946.4255,
+        "reason": "Trailing Stop",
+        "pnl": 0.34
+      },
+      {
+        "entry_time": "2025-04-01 14:00:00",
+        "entry_price": 82796.1,
+        "direction": "short",
+        "exit_time": "2025-04-01 14:15:00",
+        "exit_price": 82581.815,
+        "reason": "Trailing Stop",
+        "pnl": 0.3
+      },
+      {
+        "entry_time": "2025-04-01 15:00:00",
+        "entry_price": 84906.0,
+        "direction": "long",
+        "exit_time": "2025-04-01 15:15:00",
+        "exit_price": 85179.0795,
+        "reason": "Trailing Stop",
+        "pnl": 0.61
+      },
+      {
+        "entry_time": "2025-04-02 09:00:00",
+        "entry_price": 85311.84,
+        "direction": "long",
+        "exit_time": "2025-04-02 09:15:00",
+        "exit_price": 85352.776,
+        "reason": "Trailing Stop",
+        "pnl": -0.76
+      },
+      {
+        "entry_time": "2025-04-02 21:00:00",
+        "entry_price": 84549.91,
+        "direction": "short",
+        "exit_time": "2025-04-02 21:15:00",
+        "exit_price": 84258.6575,
+        "reason": "Trailing Stop",
+        "pnl": 0.73
+      },
+      {
+        "entry_time": "2025-04-04 11:00:00",
+        "entry_price": 82153.64,
+        "direction": "short",
+        "exit_time": "2025-04-04 11:15:00",
+        "exit_price": 81749.346,
+        "reason": "Trailing Stop",
+        "pnl": 1.47
+      },
+      {
+        "entry_time": "2025-04-08 12:00:00",
+        "entry_price": 79986.01,
+        "direction": "long",
+        "exit_time": "2025-04-08 12:15:00",
+        "exit_price": 79988.764,
+        "reason": "Trailing Stop",
+        "pnl": -0.99
+      },
+      {
+        "entry_time": "2025-04-08 14:45:00",
+        "entry_price": 78479.91,
+        "direction": "short",
+        "exit_time": "2025-04-08 15:00:00",
+        "exit_price": 78237.6175,
+        "reason": "Trailing Stop",
+        "pnl": 0.55
+      },
+      {
+        "entry_time": "2025-04-09 11:30:00",
+        "entry_price": 75952.72,
+        "direction": "short",
+        "exit_time": "2025-04-09 11:45:00",
+        "exit_price": 75833.5755,
+        "reason": "Trailing Stop",
+        "pnl": -0.22
+      },
+      {
+        "entry_time": "2025-04-11 02:00:00",
+        "entry_price": 80316.64,
+        "direction": "long",
+        "exit_time": "2025-04-11 02:15:00",
+        "exit_price": 80752.163,
+        "reason": "Trailing Stop",
+        "pnl": 1.71
+      },
+      {
+        "entry_time": "2025-04-13 17:30:00",
+        "entry_price": 84843.75,
+        "direction": "long",
+        "exit_time": "2025-04-13 17:45:00",
+        "exit_price": 84911.954,
+        "reason": "Trailing Stop",
+        "pnl": -0.6
+      },
+      {
+        "entry_time": "2025-04-13 19:30:00",
+        "entry_price": 83530.86,
+        "direction": "short",
+        "exit_time": "2025-04-13 19:45:00",
+        "exit_price": 83430.339,
+        "reason": "Trailing Stop",
+        "pnl": -0.4
+      },
+      {
+        "entry_time": "2025-04-14 00:30:00",
+        "entry_price": 84782.6,
+        "direction": "long",
+        "exit_time": "2025-04-14 00:45:00",
+        "exit_price": 84819.49,
+        "reason": "Trailing Stop",
+        "pnl": -0.79
+      },
+      {
+        "entry_time": "2025-04-14 15:45:00",
+        "entry_price": 84101.16,
+        "direction": "short",
+        "exit_time": "2025-04-14 16:00:00",
+        "exit_price": 83899.2595,
+        "reason": "Trailing Stop",
+        "pnl": 0.2
+      },
+      {
+        "entry_time": "2025-04-17 14:15:00",
+        "entry_price": 84040.0,
+        "direction": "short",
+        "exit_time": "2025-04-17 14:30:00",
+        "exit_price": 83781.821,
+        "reason": "Trailing Stop",
+        "pnl": 0.54
+      }
+    ],
+    "params": {
+      "fast": 10,
+      "slow": 34,
+      "sl_mult": 1.75,
+      "tp_mult": 4.5,
+      "tp_multipliers": [
+        2.5,
+        3.5
+      ],
+      "trailing_stop_ratio": 0.15,
+      "use_trailing_stop": true,
+      "use_partial_tp": true,
+      "use_rsi_filter": true,
+      "use_macd_confirm": false
+    },
+    "aggregate_score": 0.9252
+  },
+  {
+    "pnl": 30.71,
+    "sharpe": 0.11,
+    "max_drawdown": 12.3,
+    "trades": 69,
+    "win_rate": 40.58,
+    "hodl_pnl": -1867.32,
+    "alpha_vs_hodl": 1898.04,
+    "trades_log": [
+      {
+        "entry_time": "2025-01-18 19:30:00",
+        "entry_price": 104439.29,
+        "direction": "long",
+        "exit_time": "2025-01-18 19:45:00",
+        "exit_price": 104479.784,
+        "reason": "Trailing Stop",
+        "pnl": -0.81
+      },
+      {
+        "entry_time": "2025-01-19 09:00:00",
+        "entry_price": 104121.85,
+        "direction": "short",
+        "exit_time": "2025-01-19 09:15:00",
+        "exit_price": 103551.364,
+        "reason": "Trailing Stop",
+        "pnl": 1.74
+      },
+      {
+        "entry_time": "2025-01-19 21:45:00",
+        "entry_price": 103684.44,
+        "direction": "short",
+        "exit_time": "2025-01-19 22:00:00",
+        "exit_price": 102860.11,
+        "reason": "Trailing Stop",
+        "pnl": 2.98
+      },
+      {
+        "entry_time": "2025-01-20 06:30:00",
+        "entry_price": 104689.49,
+        "direction": "long",
+        "exit_time": "2025-01-20 06:45:00",
+        "exit_price": 108853.2235,
+        "reason": "Trailing Stop",
+        "pnl": 18.86
+      },
+      {
+        "entry_time": "2025-01-20 16:00:00",
+        "entry_price": 104513.09,
+        "direction": "short",
+        "exit_time": "2025-01-20 16:15:00",
+        "exit_price": 104359.1635,
+        "reason": "Trailing Stop",
+        "pnl": -0.26
+      },
+      {
+        "entry_time": "2025-01-23 14:30:00",
+        "entry_price": 104940.95,
+        "direction": "long",
+        "exit_time": "2025-01-23 14:45:00",
+        "exit_price": 105884.3735,
+        "reason": "Trailing Stop",
+        "pnl": 3.5
+      },
+      {
+        "entry_time": "2025-01-23 21:15:00",
+        "entry_price": 102734.0,
+        "direction": "short",
+        "exit_time": "2025-01-23 21:30:00",
+        "exit_price": 102364.1735,
+        "reason": "Trailing Stop",
+        "pnl": 0.8
+      },
+      {
+        "entry_time": "2025-01-26 00:15:00",
+        "entry_price": 104664.36,
+        "direction": "short",
+        "exit_time": "2025-01-26 00:30:00",
+        "exit_price": 104564.434,
+        "reason": "Trailing Stop",
+        "pnl": -0.52
+      },
+      {
+        "entry_time": "2025-01-26 03:45:00",
+        "entry_price": 105062.42,
+        "direction": "long",
+        "exit_time": "2025-01-26 04:00:00",
+        "exit_price": 105135.367,
+        "reason": "Trailing Stop",
+        "pnl": -0.66
+      },
+      {
+        "entry_time": "2025-01-26 09:30:00",
+        "entry_price": 104629.16,
+        "direction": "short",
+        "exit_time": "2025-01-26 09:45:00",
+        "exit_price": 104553.0425,
+        "reason": "Trailing Stop",
+        "pnl": -0.64
+      },
+      {
+        "entry_time": "2025-01-28 14:00:00",
+        "entry_price": 101962.98,
+        "direction": "short",
+        "exit_time": "2025-01-28 14:15:00",
+        "exit_price": 101941.084,
+        "reason": "Trailing Stop",
+        "pnl": -0.89
+      },
+      {
+        "entry_time": "2025-01-29 13:15:00",
+        "entry_price": 101896.01,
+        "direction": "short",
+        "exit_time": "2025-01-29 13:30:00",
+        "exit_price": 101788.7145,
+        "reason": "Trailing Stop",
+        "pnl": -0.47
+      },
+      {
+        "entry_time": "2025-01-29 17:30:00",
+        "entry_price": 102600.0,
+        "direction": "long",
+        "exit_time": "2025-01-29 17:45:00",
+        "exit_price": 102651.714,
+        "reason": "Trailing Stop",
+        "pnl": -0.75
+      },
+      {
+        "entry_time": "2025-01-29 19:15:00",
+        "entry_price": 101547.87,
+        "direction": "short",
+        "exit_time": "2025-01-29 19:30:00",
+        "exit_price": 101485.174,
+        "reason": "Trailing Stop",
+        "pnl": -0.69
+      },
+      {
+        "entry_time": "2025-01-31 11:15:00",
+        "entry_price": 104823.5,
+        "direction": "long",
+        "exit_time": "2025-01-31 11:30:00",
+        "exit_price": 104823.5,
+        "reason": "Trailing Stop",
+        "pnl": -1.0
+      },
+      {
+        "entry_time": "2025-01-31 18:15:00",
+        "entry_price": 104018.68,
+        "direction": "short",
+        "exit_time": "2025-01-31 18:30:00",
+        "exit_price": 103152.8105,
+        "reason": "Trailing Stop",
+        "pnl": 3.17
+      },
+      {
+        "entry_time": "2025-02-03 13:15:00",
+        "entry_price": 94374.36,
+        "direction": "short",
+        "exit_time": "2025-02-03 13:30:00",
+        "exit_price": 94372.337,
+        "reason": "Trailing Stop",
+        "pnl": -0.99
+      },
+      {
+        "entry_time": "2025-02-04 14:30:00",
+        "entry_price": 100147.6,
+        "direction": "long",
+        "exit_time": "2025-02-04 14:45:00",
+        "exit_price": 100252.762,
+        "reason": "Trailing Stop",
+        "pnl": -0.48
+      },
+      {
+        "entry_time": "2025-02-04 20:15:00",
+        "entry_price": 98274.48,
+        "direction": "short",
+        "exit_time": "2025-02-04 20:30:00",
+        "exit_price": 98181.6345,
+        "reason": "Trailing Stop",
+        "pnl": -0.53
+      },
+      {
+        "entry_time": "2025-02-06 14:45:00",
+        "entry_price": 97835.98,
+        "direction": "short",
+        "exit_time": "2025-02-06 15:00:00",
+        "exit_price": 97670.859,
+        "reason": "Trailing Stop",
+        "pnl": -0.16
+      },
+      {
+        "entry_time": "2025-02-07 06:45:00",
+        "entry_price": 96746.87,
+        "direction": "short",
+        "exit_time": "2025-02-07 07:00:00",
+        "exit_price": 96717.8255,
+        "reason": "Trailing Stop",
+        "pnl": -0.85
+      },
+      {
+        "entry_time": "2025-02-09 10:45:00",
+        "entry_price": 96762.01,
+        "direction": "short",
+        "exit_time": "2025-02-09 11:00:00",
+        "exit_price": 96762.0015,
+        "reason": "Trailing Stop",
+        "pnl": -1.0
+      },
+      {
+        "entry_time": "2025-02-10 00:00:00",
+        "entry_price": 96946.65,
+        "direction": "long",
+        "exit_time": "2025-02-10 00:15:00",
+        "exit_price": 97103.747,
+        "reason": "Trailing Stop",
+        "pnl": -0.19
+      },
+      {
+        "entry_time": "2025-02-10 03:30:00",
+        "entry_price": 96996.97,
+        "direction": "long",
+        "exit_time": "2025-02-10 03:45:00",
+        "exit_price": 97062.7685,
+        "reason": "Trailing Stop",
+        "pnl": -0.66
+      },
+      {
+        "entry_time": "2025-02-11 00:00:00",
+        "entry_price": 97735.32,
+        "direction": "long",
+        "exit_time": "2025-02-11 00:15:00",
+        "exit_price": 97837.405,
+        "reason": "Trailing Stop",
+        "pnl": -0.48
+      },
+      {
+        "entry_time": "2025-02-12 13:30:00",
+        "entry_price": 94520.37,
+        "direction": "short",
+        "exit_time": "2025-02-12 13:45:00",
+        "exit_price": 94460.5555,
+        "reason": "Trailing Stop",
+        "pnl": -0.68
+      },
+      {
+        "entry_time": "2025-02-12 16:45:00",
+        "entry_price": 96986.14,
+        "direction": "long",
+        "exit_time": "2025-02-12 17:00:00",
+        "exit_price": 97211.985,
+        "reason": "Trailing Stop",
+        "pnl": 0.16
+      },
+      {
+        "entry_time": "2025-02-14 14:45:00",
+        "entry_price": 97290.95,
+        "direction": "long",
+        "exit_time": "2025-02-14 15:00:00",
+        "exit_price": 97391.5475,
+        "reason": "Trailing Stop",
+        "pnl": -0.48
+      },
+      {
+        "entry_time": "2025-02-14 16:45:00",
+        "entry_price": 97658.7,
+        "direction": "long",
+        "exit_time": "2025-02-14 17:00:00",
+        "exit_price": 97658.7,
+        "reason": "Trailing Stop",
+        "pnl": -1.0
+      },
+      {
+        "entry_time": "2025-02-17 15:45:00",
+        "entry_price": 95659.46,
+        "direction": "short",
+        "exit_time": "2025-02-17 16:00:00",
+        "exit_price": 95566.419,
+        "reason": "Trailing Stop",
+        "pnl": -0.51
+      },
+      {
+        "entry_time": "2025-02-18 05:45:00",
+        "entry_price": 95609.49,
+        "direction": "short",
+        "exit_time": "2025-02-18 06:00:00",
+        "exit_price": 95346.4235,
+        "reason": "Trailing Stop",
+        "pnl": 0.38
+      },
+      {
+        "entry_time": "2025-02-18 15:15:00",
+        "entry_price": 95403.51,
+        "direction": "short",
+        "exit_time": "2025-02-18 15:30:00",
+        "exit_price": 95368.439,
+        "reason": "Trailing Stop",
+        "pnl": -0.82
+      },
+      {
+        "entry_time": "2025-02-19 18:45:00",
+        "entry_price": 95670.54,
+        "direction": "short",
+        "exit_time": "2025-02-19 19:00:00",
+        "exit_price": 95446.8795,
+        "reason": "Trailing Stop",
+        "pnl": 0.17
+      },
+      {
+        "entry_time": "2025-02-21 15:30:00",
+        "entry_price": 97600.6,
+        "direction": "short",
+        "exit_time": "2025-02-21 15:45:00",
+        "exit_price": 97450.0905,
+        "reason": "Trailing Stop",
+        "pnl": -0.23
+      },
+      {
+        "entry_time": "2025-02-24 03:15:00",
+        "entry_price": 95515.01,
+        "direction": "short",
+        "exit_time": "2025-02-24 03:30:00",
+        "exit_price": 95341.6015,
+        "reason": "Trailing Stop",
+        "pnl": -0.09
+      },
+      {
+        "entry_time": "2025-02-24 14:00:00",
+        "entry_price": 95412.01,
+        "direction": "short",
+        "exit_time": "2025-02-24 14:15:00",
+        "exit_price": 95389.9015,
+        "reason": "Trailing Stop",
+        "pnl": -0.89
+      },
+      {
+        "entry_time": "2025-02-26 12:15:00",
+        "entry_price": 88333.38,
+        "direction": "short",
+        "exit_time": "2025-02-26 12:30:00",
+        "exit_price": 88244.9885,
+        "reason": "Trailing Stop",
+        "pnl": -0.5
+      },
+      {
+        "entry_time": "2025-02-27 14:45:00",
+        "entry_price": 84968.65,
+        "direction": "short",
+        "exit_time": "2025-02-27 15:00:00",
+        "exit_price": 84689.935,
+        "reason": "Trailing Stop",
+        "pnl": 0.64
+      },
+      {
+        "entry_time": "2025-03-02 15:30:00",
+        "entry_price": 88081.19,
+        "direction": "long",
+        "exit_time": "2025-03-02 15:45:00",
+        "exit_price": 88216.17,
+        "reason": "Trailing Stop",
+        "pnl": -0.24
+      },
+      {
+        "entry_time": "2025-03-03 14:45:00",
+        "entry_price": 89278.88,
+        "direction": "short",
+        "exit_time": "2025-03-03 15:00:00",
+        "exit_price": 89141.282,
+        "reason": "Trailing Stop",
+        "pnl": -0.23
+      },
+      {
+        "entry_time": "2025-03-05 17:15:00",
+        "entry_price": 90040.81,
+        "direction": "long",
+        "exit_time": "2025-03-05 17:30:00",
+        "exit_price": 90410.1265,
+        "reason": "Trailing Stop",
+        "pnl": 1.05
+      },
+      {
+        "entry_time": "2025-03-07 00:15:00",
+        "entry_price": 87037.48,
+        "direction": "short",
+        "exit_time": "2025-03-07 00:30:00",
+        "exit_price": 85815.622,
+        "reason": "Trailing Stop",
+        "pnl": 6.03
+      },
+      {
+        "entry_time": "2025-03-07 16:15:00",
+        "entry_price": 87476.22,
+        "direction": "short",
+        "exit_time": "2025-03-07 16:30:00",
+        "exit_price": 87036.753,
+        "reason": "Trailing Stop",
+        "pnl": 1.52
+      },
+      {
+        "entry_time": "2025-03-10 08:30:00",
+        "entry_price": 81466.02,
+        "direction": "short",
+        "exit_time": "2025-03-10 08:45:00",
+        "exit_price": 81198.253,
+        "reason": "Trailing Stop",
+        "pnl": 0.65
+      },
+      {
+        "entry_time": "2025-03-10 14:00:00",
+        "entry_price": 80162.28,
+        "direction": "short",
+        "exit_time": "2025-03-10 14:15:00",
+        "exit_price": 79456.542,
+        "reason": "Trailing Stop",
+        "pnl": 3.41
+      },
+      {
+        "entry_time": "2025-03-11 14:30:00",
+        "entry_price": 79470.69,
+        "direction": "short",
+        "exit_time": "2025-03-11 14:45:00",
+        "exit_price": 79304.0815,
+        "reason": "Trailing Stop",
+        "pnl": 0.05
+      },
+      {
+        "entry_time": "2025-03-12 08:30:00",
+        "entry_price": 82690.86,
+        "direction": "long",
+        "exit_time": "2025-03-12 08:45:00",
+        "exit_price": 82788.0575,
+        "reason": "Trailing Stop",
+        "pnl": -0.41
+      },
+      {
+        "entry_time": "2025-03-12 14:45:00",
+        "entry_price": 81535.72,
+        "direction": "short",
+        "exit_time": "2025-03-12 15:00:00",
+        "exit_price": 80746.8605,
+        "reason": "Trailing Stop",
+        "pnl": 3.85
+      },
+      {
+        "entry_time": "2025-03-16 16:15:00",
+        "entry_price": 84350.65,
+        "direction": "long",
+        "exit_time": "2025-03-16 16:30:00",
+        "exit_price": 84368.3725,
+        "reason": "Trailing Stop",
+        "pnl": -0.9
+      },
+      {
+        "entry_time": "2025-03-17 12:45:00",
+        "entry_price": 83052.0,
+        "direction": "short",
+        "exit_time": "2025-03-17 13:00:00",
+        "exit_price": 82883.0285,
+        "reason": "Trailing Stop",
+        "pnl": 0.02
+      },
+      {
+        "entry_time": "2025-03-20 14:15:00",
+        "entry_price": 86344.29,
+        "direction": "long",
+        "exit_time": "2025-03-20 14:30:00",
+        "exit_price": 86366.6195,
+        "reason": "Trailing Stop",
+        "pnl": -0.87
+      },
+      {
+        "entry_time": "2025-03-20 15:45:00",
+        "entry_price": 84691.76,
+        "direction": "short",
+        "exit_time": "2025-03-20 16:00:00",
+        "exit_price": 84409.016,
+        "reason": "Trailing Stop",
+        "pnl": 0.67
+      },
+      {
+        "entry_time": "2025-03-22 18:30:00",
+        "entry_price": 84318.17,
+        "direction": "long",
+        "exit_time": "2025-03-22 18:45:00",
+        "exit_price": 84319.7255,
+        "reason": "Trailing Stop",
+        "pnl": -0.99
+      },
+      {
+        "entry_time": "2025-03-23 02:30:00",
+        "entry_price": 84221.07,
+        "direction": "long",
+        "exit_time": "2025-03-23 02:45:00",
+        "exit_price": 84268.67,
+        "reason": "Trailing Stop",
+        "pnl": -0.72
+      },
+      {
+        "entry_time": "2025-03-27 11:00:00",
+        "entry_price": 87179.3,
+        "direction": "short",
+        "exit_time": "2025-03-27 11:15:00",
+        "exit_price": 86946.4255,
+        "reason": "Trailing Stop",
+        "pnl": 0.34
+      },
+      {
+        "entry_time": "2025-04-01 14:00:00",
+        "entry_price": 82796.1,
+        "direction": "short",
+        "exit_time": "2025-04-01 14:15:00",
+        "exit_price": 82581.815,
+        "reason": "Trailing Stop",
+        "pnl": 0.3
+      },
+      {
+        "entry_time": "2025-04-01 15:00:00",
+        "entry_price": 84906.0,
+        "direction": "long",
+        "exit_time": "2025-04-01 15:15:00",
+        "exit_price": 85179.0795,
+        "reason": "Trailing Stop",
+        "pnl": 0.61
+      },
+      {
+        "entry_time": "2025-04-02 09:00:00",
+        "entry_price": 85311.84,
+        "direction": "long",
+        "exit_time": "2025-04-02 09:15:00",
+        "exit_price": 85352.776,
+        "reason": "Trailing Stop",
+        "pnl": -0.76
+      },
+      {
+        "entry_time": "2025-04-02 21:00:00",
+        "entry_price": 84549.91,
+        "direction": "short",
+        "exit_time": "2025-04-02 21:15:00",
+        "exit_price": 84258.6575,
+        "reason": "Trailing Stop",
+        "pnl": 0.73
+      },
+      {
+        "entry_time": "2025-04-04 11:00:00",
+        "entry_price": 82153.64,
+        "direction": "short",
+        "exit_time": "2025-04-04 11:15:00",
+        "exit_price": 81749.346,
+        "reason": "Trailing Stop",
+        "pnl": 1.47
+      },
+      {
+        "entry_time": "2025-04-08 12:00:00",
+        "entry_price": 79986.01,
+        "direction": "long",
+        "exit_time": "2025-04-08 12:15:00",
+        "exit_price": 79988.764,
+        "reason": "Trailing Stop",
+        "pnl": -0.99
+      },
+      {
+        "entry_time": "2025-04-08 14:45:00",
+        "entry_price": 78479.91,
+        "direction": "short",
+        "exit_time": "2025-04-08 15:00:00",
+        "exit_price": 78237.6175,
+        "reason": "Trailing Stop",
+        "pnl": 0.55
+      },
+      {
+        "entry_time": "2025-04-09 11:30:00",
+        "entry_price": 75952.72,
+        "direction": "short",
+        "exit_time": "2025-04-09 11:45:00",
+        "exit_price": 75833.5755,
+        "reason": "Trailing Stop",
+        "pnl": -0.22
+      },
+      {
+        "entry_time": "2025-04-11 02:00:00",
+        "entry_price": 80316.64,
+        "direction": "long",
+        "exit_time": "2025-04-11 02:15:00",
+        "exit_price": 80752.163,
+        "reason": "Trailing Stop",
+        "pnl": 1.71
+      },
+      {
+        "entry_time": "2025-04-13 17:30:00",
+        "entry_price": 84843.75,
+        "direction": "long",
+        "exit_time": "2025-04-13 17:45:00",
+        "exit_price": 84911.954,
+        "reason": "Trailing Stop",
+        "pnl": -0.6
+      },
+      {
+        "entry_time": "2025-04-13 19:30:00",
+        "entry_price": 83530.86,
+        "direction": "short",
+        "exit_time": "2025-04-13 19:45:00",
+        "exit_price": 83430.339,
+        "reason": "Trailing Stop",
+        "pnl": -0.4
+      },
+      {
+        "entry_time": "2025-04-14 00:30:00",
+        "entry_price": 84782.6,
+        "direction": "long",
+        "exit_time": "2025-04-14 00:45:00",
+        "exit_price": 84819.49,
+        "reason": "Trailing Stop",
+        "pnl": -0.79
+      },
+      {
+        "entry_time": "2025-04-14 15:45:00",
+        "entry_price": 84101.16,
+        "direction": "short",
+        "exit_time": "2025-04-14 16:00:00",
+        "exit_price": 83899.2595,
+        "reason": "Trailing Stop",
+        "pnl": 0.2
+      },
+      {
+        "entry_time": "2025-04-17 14:15:00",
+        "entry_price": 84040.0,
+        "direction": "short",
+        "exit_time": "2025-04-17 14:30:00",
+        "exit_price": 83781.821,
+        "reason": "Trailing Stop",
+        "pnl": 0.54
+      }
+    ],
+    "params": {
+      "fast": 10,
+      "slow": 34,
+      "sl_mult": 1.75,
+      "tp_mult": 5.0,
+      "tp_multipliers": [
+        2.0,
+        3.0
+      ],
+      "trailing_stop_ratio": 0.15,
+      "use_trailing_stop": true,
+      "use_partial_tp": true,
+      "use_rsi_filter": true,
+      "use_macd_confirm": false
+    },
+    "aggregate_score": 0.9252
+  },
+  {
+    "pnl": 30.71,
+    "sharpe": 0.11,
+    "max_drawdown": 12.3,
+    "trades": 69,
+    "win_rate": 40.58,
+    "hodl_pnl": -1867.32,
+    "alpha_vs_hodl": 1898.04,
+    "trades_log": [
+      {
+        "entry_time": "2025-01-18 19:30:00",
+        "entry_price": 104439.29,
+        "direction": "long",
+        "exit_time": "2025-01-18 19:45:00",
+        "exit_price": 104479.784,
+        "reason": "Trailing Stop",
+        "pnl": -0.81
+      },
+      {
+        "entry_time": "2025-01-19 09:00:00",
+        "entry_price": 104121.85,
+        "direction": "short",
+        "exit_time": "2025-01-19 09:15:00",
+        "exit_price": 103551.364,
+        "reason": "Trailing Stop",
+        "pnl": 1.74
+      },
+      {
+        "entry_time": "2025-01-19 21:45:00",
+        "entry_price": 103684.44,
+        "direction": "short",
+        "exit_time": "2025-01-19 22:00:00",
+        "exit_price": 102860.11,
+        "reason": "Trailing Stop",
+        "pnl": 2.98
+      },
+      {
+        "entry_time": "2025-01-20 06:30:00",
+        "entry_price": 104689.49,
+        "direction": "long",
+        "exit_time": "2025-01-20 06:45:00",
+        "exit_price": 108853.2235,
+        "reason": "Trailing Stop",
+        "pnl": 18.86
+      },
+      {
+        "entry_time": "2025-01-20 16:00:00",
+        "entry_price": 104513.09,
+        "direction": "short",
+        "exit_time": "2025-01-20 16:15:00",
+        "exit_price": 104359.1635,
+        "reason": "Trailing Stop",
+        "pnl": -0.26
+      },
+      {
+        "entry_time": "2025-01-23 14:30:00",
+        "entry_price": 104940.95,
+        "direction": "long",
+        "exit_time": "2025-01-23 14:45:00",
+        "exit_price": 105884.3735,
+        "reason": "Trailing Stop",
+        "pnl": 3.5
+      },
+      {
+        "entry_time": "2025-01-23 21:15:00",
+        "entry_price": 102734.0,
+        "direction": "short",
+        "exit_time": "2025-01-23 21:30:00",
+        "exit_price": 102364.1735,
+        "reason": "Trailing Stop",
+        "pnl": 0.8
+      },
+      {
+        "entry_time": "2025-01-26 00:15:00",
+        "entry_price": 104664.36,
+        "direction": "short",
+        "exit_time": "2025-01-26 00:30:00",
+        "exit_price": 104564.434,
+        "reason": "Trailing Stop",
+        "pnl": -0.52
+      },
+      {
+        "entry_time": "2025-01-26 03:45:00",
+        "entry_price": 105062.42,
+        "direction": "long",
+        "exit_time": "2025-01-26 04:00:00",
+        "exit_price": 105135.367,
+        "reason": "Trailing Stop",
+        "pnl": -0.66
+      },
+      {
+        "entry_time": "2025-01-26 09:30:00",
+        "entry_price": 104629.16,
+        "direction": "short",
+        "exit_time": "2025-01-26 09:45:00",
+        "exit_price": 104553.0425,
+        "reason": "Trailing Stop",
+        "pnl": -0.64
+      },
+      {
+        "entry_time": "2025-01-28 14:00:00",
+        "entry_price": 101962.98,
+        "direction": "short",
+        "exit_time": "2025-01-28 14:15:00",
+        "exit_price": 101941.084,
+        "reason": "Trailing Stop",
+        "pnl": -0.89
+      },
+      {
+        "entry_time": "2025-01-29 13:15:00",
+        "entry_price": 101896.01,
+        "direction": "short",
+        "exit_time": "2025-01-29 13:30:00",
+        "exit_price": 101788.7145,
+        "reason": "Trailing Stop",
+        "pnl": -0.47
+      },
+      {
+        "entry_time": "2025-01-29 17:30:00",
+        "entry_price": 102600.0,
+        "direction": "long",
+        "exit_time": "2025-01-29 17:45:00",
+        "exit_price": 102651.714,
+        "reason": "Trailing Stop",
+        "pnl": -0.75
+      },
+      {
+        "entry_time": "2025-01-29 19:15:00",
+        "entry_price": 101547.87,
+        "direction": "short",
+        "exit_time": "2025-01-29 19:30:00",
+        "exit_price": 101485.174,
+        "reason": "Trailing Stop",
+        "pnl": -0.69
+      },
+      {
+        "entry_time": "2025-01-31 11:15:00",
+        "entry_price": 104823.5,
+        "direction": "long",
+        "exit_time": "2025-01-31 11:30:00",
+        "exit_price": 104823.5,
+        "reason": "Trailing Stop",
+        "pnl": -1.0
+      },
+      {
+        "entry_time": "2025-01-31 18:15:00",
+        "entry_price": 104018.68,
+        "direction": "short",
+        "exit_time": "2025-01-31 18:30:00",
+        "exit_price": 103152.8105,
+        "reason": "Trailing Stop",
+        "pnl": 3.17
+      },
+      {
+        "entry_time": "2025-02-03 13:15:00",
+        "entry_price": 94374.36,
+        "direction": "short",
+        "exit_time": "2025-02-03 13:30:00",
+        "exit_price": 94372.337,
+        "reason": "Trailing Stop",
+        "pnl": -0.99
+      },
+      {
+        "entry_time": "2025-02-04 14:30:00",
+        "entry_price": 100147.6,
+        "direction": "long",
+        "exit_time": "2025-02-04 14:45:00",
+        "exit_price": 100252.762,
+        "reason": "Trailing Stop",
+        "pnl": -0.48
+      },
+      {
+        "entry_time": "2025-02-04 20:15:00",
+        "entry_price": 98274.48,
+        "direction": "short",
+        "exit_time": "2025-02-04 20:30:00",
+        "exit_price": 98181.6345,
+        "reason": "Trailing Stop",
+        "pnl": -0.53
+      },
+      {
+        "entry_time": "2025-02-06 14:45:00",
+        "entry_price": 97835.98,
+        "direction": "short",
+        "exit_time": "2025-02-06 15:00:00",
+        "exit_price": 97670.859,
+        "reason": "Trailing Stop",
+        "pnl": -0.16
+      },
+      {
+        "entry_time": "2025-02-07 06:45:00",
+        "entry_price": 96746.87,
+        "direction": "short",
+        "exit_time": "2025-02-07 07:00:00",
+        "exit_price": 96717.8255,
+        "reason": "Trailing Stop",
+        "pnl": -0.85
+      },
+      {
+        "entry_time": "2025-02-09 10:45:00",
+        "entry_price": 96762.01,
+        "direction": "short",
+        "exit_time": "2025-02-09 11:00:00",
+        "exit_price": 96762.0015,
+        "reason": "Trailing Stop",
+        "pnl": -1.0
+      },
+      {
+        "entry_time": "2025-02-10 00:00:00",
+        "entry_price": 96946.65,
+        "direction": "long",
+        "exit_time": "2025-02-10 00:15:00",
+        "exit_price": 97103.747,
+        "reason": "Trailing Stop",
+        "pnl": -0.19
+      },
+      {
+        "entry_time": "2025-02-10 03:30:00",
+        "entry_price": 96996.97,
+        "direction": "long",
+        "exit_time": "2025-02-10 03:45:00",
+        "exit_price": 97062.7685,
+        "reason": "Trailing Stop",
+        "pnl": -0.66
+      },
+      {
+        "entry_time": "2025-02-11 00:00:00",
+        "entry_price": 97735.32,
+        "direction": "long",
+        "exit_time": "2025-02-11 00:15:00",
+        "exit_price": 97837.405,
+        "reason": "Trailing Stop",
+        "pnl": -0.48
+      },
+      {
+        "entry_time": "2025-02-12 13:30:00",
+        "entry_price": 94520.37,
+        "direction": "short",
+        "exit_time": "2025-02-12 13:45:00",
+        "exit_price": 94460.5555,
+        "reason": "Trailing Stop",
+        "pnl": -0.68
+      },
+      {
+        "entry_time": "2025-02-12 16:45:00",
+        "entry_price": 96986.14,
+        "direction": "long",
+        "exit_time": "2025-02-12 17:00:00",
+        "exit_price": 97211.985,
+        "reason": "Trailing Stop",
+        "pnl": 0.16
+      },
+      {
+        "entry_time": "2025-02-14 14:45:00",
+        "entry_price": 97290.95,
+        "direction": "long",
+        "exit_time": "2025-02-14 15:00:00",
+        "exit_price": 97391.5475,
+        "reason": "Trailing Stop",
+        "pnl": -0.48
+      },
+      {
+        "entry_time": "2025-02-14 16:45:00",
+        "entry_price": 97658.7,
+        "direction": "long",
+        "exit_time": "2025-02-14 17:00:00",
+        "exit_price": 97658.7,
+        "reason": "Trailing Stop",
+        "pnl": -1.0
+      },
+      {
+        "entry_time": "2025-02-17 15:45:00",
+        "entry_price": 95659.46,
+        "direction": "short",
+        "exit_time": "2025-02-17 16:00:00",
+        "exit_price": 95566.419,
+        "reason": "Trailing Stop",
+        "pnl": -0.51
+      },
+      {
+        "entry_time": "2025-02-18 05:45:00",
+        "entry_price": 95609.49,
+        "direction": "short",
+        "exit_time": "2025-02-18 06:00:00",
+        "exit_price": 95346.4235,
+        "reason": "Trailing Stop",
+        "pnl": 0.38
+      },
+      {
+        "entry_time": "2025-02-18 15:15:00",
+        "entry_price": 95403.51,
+        "direction": "short",
+        "exit_time": "2025-02-18 15:30:00",
+        "exit_price": 95368.439,
+        "reason": "Trailing Stop",
+        "pnl": -0.82
+      },
+      {
+        "entry_time": "2025-02-19 18:45:00",
+        "entry_price": 95670.54,
+        "direction": "short",
+        "exit_time": "2025-02-19 19:00:00",
+        "exit_price": 95446.8795,
+        "reason": "Trailing Stop",
+        "pnl": 0.17
+      },
+      {
+        "entry_time": "2025-02-21 15:30:00",
+        "entry_price": 97600.6,
+        "direction": "short",
+        "exit_time": "2025-02-21 15:45:00",
+        "exit_price": 97450.0905,
+        "reason": "Trailing Stop",
+        "pnl": -0.23
+      },
+      {
+        "entry_time": "2025-02-24 03:15:00",
+        "entry_price": 95515.01,
+        "direction": "short",
+        "exit_time": "2025-02-24 03:30:00",
+        "exit_price": 95341.6015,
+        "reason": "Trailing Stop",
+        "pnl": -0.09
+      },
+      {
+        "entry_time": "2025-02-24 14:00:00",
+        "entry_price": 95412.01,
+        "direction": "short",
+        "exit_time": "2025-02-24 14:15:00",
+        "exit_price": 95389.9015,
+        "reason": "Trailing Stop",
+        "pnl": -0.89
+      },
+      {
+        "entry_time": "2025-02-26 12:15:00",
+        "entry_price": 88333.38,
+        "direction": "short",
+        "exit_time": "2025-02-26 12:30:00",
+        "exit_price": 88244.9885,
+        "reason": "Trailing Stop",
+        "pnl": -0.5
+      },
+      {
+        "entry_time": "2025-02-27 14:45:00",
+        "entry_price": 84968.65,
+        "direction": "short",
+        "exit_time": "2025-02-27 15:00:00",
+        "exit_price": 84689.935,
+        "reason": "Trailing Stop",
+        "pnl": 0.64
+      },
+      {
+        "entry_time": "2025-03-02 15:30:00",
+        "entry_price": 88081.19,
+        "direction": "long",
+        "exit_time": "2025-03-02 15:45:00",
+        "exit_price": 88216.17,
+        "reason": "Trailing Stop",
+        "pnl": -0.24
+      },
+      {
+        "entry_time": "2025-03-03 14:45:00",
+        "entry_price": 89278.88,
+        "direction": "short",
+        "exit_time": "2025-03-03 15:00:00",
+        "exit_price": 89141.282,
+        "reason": "Trailing Stop",
+        "pnl": -0.23
+      },
+      {
+        "entry_time": "2025-03-05 17:15:00",
+        "entry_price": 90040.81,
+        "direction": "long",
+        "exit_time": "2025-03-05 17:30:00",
+        "exit_price": 90410.1265,
+        "reason": "Trailing Stop",
+        "pnl": 1.05
+      },
+      {
+        "entry_time": "2025-03-07 00:15:00",
+        "entry_price": 87037.48,
+        "direction": "short",
+        "exit_time": "2025-03-07 00:30:00",
+        "exit_price": 85815.622,
+        "reason": "Trailing Stop",
+        "pnl": 6.03
+      },
+      {
+        "entry_time": "2025-03-07 16:15:00",
+        "entry_price": 87476.22,
+        "direction": "short",
+        "exit_time": "2025-03-07 16:30:00",
+        "exit_price": 87036.753,
+        "reason": "Trailing Stop",
+        "pnl": 1.52
+      },
+      {
+        "entry_time": "2025-03-10 08:30:00",
+        "entry_price": 81466.02,
+        "direction": "short",
+        "exit_time": "2025-03-10 08:45:00",
+        "exit_price": 81198.253,
+        "reason": "Trailing Stop",
+        "pnl": 0.65
+      },
+      {
+        "entry_time": "2025-03-10 14:00:00",
+        "entry_price": 80162.28,
+        "direction": "short",
+        "exit_time": "2025-03-10 14:15:00",
+        "exit_price": 79456.542,
+        "reason": "Trailing Stop",
+        "pnl": 3.41
+      },
+      {
+        "entry_time": "2025-03-11 14:30:00",
+        "entry_price": 79470.69,
+        "direction": "short",
+        "exit_time": "2025-03-11 14:45:00",
+        "exit_price": 79304.0815,
+        "reason": "Trailing Stop",
+        "pnl": 0.05
+      },
+      {
+        "entry_time": "2025-03-12 08:30:00",
+        "entry_price": 82690.86,
+        "direction": "long",
+        "exit_time": "2025-03-12 08:45:00",
+        "exit_price": 82788.0575,
+        "reason": "Trailing Stop",
+        "pnl": -0.41
+      },
+      {
+        "entry_time": "2025-03-12 14:45:00",
+        "entry_price": 81535.72,
+        "direction": "short",
+        "exit_time": "2025-03-12 15:00:00",
+        "exit_price": 80746.8605,
+        "reason": "Trailing Stop",
+        "pnl": 3.85
+      },
+      {
+        "entry_time": "2025-03-16 16:15:00",
+        "entry_price": 84350.65,
+        "direction": "long",
+        "exit_time": "2025-03-16 16:30:00",
+        "exit_price": 84368.3725,
+        "reason": "Trailing Stop",
+        "pnl": -0.9
+      },
+      {
+        "entry_time": "2025-03-17 12:45:00",
+        "entry_price": 83052.0,
+        "direction": "short",
+        "exit_time": "2025-03-17 13:00:00",
+        "exit_price": 82883.0285,
+        "reason": "Trailing Stop",
+        "pnl": 0.02
+      },
+      {
+        "entry_time": "2025-03-20 14:15:00",
+        "entry_price": 86344.29,
+        "direction": "long",
+        "exit_time": "2025-03-20 14:30:00",
+        "exit_price": 86366.6195,
+        "reason": "Trailing Stop",
+        "pnl": -0.87
+      },
+      {
+        "entry_time": "2025-03-20 15:45:00",
+        "entry_price": 84691.76,
+        "direction": "short",
+        "exit_time": "2025-03-20 16:00:00",
+        "exit_price": 84409.016,
+        "reason": "Trailing Stop",
+        "pnl": 0.67
+      },
+      {
+        "entry_time": "2025-03-22 18:30:00",
+        "entry_price": 84318.17,
+        "direction": "long",
+        "exit_time": "2025-03-22 18:45:00",
+        "exit_price": 84319.7255,
+        "reason": "Trailing Stop",
+        "pnl": -0.99
+      },
+      {
+        "entry_time": "2025-03-23 02:30:00",
+        "entry_price": 84221.07,
+        "direction": "long",
+        "exit_time": "2025-03-23 02:45:00",
+        "exit_price": 84268.67,
+        "reason": "Trailing Stop",
+        "pnl": -0.72
+      },
+      {
+        "entry_time": "2025-03-27 11:00:00",
+        "entry_price": 87179.3,
+        "direction": "short",
+        "exit_time": "2025-03-27 11:15:00",
+        "exit_price": 86946.4255,
+        "reason": "Trailing Stop",
+        "pnl": 0.34
+      },
+      {
+        "entry_time": "2025-04-01 14:00:00",
+        "entry_price": 82796.1,
+        "direction": "short",
+        "exit_time": "2025-04-01 14:15:00",
+        "exit_price": 82581.815,
+        "reason": "Trailing Stop",
+        "pnl": 0.3
+      },
+      {
+        "entry_time": "2025-04-01 15:00:00",
+        "entry_price": 84906.0,
+        "direction": "long",
+        "exit_time": "2025-04-01 15:15:00",
+        "exit_price": 85179.0795,
+        "reason": "Trailing Stop",
+        "pnl": 0.61
+      },
+      {
+        "entry_time": "2025-04-02 09:00:00",
+        "entry_price": 85311.84,
+        "direction": "long",
+        "exit_time": "2025-04-02 09:15:00",
+        "exit_price": 85352.776,
+        "reason": "Trailing Stop",
+        "pnl": -0.76
+      },
+      {
+        "entry_time": "2025-04-02 21:00:00",
+        "entry_price": 84549.91,
+        "direction": "short",
+        "exit_time": "2025-04-02 21:15:00",
+        "exit_price": 84258.6575,
+        "reason": "Trailing Stop",
+        "pnl": 0.73
+      },
+      {
+        "entry_time": "2025-04-04 11:00:00",
+        "entry_price": 82153.64,
+        "direction": "short",
+        "exit_time": "2025-04-04 11:15:00",
+        "exit_price": 81749.346,
+        "reason": "Trailing Stop",
+        "pnl": 1.47
+      },
+      {
+        "entry_time": "2025-04-08 12:00:00",
+        "entry_price": 79986.01,
+        "direction": "long",
+        "exit_time": "2025-04-08 12:15:00",
+        "exit_price": 79988.764,
+        "reason": "Trailing Stop",
+        "pnl": -0.99
+      },
+      {
+        "entry_time": "2025-04-08 14:45:00",
+        "entry_price": 78479.91,
+        "direction": "short",
+        "exit_time": "2025-04-08 15:00:00",
+        "exit_price": 78237.6175,
+        "reason": "Trailing Stop",
+        "pnl": 0.55
+      },
+      {
+        "entry_time": "2025-04-09 11:30:00",
+        "entry_price": 75952.72,
+        "direction": "short",
+        "exit_time": "2025-04-09 11:45:00",
+        "exit_price": 75833.5755,
+        "reason": "Trailing Stop",
+        "pnl": -0.22
+      },
+      {
+        "entry_time": "2025-04-11 02:00:00",
+        "entry_price": 80316.64,
+        "direction": "long",
+        "exit_time": "2025-04-11 02:15:00",
+        "exit_price": 80752.163,
+        "reason": "Trailing Stop",
+        "pnl": 1.71
+      },
+      {
+        "entry_time": "2025-04-13 17:30:00",
+        "entry_price": 84843.75,
+        "direction": "long",
+        "exit_time": "2025-04-13 17:45:00",
+        "exit_price": 84911.954,
+        "reason": "Trailing Stop",
+        "pnl": -0.6
+      },
+      {
+        "entry_time": "2025-04-13 19:30:00",
+        "entry_price": 83530.86,
+        "direction": "short",
+        "exit_time": "2025-04-13 19:45:00",
+        "exit_price": 83430.339,
+        "reason": "Trailing Stop",
+        "pnl": -0.4
+      },
+      {
+        "entry_time": "2025-04-14 00:30:00",
+        "entry_price": 84782.6,
+        "direction": "long",
+        "exit_time": "2025-04-14 00:45:00",
+        "exit_price": 84819.49,
+        "reason": "Trailing Stop",
+        "pnl": -0.79
+      },
+      {
+        "entry_time": "2025-04-14 15:45:00",
+        "entry_price": 84101.16,
+        "direction": "short",
+        "exit_time": "2025-04-14 16:00:00",
+        "exit_price": 83899.2595,
+        "reason": "Trailing Stop",
+        "pnl": 0.2
+      },
+      {
+        "entry_time": "2025-04-17 14:15:00",
+        "entry_price": 84040.0,
+        "direction": "short",
+        "exit_time": "2025-04-17 14:30:00",
+        "exit_price": 83781.821,
+        "reason": "Trailing Stop",
+        "pnl": 0.54
+      }
+    ],
+    "params": {
+      "fast": 10,
+      "slow": 34,
+      "sl_mult": 1.75,
+      "tp_mult": 5.0,
+      "tp_multipliers": [
+        2.5,
+        3.5
+      ],
+      "trailing_stop_ratio": 0.15,
+      "use_trailing_stop": true,
+      "use_partial_tp": true,
+      "use_rsi_filter": true,
+      "use_macd_confirm": false
+    },
+    "aggregate_score": 0.9252
+  },
+  {
+    "pnl": 30.71,
+    "sharpe": 0.11,
+    "max_drawdown": 12.3,
+    "trades": 69,
+    "win_rate": 40.58,
+    "hodl_pnl": -1867.32,
+    "alpha_vs_hodl": 1898.04,
+    "trades_log": [
+      {
+        "entry_time": "2025-01-18 19:30:00",
+        "entry_price": 104439.29,
+        "direction": "long",
+        "exit_time": "2025-01-18 19:45:00",
+        "exit_price": 104479.784,
+        "reason": "Trailing Stop",
+        "pnl": -0.81
+      },
+      {
+        "entry_time": "2025-01-19 09:00:00",
+        "entry_price": 104121.85,
+        "direction": "short",
+        "exit_time": "2025-01-19 09:15:00",
+        "exit_price": 103551.364,
+        "reason": "Trailing Stop",
+        "pnl": 1.74
+      },
+      {
+        "entry_time": "2025-01-19 21:45:00",
+        "entry_price": 103684.44,
+        "direction": "short",
+        "exit_time": "2025-01-19 22:00:00",
+        "exit_price": 102860.11,
+        "reason": "Trailing Stop",
+        "pnl": 2.98
+      },
+      {
+        "entry_time": "2025-01-20 06:30:00",
+        "entry_price": 104689.49,
+        "direction": "long",
+        "exit_time": "2025-01-20 06:45:00",
+        "exit_price": 108853.2235,
+        "reason": "Trailing Stop",
+        "pnl": 18.86
+      },
+      {
+        "entry_time": "2025-01-20 16:00:00",
+        "entry_price": 104513.09,
+        "direction": "short",
+        "exit_time": "2025-01-20 16:15:00",
+        "exit_price": 104359.1635,
+        "reason": "Trailing Stop",
+        "pnl": -0.26
+      },
+      {
+        "entry_time": "2025-01-23 14:30:00",
+        "entry_price": 104940.95,
+        "direction": "long",
+        "exit_time": "2025-01-23 14:45:00",
+        "exit_price": 105884.3735,
+        "reason": "Trailing Stop",
+        "pnl": 3.5
+      },
+      {
+        "entry_time": "2025-01-23 21:15:00",
+        "entry_price": 102734.0,
+        "direction": "short",
+        "exit_time": "2025-01-23 21:30:00",
+        "exit_price": 102364.1735,
+        "reason": "Trailing Stop",
+        "pnl": 0.8
+      },
+      {
+        "entry_time": "2025-01-26 00:15:00",
+        "entry_price": 104664.36,
+        "direction": "short",
+        "exit_time": "2025-01-26 00:30:00",
+        "exit_price": 104564.434,
+        "reason": "Trailing Stop",
+        "pnl": -0.52
+      },
+      {
+        "entry_time": "2025-01-26 03:45:00",
+        "entry_price": 105062.42,
+        "direction": "long",
+        "exit_time": "2025-01-26 04:00:00",
+        "exit_price": 105135.367,
+        "reason": "Trailing Stop",
+        "pnl": -0.66
+      },
+      {
+        "entry_time": "2025-01-26 09:30:00",
+        "entry_price": 104629.16,
+        "direction": "short",
+        "exit_time": "2025-01-26 09:45:00",
+        "exit_price": 104553.0425,
+        "reason": "Trailing Stop",
+        "pnl": -0.64
+      },
+      {
+        "entry_time": "2025-01-28 14:00:00",
+        "entry_price": 101962.98,
+        "direction": "short",
+        "exit_time": "2025-01-28 14:15:00",
+        "exit_price": 101941.084,
+        "reason": "Trailing Stop",
+        "pnl": -0.89
+      },
+      {
+        "entry_time": "2025-01-29 13:15:00",
+        "entry_price": 101896.01,
+        "direction": "short",
+        "exit_time": "2025-01-29 13:30:00",
+        "exit_price": 101788.7145,
+        "reason": "Trailing Stop",
+        "pnl": -0.47
+      },
+      {
+        "entry_time": "2025-01-29 17:30:00",
+        "entry_price": 102600.0,
+        "direction": "long",
+        "exit_time": "2025-01-29 17:45:00",
+        "exit_price": 102651.714,
+        "reason": "Trailing Stop",
+        "pnl": -0.75
+      },
+      {
+        "entry_time": "2025-01-29 19:15:00",
+        "entry_price": 101547.87,
+        "direction": "short",
+        "exit_time": "2025-01-29 19:30:00",
+        "exit_price": 101485.174,
+        "reason": "Trailing Stop",
+        "pnl": -0.69
+      },
+      {
+        "entry_time": "2025-01-31 11:15:00",
+        "entry_price": 104823.5,
+        "direction": "long",
+        "exit_time": "2025-01-31 11:30:00",
+        "exit_price": 104823.5,
+        "reason": "Trailing Stop",
+        "pnl": -1.0
+      },
+      {
+        "entry_time": "2025-01-31 18:15:00",
+        "entry_price": 104018.68,
+        "direction": "short",
+        "exit_time": "2025-01-31 18:30:00",
+        "exit_price": 103152.8105,
+        "reason": "Trailing Stop",
+        "pnl": 3.17
+      },
+      {
+        "entry_time": "2025-02-03 13:15:00",
+        "entry_price": 94374.36,
+        "direction": "short",
+        "exit_time": "2025-02-03 13:30:00",
+        "exit_price": 94372.337,
+        "reason": "Trailing Stop",
+        "pnl": -0.99
+      },
+      {
+        "entry_time": "2025-02-04 14:30:00",
+        "entry_price": 100147.6,
+        "direction": "long",
+        "exit_time": "2025-02-04 14:45:00",
+        "exit_price": 100252.762,
+        "reason": "Trailing Stop",
+        "pnl": -0.48
+      },
+      {
+        "entry_time": "2025-02-04 20:15:00",
+        "entry_price": 98274.48,
+        "direction": "short",
+        "exit_time": "2025-02-04 20:30:00",
+        "exit_price": 98181.6345,
+        "reason": "Trailing Stop",
+        "pnl": -0.53
+      },
+      {
+        "entry_time": "2025-02-06 14:45:00",
+        "entry_price": 97835.98,
+        "direction": "short",
+        "exit_time": "2025-02-06 15:00:00",
+        "exit_price": 97670.859,
+        "reason": "Trailing Stop",
+        "pnl": -0.16
+      },
+      {
+        "entry_time": "2025-02-07 06:45:00",
+        "entry_price": 96746.87,
+        "direction": "short",
+        "exit_time": "2025-02-07 07:00:00",
+        "exit_price": 96717.8255,
+        "reason": "Trailing Stop",
+        "pnl": -0.85
+      },
+      {
+        "entry_time": "2025-02-09 10:45:00",
+        "entry_price": 96762.01,
+        "direction": "short",
+        "exit_time": "2025-02-09 11:00:00",
+        "exit_price": 96762.0015,
+        "reason": "Trailing Stop",
+        "pnl": -1.0
+      },
+      {
+        "entry_time": "2025-02-10 00:00:00",
+        "entry_price": 96946.65,
+        "direction": "long",
+        "exit_time": "2025-02-10 00:15:00",
+        "exit_price": 97103.747,
+        "reason": "Trailing Stop",
+        "pnl": -0.19
+      },
+      {
+        "entry_time": "2025-02-10 03:30:00",
+        "entry_price": 96996.97,
+        "direction": "long",
+        "exit_time": "2025-02-10 03:45:00",
+        "exit_price": 97062.7685,
+        "reason": "Trailing Stop",
+        "pnl": -0.66
+      },
+      {
+        "entry_time": "2025-02-11 00:00:00",
+        "entry_price": 97735.32,
+        "direction": "long",
+        "exit_time": "2025-02-11 00:15:00",
+        "exit_price": 97837.405,
+        "reason": "Trailing Stop",
+        "pnl": -0.48
+      },
+      {
+        "entry_time": "2025-02-12 13:30:00",
+        "entry_price": 94520.37,
+        "direction": "short",
+        "exit_time": "2025-02-12 13:45:00",
+        "exit_price": 94460.5555,
+        "reason": "Trailing Stop",
+        "pnl": -0.68
+      },
+      {
+        "entry_time": "2025-02-12 16:45:00",
+        "entry_price": 96986.14,
+        "direction": "long",
+        "exit_time": "2025-02-12 17:00:00",
+        "exit_price": 97211.985,
+        "reason": "Trailing Stop",
+        "pnl": 0.16
+      },
+      {
+        "entry_time": "2025-02-14 14:45:00",
+        "entry_price": 97290.95,
+        "direction": "long",
+        "exit_time": "2025-02-14 15:00:00",
+        "exit_price": 97391.5475,
+        "reason": "Trailing Stop",
+        "pnl": -0.48
+      },
+      {
+        "entry_time": "2025-02-14 16:45:00",
+        "entry_price": 97658.7,
+        "direction": "long",
+        "exit_time": "2025-02-14 17:00:00",
+        "exit_price": 97658.7,
+        "reason": "Trailing Stop",
+        "pnl": -1.0
+      },
+      {
+        "entry_time": "2025-02-17 15:45:00",
+        "entry_price": 95659.46,
+        "direction": "short",
+        "exit_time": "2025-02-17 16:00:00",
+        "exit_price": 95566.419,
+        "reason": "Trailing Stop",
+        "pnl": -0.51
+      },
+      {
+        "entry_time": "2025-02-18 05:45:00",
+        "entry_price": 95609.49,
+        "direction": "short",
+        "exit_time": "2025-02-18 06:00:00",
+        "exit_price": 95346.4235,
+        "reason": "Trailing Stop",
+        "pnl": 0.38
+      },
+      {
+        "entry_time": "2025-02-18 15:15:00",
+        "entry_price": 95403.51,
+        "direction": "short",
+        "exit_time": "2025-02-18 15:30:00",
+        "exit_price": 95368.439,
+        "reason": "Trailing Stop",
+        "pnl": -0.82
+      },
+      {
+        "entry_time": "2025-02-19 18:45:00",
+        "entry_price": 95670.54,
+        "direction": "short",
+        "exit_time": "2025-02-19 19:00:00",
+        "exit_price": 95446.8795,
+        "reason": "Trailing Stop",
+        "pnl": 0.17
+      },
+      {
+        "entry_time": "2025-02-21 15:30:00",
+        "entry_price": 97600.6,
+        "direction": "short",
+        "exit_time": "2025-02-21 15:45:00",
+        "exit_price": 97450.0905,
+        "reason": "Trailing Stop",
+        "pnl": -0.23
+      },
+      {
+        "entry_time": "2025-02-24 03:15:00",
+        "entry_price": 95515.01,
+        "direction": "short",
+        "exit_time": "2025-02-24 03:30:00",
+        "exit_price": 95341.6015,
+        "reason": "Trailing Stop",
+        "pnl": -0.09
+      },
+      {
+        "entry_time": "2025-02-24 14:00:00",
+        "entry_price": 95412.01,
+        "direction": "short",
+        "exit_time": "2025-02-24 14:15:00",
+        "exit_price": 95389.9015,
+        "reason": "Trailing Stop",
+        "pnl": -0.89
+      },
+      {
+        "entry_time": "2025-02-26 12:15:00",
+        "entry_price": 88333.38,
+        "direction": "short",
+        "exit_time": "2025-02-26 12:30:00",
+        "exit_price": 88244.9885,
+        "reason": "Trailing Stop",
+        "pnl": -0.5
+      },
+      {
+        "entry_time": "2025-02-27 14:45:00",
+        "entry_price": 84968.65,
+        "direction": "short",
+        "exit_time": "2025-02-27 15:00:00",
+        "exit_price": 84689.935,
+        "reason": "Trailing Stop",
+        "pnl": 0.64
+      },
+      {
+        "entry_time": "2025-03-02 15:30:00",
+        "entry_price": 88081.19,
+        "direction": "long",
+        "exit_time": "2025-03-02 15:45:00",
+        "exit_price": 88216.17,
+        "reason": "Trailing Stop",
+        "pnl": -0.24
+      },
+      {
+        "entry_time": "2025-03-03 14:45:00",
+        "entry_price": 89278.88,
+        "direction": "short",
+        "exit_time": "2025-03-03 15:00:00",
+        "exit_price": 89141.282,
+        "reason": "Trailing Stop",
+        "pnl": -0.23
+      },
+      {
+        "entry_time": "2025-03-05 17:15:00",
+        "entry_price": 90040.81,
+        "direction": "long",
+        "exit_time": "2025-03-05 17:30:00",
+        "exit_price": 90410.1265,
+        "reason": "Trailing Stop",
+        "pnl": 1.05
+      },
+      {
+        "entry_time": "2025-03-07 00:15:00",
+        "entry_price": 87037.48,
+        "direction": "short",
+        "exit_time": "2025-03-07 00:30:00",
+        "exit_price": 85815.622,
+        "reason": "Trailing Stop",
+        "pnl": 6.03
+      },
+      {
+        "entry_time": "2025-03-07 16:15:00",
+        "entry_price": 87476.22,
+        "direction": "short",
+        "exit_time": "2025-03-07 16:30:00",
+        "exit_price": 87036.753,
+        "reason": "Trailing Stop",
+        "pnl": 1.52
+      },
+      {
+        "entry_time": "2025-03-10 08:30:00",
+        "entry_price": 81466.02,
+        "direction": "short",
+        "exit_time": "2025-03-10 08:45:00",
+        "exit_price": 81198.253,
+        "reason": "Trailing Stop",
+        "pnl": 0.65
+      },
+      {
+        "entry_time": "2025-03-10 14:00:00",
+        "entry_price": 80162.28,
+        "direction": "short",
+        "exit_time": "2025-03-10 14:15:00",
+        "exit_price": 79456.542,
+        "reason": "Trailing Stop",
+        "pnl": 3.41
+      },
+      {
+        "entry_time": "2025-03-11 14:30:00",
+        "entry_price": 79470.69,
+        "direction": "short",
+        "exit_time": "2025-03-11 14:45:00",
+        "exit_price": 79304.0815,
+        "reason": "Trailing Stop",
+        "pnl": 0.05
+      },
+      {
+        "entry_time": "2025-03-12 08:30:00",
+        "entry_price": 82690.86,
+        "direction": "long",
+        "exit_time": "2025-03-12 08:45:00",
+        "exit_price": 82788.0575,
+        "reason": "Trailing Stop",
+        "pnl": -0.41
+      },
+      {
+        "entry_time": "2025-03-12 14:45:00",
+        "entry_price": 81535.72,
+        "direction": "short",
+        "exit_time": "2025-03-12 15:00:00",
+        "exit_price": 80746.8605,
+        "reason": "Trailing Stop",
+        "pnl": 3.85
+      },
+      {
+        "entry_time": "2025-03-16 16:15:00",
+        "entry_price": 84350.65,
+        "direction": "long",
+        "exit_time": "2025-03-16 16:30:00",
+        "exit_price": 84368.3725,
+        "reason": "Trailing Stop",
+        "pnl": -0.9
+      },
+      {
+        "entry_time": "2025-03-17 12:45:00",
+        "entry_price": 83052.0,
+        "direction": "short",
+        "exit_time": "2025-03-17 13:00:00",
+        "exit_price": 82883.0285,
+        "reason": "Trailing Stop",
+        "pnl": 0.02
+      },
+      {
+        "entry_time": "2025-03-20 14:15:00",
+        "entry_price": 86344.29,
+        "direction": "long",
+        "exit_time": "2025-03-20 14:30:00",
+        "exit_price": 86366.6195,
+        "reason": "Trailing Stop",
+        "pnl": -0.87
+      },
+      {
+        "entry_time": "2025-03-20 15:45:00",
+        "entry_price": 84691.76,
+        "direction": "short",
+        "exit_time": "2025-03-20 16:00:00",
+        "exit_price": 84409.016,
+        "reason": "Trailing Stop",
+        "pnl": 0.67
+      },
+      {
+        "entry_time": "2025-03-22 18:30:00",
+        "entry_price": 84318.17,
+        "direction": "long",
+        "exit_time": "2025-03-22 18:45:00",
+        "exit_price": 84319.7255,
+        "reason": "Trailing Stop",
+        "pnl": -0.99
+      },
+      {
+        "entry_time": "2025-03-23 02:30:00",
+        "entry_price": 84221.07,
+        "direction": "long",
+        "exit_time": "2025-03-23 02:45:00",
+        "exit_price": 84268.67,
+        "reason": "Trailing Stop",
+        "pnl": -0.72
+      },
+      {
+        "entry_time": "2025-03-27 11:00:00",
+        "entry_price": 87179.3,
+        "direction": "short",
+        "exit_time": "2025-03-27 11:15:00",
+        "exit_price": 86946.4255,
+        "reason": "Trailing Stop",
+        "pnl": 0.34
+      },
+      {
+        "entry_time": "2025-04-01 14:00:00",
+        "entry_price": 82796.1,
+        "direction": "short",
+        "exit_time": "2025-04-01 14:15:00",
+        "exit_price": 82581.815,
+        "reason": "Trailing Stop",
+        "pnl": 0.3
+      },
+      {
+        "entry_time": "2025-04-01 15:00:00",
+        "entry_price": 84906.0,
+        "direction": "long",
+        "exit_time": "2025-04-01 15:15:00",
+        "exit_price": 85179.0795,
+        "reason": "Trailing Stop",
+        "pnl": 0.61
+      },
+      {
+        "entry_time": "2025-04-02 09:00:00",
+        "entry_price": 85311.84,
+        "direction": "long",
+        "exit_time": "2025-04-02 09:15:00",
+        "exit_price": 85352.776,
+        "reason": "Trailing Stop",
+        "pnl": -0.76
+      },
+      {
+        "entry_time": "2025-04-02 21:00:00",
+        "entry_price": 84549.91,
+        "direction": "short",
+        "exit_time": "2025-04-02 21:15:00",
+        "exit_price": 84258.6575,
+        "reason": "Trailing Stop",
+        "pnl": 0.73
+      },
+      {
+        "entry_time": "2025-04-04 11:00:00",
+        "entry_price": 82153.64,
+        "direction": "short",
+        "exit_time": "2025-04-04 11:15:00",
+        "exit_price": 81749.346,
+        "reason": "Trailing Stop",
+        "pnl": 1.47
+      },
+      {
+        "entry_time": "2025-04-08 12:00:00",
+        "entry_price": 79986.01,
+        "direction": "long",
+        "exit_time": "2025-04-08 12:15:00",
+        "exit_price": 79988.764,
+        "reason": "Trailing Stop",
+        "pnl": -0.99
+      },
+      {
+        "entry_time": "2025-04-08 14:45:00",
+        "entry_price": 78479.91,
+        "direction": "short",
+        "exit_time": "2025-04-08 15:00:00",
+        "exit_price": 78237.6175,
+        "reason": "Trailing Stop",
+        "pnl": 0.55
+      },
+      {
+        "entry_time": "2025-04-09 11:30:00",
+        "entry_price": 75952.72,
+        "direction": "short",
+        "exit_time": "2025-04-09 11:45:00",
+        "exit_price": 75833.5755,
+        "reason": "Trailing Stop",
+        "pnl": -0.22
+      },
+      {
+        "entry_time": "2025-04-11 02:00:00",
+        "entry_price": 80316.64,
+        "direction": "long",
+        "exit_time": "2025-04-11 02:15:00",
+        "exit_price": 80752.163,
+        "reason": "Trailing Stop",
+        "pnl": 1.71
+      },
+      {
+        "entry_time": "2025-04-13 17:30:00",
+        "entry_price": 84843.75,
+        "direction": "long",
+        "exit_time": "2025-04-13 17:45:00",
+        "exit_price": 84911.954,
+        "reason": "Trailing Stop",
+        "pnl": -0.6
+      },
+      {
+        "entry_time": "2025-04-13 19:30:00",
+        "entry_price": 83530.86,
+        "direction": "short",
+        "exit_time": "2025-04-13 19:45:00",
+        "exit_price": 83430.339,
+        "reason": "Trailing Stop",
+        "pnl": -0.4
+      },
+      {
+        "entry_time": "2025-04-14 00:30:00",
+        "entry_price": 84782.6,
+        "direction": "long",
+        "exit_time": "2025-04-14 00:45:00",
+        "exit_price": 84819.49,
+        "reason": "Trailing Stop",
+        "pnl": -0.79
+      },
+      {
+        "entry_time": "2025-04-14 15:45:00",
+        "entry_price": 84101.16,
+        "direction": "short",
+        "exit_time": "2025-04-14 16:00:00",
+        "exit_price": 83899.2595,
+        "reason": "Trailing Stop",
+        "pnl": 0.2
+      },
+      {
+        "entry_time": "2025-04-17 14:15:00",
+        "entry_price": 84040.0,
+        "direction": "short",
+        "exit_time": "2025-04-17 14:30:00",
+        "exit_price": 83781.821,
+        "reason": "Trailing Stop",
+        "pnl": 0.54
+      }
+    ],
+    "params": {
+      "fast": 10,
+      "slow": 34,
+      "sl_mult": 1.75,
+      "tp_mult": 5.5,
+      "tp_multipliers": [
+        2.0,
+        3.0
+      ],
+      "trailing_stop_ratio": 0.15,
+      "use_trailing_stop": true,
+      "use_partial_tp": true,
+      "use_rsi_filter": true,
+      "use_macd_confirm": false
+    },
+    "aggregate_score": 0.9252
+  },
+  {
+    "pnl": 30.71,
+    "sharpe": 0.11,
+    "max_drawdown": 12.3,
+    "trades": 69,
+    "win_rate": 40.58,
+    "hodl_pnl": -1867.32,
+    "alpha_vs_hodl": 1898.04,
+    "trades_log": [
+      {
+        "entry_time": "2025-01-18 19:30:00",
+        "entry_price": 104439.29,
+        "direction": "long",
+        "exit_time": "2025-01-18 19:45:00",
+        "exit_price": 104479.784,
+        "reason": "Trailing Stop",
+        "pnl": -0.81
+      },
+      {
+        "entry_time": "2025-01-19 09:00:00",
+        "entry_price": 104121.85,
+        "direction": "short",
+        "exit_time": "2025-01-19 09:15:00",
+        "exit_price": 103551.364,
+        "reason": "Trailing Stop",
+        "pnl": 1.74
+      },
+      {
+        "entry_time": "2025-01-19 21:45:00",
+        "entry_price": 103684.44,
+        "direction": "short",
+        "exit_time": "2025-01-19 22:00:00",
+        "exit_price": 102860.11,
+        "reason": "Trailing Stop",
+        "pnl": 2.98
+      },
+      {
+        "entry_time": "2025-01-20 06:30:00",
+        "entry_price": 104689.49,
+        "direction": "long",
+        "exit_time": "2025-01-20 06:45:00",
+        "exit_price": 108853.2235,
+        "reason": "Trailing Stop",
+        "pnl": 18.86
+      },
+      {
+        "entry_time": "2025-01-20 16:00:00",
+        "entry_price": 104513.09,
+        "direction": "short",
+        "exit_time": "2025-01-20 16:15:00",
+        "exit_price": 104359.1635,
+        "reason": "Trailing Stop",
+        "pnl": -0.26
+      },
+      {
+        "entry_time": "2025-01-23 14:30:00",
+        "entry_price": 104940.95,
+        "direction": "long",
+        "exit_time": "2025-01-23 14:45:00",
+        "exit_price": 105884.3735,
+        "reason": "Trailing Stop",
+        "pnl": 3.5
+      },
+      {
+        "entry_time": "2025-01-23 21:15:00",
+        "entry_price": 102734.0,
+        "direction": "short",
+        "exit_time": "2025-01-23 21:30:00",
+        "exit_price": 102364.1735,
+        "reason": "Trailing Stop",
+        "pnl": 0.8
+      },
+      {
+        "entry_time": "2025-01-26 00:15:00",
+        "entry_price": 104664.36,
+        "direction": "short",
+        "exit_time": "2025-01-26 00:30:00",
+        "exit_price": 104564.434,
+        "reason": "Trailing Stop",
+        "pnl": -0.52
+      },
+      {
+        "entry_time": "2025-01-26 03:45:00",
+        "entry_price": 105062.42,
+        "direction": "long",
+        "exit_time": "2025-01-26 04:00:00",
+        "exit_price": 105135.367,
+        "reason": "Trailing Stop",
+        "pnl": -0.66
+      },
+      {
+        "entry_time": "2025-01-26 09:30:00",
+        "entry_price": 104629.16,
+        "direction": "short",
+        "exit_time": "2025-01-26 09:45:00",
+        "exit_price": 104553.0425,
+        "reason": "Trailing Stop",
+        "pnl": -0.64
+      },
+      {
+        "entry_time": "2025-01-28 14:00:00",
+        "entry_price": 101962.98,
+        "direction": "short",
+        "exit_time": "2025-01-28 14:15:00",
+        "exit_price": 101941.084,
+        "reason": "Trailing Stop",
+        "pnl": -0.89
+      },
+      {
+        "entry_time": "2025-01-29 13:15:00",
+        "entry_price": 101896.01,
+        "direction": "short",
+        "exit_time": "2025-01-29 13:30:00",
+        "exit_price": 101788.7145,
+        "reason": "Trailing Stop",
+        "pnl": -0.47
+      },
+      {
+        "entry_time": "2025-01-29 17:30:00",
+        "entry_price": 102600.0,
+        "direction": "long",
+        "exit_time": "2025-01-29 17:45:00",
+        "exit_price": 102651.714,
+        "reason": "Trailing Stop",
+        "pnl": -0.75
+      },
+      {
+        "entry_time": "2025-01-29 19:15:00",
+        "entry_price": 101547.87,
+        "direction": "short",
+        "exit_time": "2025-01-29 19:30:00",
+        "exit_price": 101485.174,
+        "reason": "Trailing Stop",
+        "pnl": -0.69
+      },
+      {
+        "entry_time": "2025-01-31 11:15:00",
+        "entry_price": 104823.5,
+        "direction": "long",
+        "exit_time": "2025-01-31 11:30:00",
+        "exit_price": 104823.5,
+        "reason": "Trailing Stop",
+        "pnl": -1.0
+      },
+      {
+        "entry_time": "2025-01-31 18:15:00",
+        "entry_price": 104018.68,
+        "direction": "short",
+        "exit_time": "2025-01-31 18:30:00",
+        "exit_price": 103152.8105,
+        "reason": "Trailing Stop",
+        "pnl": 3.17
+      },
+      {
+        "entry_time": "2025-02-03 13:15:00",
+        "entry_price": 94374.36,
+        "direction": "short",
+        "exit_time": "2025-02-03 13:30:00",
+        "exit_price": 94372.337,
+        "reason": "Trailing Stop",
+        "pnl": -0.99
+      },
+      {
+        "entry_time": "2025-02-04 14:30:00",
+        "entry_price": 100147.6,
+        "direction": "long",
+        "exit_time": "2025-02-04 14:45:00",
+        "exit_price": 100252.762,
+        "reason": "Trailing Stop",
+        "pnl": -0.48
+      },
+      {
+        "entry_time": "2025-02-04 20:15:00",
+        "entry_price": 98274.48,
+        "direction": "short",
+        "exit_time": "2025-02-04 20:30:00",
+        "exit_price": 98181.6345,
+        "reason": "Trailing Stop",
+        "pnl": -0.53
+      },
+      {
+        "entry_time": "2025-02-06 14:45:00",
+        "entry_price": 97835.98,
+        "direction": "short",
+        "exit_time": "2025-02-06 15:00:00",
+        "exit_price": 97670.859,
+        "reason": "Trailing Stop",
+        "pnl": -0.16
+      },
+      {
+        "entry_time": "2025-02-07 06:45:00",
+        "entry_price": 96746.87,
+        "direction": "short",
+        "exit_time": "2025-02-07 07:00:00",
+        "exit_price": 96717.8255,
+        "reason": "Trailing Stop",
+        "pnl": -0.85
+      },
+      {
+        "entry_time": "2025-02-09 10:45:00",
+        "entry_price": 96762.01,
+        "direction": "short",
+        "exit_time": "2025-02-09 11:00:00",
+        "exit_price": 96762.0015,
+        "reason": "Trailing Stop",
+        "pnl": -1.0
+      },
+      {
+        "entry_time": "2025-02-10 00:00:00",
+        "entry_price": 96946.65,
+        "direction": "long",
+        "exit_time": "2025-02-10 00:15:00",
+        "exit_price": 97103.747,
+        "reason": "Trailing Stop",
+        "pnl": -0.19
+      },
+      {
+        "entry_time": "2025-02-10 03:30:00",
+        "entry_price": 96996.97,
+        "direction": "long",
+        "exit_time": "2025-02-10 03:45:00",
+        "exit_price": 97062.7685,
+        "reason": "Trailing Stop",
+        "pnl": -0.66
+      },
+      {
+        "entry_time": "2025-02-11 00:00:00",
+        "entry_price": 97735.32,
+        "direction": "long",
+        "exit_time": "2025-02-11 00:15:00",
+        "exit_price": 97837.405,
+        "reason": "Trailing Stop",
+        "pnl": -0.48
+      },
+      {
+        "entry_time": "2025-02-12 13:30:00",
+        "entry_price": 94520.37,
+        "direction": "short",
+        "exit_time": "2025-02-12 13:45:00",
+        "exit_price": 94460.5555,
+        "reason": "Trailing Stop",
+        "pnl": -0.68
+      },
+      {
+        "entry_time": "2025-02-12 16:45:00",
+        "entry_price": 96986.14,
+        "direction": "long",
+        "exit_time": "2025-02-12 17:00:00",
+        "exit_price": 97211.985,
+        "reason": "Trailing Stop",
+        "pnl": 0.16
+      },
+      {
+        "entry_time": "2025-02-14 14:45:00",
+        "entry_price": 97290.95,
+        "direction": "long",
+        "exit_time": "2025-02-14 15:00:00",
+        "exit_price": 97391.5475,
+        "reason": "Trailing Stop",
+        "pnl": -0.48
+      },
+      {
+        "entry_time": "2025-02-14 16:45:00",
+        "entry_price": 97658.7,
+        "direction": "long",
+        "exit_time": "2025-02-14 17:00:00",
+        "exit_price": 97658.7,
+        "reason": "Trailing Stop",
+        "pnl": -1.0
+      },
+      {
+        "entry_time": "2025-02-17 15:45:00",
+        "entry_price": 95659.46,
+        "direction": "short",
+        "exit_time": "2025-02-17 16:00:00",
+        "exit_price": 95566.419,
+        "reason": "Trailing Stop",
+        "pnl": -0.51
+      },
+      {
+        "entry_time": "2025-02-18 05:45:00",
+        "entry_price": 95609.49,
+        "direction": "short",
+        "exit_time": "2025-02-18 06:00:00",
+        "exit_price": 95346.4235,
+        "reason": "Trailing Stop",
+        "pnl": 0.38
+      },
+      {
+        "entry_time": "2025-02-18 15:15:00",
+        "entry_price": 95403.51,
+        "direction": "short",
+        "exit_time": "2025-02-18 15:30:00",
+        "exit_price": 95368.439,
+        "reason": "Trailing Stop",
+        "pnl": -0.82
+      },
+      {
+        "entry_time": "2025-02-19 18:45:00",
+        "entry_price": 95670.54,
+        "direction": "short",
+        "exit_time": "2025-02-19 19:00:00",
+        "exit_price": 95446.8795,
+        "reason": "Trailing Stop",
+        "pnl": 0.17
+      },
+      {
+        "entry_time": "2025-02-21 15:30:00",
+        "entry_price": 97600.6,
+        "direction": "short",
+        "exit_time": "2025-02-21 15:45:00",
+        "exit_price": 97450.0905,
+        "reason": "Trailing Stop",
+        "pnl": -0.23
+      },
+      {
+        "entry_time": "2025-02-24 03:15:00",
+        "entry_price": 95515.01,
+        "direction": "short",
+        "exit_time": "2025-02-24 03:30:00",
+        "exit_price": 95341.6015,
+        "reason": "Trailing Stop",
+        "pnl": -0.09
+      },
+      {
+        "entry_time": "2025-02-24 14:00:00",
+        "entry_price": 95412.01,
+        "direction": "short",
+        "exit_time": "2025-02-24 14:15:00",
+        "exit_price": 95389.9015,
+        "reason": "Trailing Stop",
+        "pnl": -0.89
+      },
+      {
+        "entry_time": "2025-02-26 12:15:00",
+        "entry_price": 88333.38,
+        "direction": "short",
+        "exit_time": "2025-02-26 12:30:00",
+        "exit_price": 88244.9885,
+        "reason": "Trailing Stop",
+        "pnl": -0.5
+      },
+      {
+        "entry_time": "2025-02-27 14:45:00",
+        "entry_price": 84968.65,
+        "direction": "short",
+        "exit_time": "2025-02-27 15:00:00",
+        "exit_price": 84689.935,
+        "reason": "Trailing Stop",
+        "pnl": 0.64
+      },
+      {
+        "entry_time": "2025-03-02 15:30:00",
+        "entry_price": 88081.19,
+        "direction": "long",
+        "exit_time": "2025-03-02 15:45:00",
+        "exit_price": 88216.17,
+        "reason": "Trailing Stop",
+        "pnl": -0.24
+      },
+      {
+        "entry_time": "2025-03-03 14:45:00",
+        "entry_price": 89278.88,
+        "direction": "short",
+        "exit_time": "2025-03-03 15:00:00",
+        "exit_price": 89141.282,
+        "reason": "Trailing Stop",
+        "pnl": -0.23
+      },
+      {
+        "entry_time": "2025-03-05 17:15:00",
+        "entry_price": 90040.81,
+        "direction": "long",
+        "exit_time": "2025-03-05 17:30:00",
+        "exit_price": 90410.1265,
+        "reason": "Trailing Stop",
+        "pnl": 1.05
+      },
+      {
+        "entry_time": "2025-03-07 00:15:00",
+        "entry_price": 87037.48,
+        "direction": "short",
+        "exit_time": "2025-03-07 00:30:00",
+        "exit_price": 85815.622,
+        "reason": "Trailing Stop",
+        "pnl": 6.03
+      },
+      {
+        "entry_time": "2025-03-07 16:15:00",
+        "entry_price": 87476.22,
+        "direction": "short",
+        "exit_time": "2025-03-07 16:30:00",
+        "exit_price": 87036.753,
+        "reason": "Trailing Stop",
+        "pnl": 1.52
+      },
+      {
+        "entry_time": "2025-03-10 08:30:00",
+        "entry_price": 81466.02,
+        "direction": "short",
+        "exit_time": "2025-03-10 08:45:00",
+        "exit_price": 81198.253,
+        "reason": "Trailing Stop",
+        "pnl": 0.65
+      },
+      {
+        "entry_time": "2025-03-10 14:00:00",
+        "entry_price": 80162.28,
+        "direction": "short",
+        "exit_time": "2025-03-10 14:15:00",
+        "exit_price": 79456.542,
+        "reason": "Trailing Stop",
+        "pnl": 3.41
+      },
+      {
+        "entry_time": "2025-03-11 14:30:00",
+        "entry_price": 79470.69,
+        "direction": "short",
+        "exit_time": "2025-03-11 14:45:00",
+        "exit_price": 79304.0815,
+        "reason": "Trailing Stop",
+        "pnl": 0.05
+      },
+      {
+        "entry_time": "2025-03-12 08:30:00",
+        "entry_price": 82690.86,
+        "direction": "long",
+        "exit_time": "2025-03-12 08:45:00",
+        "exit_price": 82788.0575,
+        "reason": "Trailing Stop",
+        "pnl": -0.41
+      },
+      {
+        "entry_time": "2025-03-12 14:45:00",
+        "entry_price": 81535.72,
+        "direction": "short",
+        "exit_time": "2025-03-12 15:00:00",
+        "exit_price": 80746.8605,
+        "reason": "Trailing Stop",
+        "pnl": 3.85
+      },
+      {
+        "entry_time": "2025-03-16 16:15:00",
+        "entry_price": 84350.65,
+        "direction": "long",
+        "exit_time": "2025-03-16 16:30:00",
+        "exit_price": 84368.3725,
+        "reason": "Trailing Stop",
+        "pnl": -0.9
+      },
+      {
+        "entry_time": "2025-03-17 12:45:00",
+        "entry_price": 83052.0,
+        "direction": "short",
+        "exit_time": "2025-03-17 13:00:00",
+        "exit_price": 82883.0285,
+        "reason": "Trailing Stop",
+        "pnl": 0.02
+      },
+      {
+        "entry_time": "2025-03-20 14:15:00",
+        "entry_price": 86344.29,
+        "direction": "long",
+        "exit_time": "2025-03-20 14:30:00",
+        "exit_price": 86366.6195,
+        "reason": "Trailing Stop",
+        "pnl": -0.87
+      },
+      {
+        "entry_time": "2025-03-20 15:45:00",
+        "entry_price": 84691.76,
+        "direction": "short",
+        "exit_time": "2025-03-20 16:00:00",
+        "exit_price": 84409.016,
+        "reason": "Trailing Stop",
+        "pnl": 0.67
+      },
+      {
+        "entry_time": "2025-03-22 18:30:00",
+        "entry_price": 84318.17,
+        "direction": "long",
+        "exit_time": "2025-03-22 18:45:00",
+        "exit_price": 84319.7255,
+        "reason": "Trailing Stop",
+        "pnl": -0.99
+      },
+      {
+        "entry_time": "2025-03-23 02:30:00",
+        "entry_price": 84221.07,
+        "direction": "long",
+        "exit_time": "2025-03-23 02:45:00",
+        "exit_price": 84268.67,
+        "reason": "Trailing Stop",
+        "pnl": -0.72
+      },
+      {
+        "entry_time": "2025-03-27 11:00:00",
+        "entry_price": 87179.3,
+        "direction": "short",
+        "exit_time": "2025-03-27 11:15:00",
+        "exit_price": 86946.4255,
+        "reason": "Trailing Stop",
+        "pnl": 0.34
+      },
+      {
+        "entry_time": "2025-04-01 14:00:00",
+        "entry_price": 82796.1,
+        "direction": "short",
+        "exit_time": "2025-04-01 14:15:00",
+        "exit_price": 82581.815,
+        "reason": "Trailing Stop",
+        "pnl": 0.3
+      },
+      {
+        "entry_time": "2025-04-01 15:00:00",
+        "entry_price": 84906.0,
+        "direction": "long",
+        "exit_time": "2025-04-01 15:15:00",
+        "exit_price": 85179.0795,
+        "reason": "Trailing Stop",
+        "pnl": 0.61
+      },
+      {
+        "entry_time": "2025-04-02 09:00:00",
+        "entry_price": 85311.84,
+        "direction": "long",
+        "exit_time": "2025-04-02 09:15:00",
+        "exit_price": 85352.776,
+        "reason": "Trailing Stop",
+        "pnl": -0.76
+      },
+      {
+        "entry_time": "2025-04-02 21:00:00",
+        "entry_price": 84549.91,
+        "direction": "short",
+        "exit_time": "2025-04-02 21:15:00",
+        "exit_price": 84258.6575,
+        "reason": "Trailing Stop",
+        "pnl": 0.73
+      },
+      {
+        "entry_time": "2025-04-04 11:00:00",
+        "entry_price": 82153.64,
+        "direction": "short",
+        "exit_time": "2025-04-04 11:15:00",
+        "exit_price": 81749.346,
+        "reason": "Trailing Stop",
+        "pnl": 1.47
+      },
+      {
+        "entry_time": "2025-04-08 12:00:00",
+        "entry_price": 79986.01,
+        "direction": "long",
+        "exit_time": "2025-04-08 12:15:00",
+        "exit_price": 79988.764,
+        "reason": "Trailing Stop",
+        "pnl": -0.99
+      },
+      {
+        "entry_time": "2025-04-08 14:45:00",
+        "entry_price": 78479.91,
+        "direction": "short",
+        "exit_time": "2025-04-08 15:00:00",
+        "exit_price": 78237.6175,
+        "reason": "Trailing Stop",
+        "pnl": 0.55
+      },
+      {
+        "entry_time": "2025-04-09 11:30:00",
+        "entry_price": 75952.72,
+        "direction": "short",
+        "exit_time": "2025-04-09 11:45:00",
+        "exit_price": 75833.5755,
+        "reason": "Trailing Stop",
+        "pnl": -0.22
+      },
+      {
+        "entry_time": "2025-04-11 02:00:00",
+        "entry_price": 80316.64,
+        "direction": "long",
+        "exit_time": "2025-04-11 02:15:00",
+        "exit_price": 80752.163,
+        "reason": "Trailing Stop",
+        "pnl": 1.71
+      },
+      {
+        "entry_time": "2025-04-13 17:30:00",
+        "entry_price": 84843.75,
+        "direction": "long",
+        "exit_time": "2025-04-13 17:45:00",
+        "exit_price": 84911.954,
+        "reason": "Trailing Stop",
+        "pnl": -0.6
+      },
+      {
+        "entry_time": "2025-04-13 19:30:00",
+        "entry_price": 83530.86,
+        "direction": "short",
+        "exit_time": "2025-04-13 19:45:00",
+        "exit_price": 83430.339,
+        "reason": "Trailing Stop",
+        "pnl": -0.4
+      },
+      {
+        "entry_time": "2025-04-14 00:30:00",
+        "entry_price": 84782.6,
+        "direction": "long",
+        "exit_time": "2025-04-14 00:45:00",
+        "exit_price": 84819.49,
+        "reason": "Trailing Stop",
+        "pnl": -0.79
+      },
+      {
+        "entry_time": "2025-04-14 15:45:00",
+        "entry_price": 84101.16,
+        "direction": "short",
+        "exit_time": "2025-04-14 16:00:00",
+        "exit_price": 83899.2595,
+        "reason": "Trailing Stop",
+        "pnl": 0.2
+      },
+      {
+        "entry_time": "2025-04-17 14:15:00",
+        "entry_price": 84040.0,
+        "direction": "short",
+        "exit_time": "2025-04-17 14:30:00",
+        "exit_price": 83781.821,
+        "reason": "Trailing Stop",
+        "pnl": 0.54
+      }
+    ],
+    "params": {
+      "fast": 10,
+      "slow": 34,
+      "sl_mult": 1.75,
+      "tp_mult": 5.5,
+      "tp_multipliers": [
+        2.5,
+        3.5
+      ],
+      "trailing_stop_ratio": 0.15,
+      "use_trailing_stop": true,
+      "use_partial_tp": true,
+      "use_rsi_filter": true,
+      "use_macd_confirm": false
+    },
+    "aggregate_score": 0.9252
+  },
+  {
+    "pnl": 30.71,
+    "sharpe": 0.11,
+    "max_drawdown": 12.3,
+    "trades": 69,
+    "win_rate": 40.58,
+    "hodl_pnl": -1867.32,
+    "alpha_vs_hodl": 1898.04,
+    "trades_log": [
+      {
+        "entry_time": "2025-01-18 19:30:00",
+        "entry_price": 104439.29,
+        "direction": "long",
+        "exit_time": "2025-01-18 19:45:00",
+        "exit_price": 104479.784,
+        "reason": "Trailing Stop",
+        "pnl": -0.81
+      },
+      {
+        "entry_time": "2025-01-19 09:00:00",
+        "entry_price": 104121.85,
+        "direction": "short",
+        "exit_time": "2025-01-19 09:15:00",
+        "exit_price": 103551.364,
+        "reason": "Trailing Stop",
+        "pnl": 1.74
+      },
+      {
+        "entry_time": "2025-01-19 21:45:00",
+        "entry_price": 103684.44,
+        "direction": "short",
+        "exit_time": "2025-01-19 22:00:00",
+        "exit_price": 102860.11,
+        "reason": "Trailing Stop",
+        "pnl": 2.98
+      },
+      {
+        "entry_time": "2025-01-20 06:30:00",
+        "entry_price": 104689.49,
+        "direction": "long",
+        "exit_time": "2025-01-20 06:45:00",
+        "exit_price": 108853.2235,
+        "reason": "Trailing Stop",
+        "pnl": 18.86
+      },
+      {
+        "entry_time": "2025-01-20 16:00:00",
+        "entry_price": 104513.09,
+        "direction": "short",
+        "exit_time": "2025-01-20 16:15:00",
+        "exit_price": 104359.1635,
+        "reason": "Trailing Stop",
+        "pnl": -0.26
+      },
+      {
+        "entry_time": "2025-01-23 14:30:00",
+        "entry_price": 104940.95,
+        "direction": "long",
+        "exit_time": "2025-01-23 14:45:00",
+        "exit_price": 105884.3735,
+        "reason": "Trailing Stop",
+        "pnl": 3.5
+      },
+      {
+        "entry_time": "2025-01-23 21:15:00",
+        "entry_price": 102734.0,
+        "direction": "short",
+        "exit_time": "2025-01-23 21:30:00",
+        "exit_price": 102364.1735,
+        "reason": "Trailing Stop",
+        "pnl": 0.8
+      },
+      {
+        "entry_time": "2025-01-26 00:15:00",
+        "entry_price": 104664.36,
+        "direction": "short",
+        "exit_time": "2025-01-26 00:30:00",
+        "exit_price": 104564.434,
+        "reason": "Trailing Stop",
+        "pnl": -0.52
+      },
+      {
+        "entry_time": "2025-01-26 03:45:00",
+        "entry_price": 105062.42,
+        "direction": "long",
+        "exit_time": "2025-01-26 04:00:00",
+        "exit_price": 105135.367,
+        "reason": "Trailing Stop",
+        "pnl": -0.66
+      },
+      {
+        "entry_time": "2025-01-26 09:30:00",
+        "entry_price": 104629.16,
+        "direction": "short",
+        "exit_time": "2025-01-26 09:45:00",
+        "exit_price": 104553.0425,
+        "reason": "Trailing Stop",
+        "pnl": -0.64
+      },
+      {
+        "entry_time": "2025-01-28 14:00:00",
+        "entry_price": 101962.98,
+        "direction": "short",
+        "exit_time": "2025-01-28 14:15:00",
+        "exit_price": 101941.084,
+        "reason": "Trailing Stop",
+        "pnl": -0.89
+      },
+      {
+        "entry_time": "2025-01-29 13:15:00",
+        "entry_price": 101896.01,
+        "direction": "short",
+        "exit_time": "2025-01-29 13:30:00",
+        "exit_price": 101788.7145,
+        "reason": "Trailing Stop",
+        "pnl": -0.47
+      },
+      {
+        "entry_time": "2025-01-29 17:30:00",
+        "entry_price": 102600.0,
+        "direction": "long",
+        "exit_time": "2025-01-29 17:45:00",
+        "exit_price": 102651.714,
+        "reason": "Trailing Stop",
+        "pnl": -0.75
+      },
+      {
+        "entry_time": "2025-01-29 19:15:00",
+        "entry_price": 101547.87,
+        "direction": "short",
+        "exit_time": "2025-01-29 19:30:00",
+        "exit_price": 101485.174,
+        "reason": "Trailing Stop",
+        "pnl": -0.69
+      },
+      {
+        "entry_time": "2025-01-31 11:15:00",
+        "entry_price": 104823.5,
+        "direction": "long",
+        "exit_time": "2025-01-31 11:30:00",
+        "exit_price": 104823.5,
+        "reason": "Trailing Stop",
+        "pnl": -1.0
+      },
+      {
+        "entry_time": "2025-01-31 18:15:00",
+        "entry_price": 104018.68,
+        "direction": "short",
+        "exit_time": "2025-01-31 18:30:00",
+        "exit_price": 103152.8105,
+        "reason": "Trailing Stop",
+        "pnl": 3.17
+      },
+      {
+        "entry_time": "2025-02-03 13:15:00",
+        "entry_price": 94374.36,
+        "direction": "short",
+        "exit_time": "2025-02-03 13:30:00",
+        "exit_price": 94372.337,
+        "reason": "Trailing Stop",
+        "pnl": -0.99
+      },
+      {
+        "entry_time": "2025-02-04 14:30:00",
+        "entry_price": 100147.6,
+        "direction": "long",
+        "exit_time": "2025-02-04 14:45:00",
+        "exit_price": 100252.762,
+        "reason": "Trailing Stop",
+        "pnl": -0.48
+      },
+      {
+        "entry_time": "2025-02-04 20:15:00",
+        "entry_price": 98274.48,
+        "direction": "short",
+        "exit_time": "2025-02-04 20:30:00",
+        "exit_price": 98181.6345,
+        "reason": "Trailing Stop",
+        "pnl": -0.53
+      },
+      {
+        "entry_time": "2025-02-06 14:45:00",
+        "entry_price": 97835.98,
+        "direction": "short",
+        "exit_time": "2025-02-06 15:00:00",
+        "exit_price": 97670.859,
+        "reason": "Trailing Stop",
+        "pnl": -0.16
+      },
+      {
+        "entry_time": "2025-02-07 06:45:00",
+        "entry_price": 96746.87,
+        "direction": "short",
+        "exit_time": "2025-02-07 07:00:00",
+        "exit_price": 96717.8255,
+        "reason": "Trailing Stop",
+        "pnl": -0.85
+      },
+      {
+        "entry_time": "2025-02-09 10:45:00",
+        "entry_price": 96762.01,
+        "direction": "short",
+        "exit_time": "2025-02-09 11:00:00",
+        "exit_price": 96762.0015,
+        "reason": "Trailing Stop",
+        "pnl": -1.0
+      },
+      {
+        "entry_time": "2025-02-10 00:00:00",
+        "entry_price": 96946.65,
+        "direction": "long",
+        "exit_time": "2025-02-10 00:15:00",
+        "exit_price": 97103.747,
+        "reason": "Trailing Stop",
+        "pnl": -0.19
+      },
+      {
+        "entry_time": "2025-02-10 03:30:00",
+        "entry_price": 96996.97,
+        "direction": "long",
+        "exit_time": "2025-02-10 03:45:00",
+        "exit_price": 97062.7685,
+        "reason": "Trailing Stop",
+        "pnl": -0.66
+      },
+      {
+        "entry_time": "2025-02-11 00:00:00",
+        "entry_price": 97735.32,
+        "direction": "long",
+        "exit_time": "2025-02-11 00:15:00",
+        "exit_price": 97837.405,
+        "reason": "Trailing Stop",
+        "pnl": -0.48
+      },
+      {
+        "entry_time": "2025-02-12 13:30:00",
+        "entry_price": 94520.37,
+        "direction": "short",
+        "exit_time": "2025-02-12 13:45:00",
+        "exit_price": 94460.5555,
+        "reason": "Trailing Stop",
+        "pnl": -0.68
+      },
+      {
+        "entry_time": "2025-02-12 16:45:00",
+        "entry_price": 96986.14,
+        "direction": "long",
+        "exit_time": "2025-02-12 17:00:00",
+        "exit_price": 97211.985,
+        "reason": "Trailing Stop",
+        "pnl": 0.16
+      },
+      {
+        "entry_time": "2025-02-14 14:45:00",
+        "entry_price": 97290.95,
+        "direction": "long",
+        "exit_time": "2025-02-14 15:00:00",
+        "exit_price": 97391.5475,
+        "reason": "Trailing Stop",
+        "pnl": -0.48
+      },
+      {
+        "entry_time": "2025-02-14 16:45:00",
+        "entry_price": 97658.7,
+        "direction": "long",
+        "exit_time": "2025-02-14 17:00:00",
+        "exit_price": 97658.7,
+        "reason": "Trailing Stop",
+        "pnl": -1.0
+      },
+      {
+        "entry_time": "2025-02-17 15:45:00",
+        "entry_price": 95659.46,
+        "direction": "short",
+        "exit_time": "2025-02-17 16:00:00",
+        "exit_price": 95566.419,
+        "reason": "Trailing Stop",
+        "pnl": -0.51
+      },
+      {
+        "entry_time": "2025-02-18 05:45:00",
+        "entry_price": 95609.49,
+        "direction": "short",
+        "exit_time": "2025-02-18 06:00:00",
+        "exit_price": 95346.4235,
+        "reason": "Trailing Stop",
+        "pnl": 0.38
+      },
+      {
+        "entry_time": "2025-02-18 15:15:00",
+        "entry_price": 95403.51,
+        "direction": "short",
+        "exit_time": "2025-02-18 15:30:00",
+        "exit_price": 95368.439,
+        "reason": "Trailing Stop",
+        "pnl": -0.82
+      },
+      {
+        "entry_time": "2025-02-19 18:45:00",
+        "entry_price": 95670.54,
+        "direction": "short",
+        "exit_time": "2025-02-19 19:00:00",
+        "exit_price": 95446.8795,
+        "reason": "Trailing Stop",
+        "pnl": 0.17
+      },
+      {
+        "entry_time": "2025-02-21 15:30:00",
+        "entry_price": 97600.6,
+        "direction": "short",
+        "exit_time": "2025-02-21 15:45:00",
+        "exit_price": 97450.0905,
+        "reason": "Trailing Stop",
+        "pnl": -0.23
+      },
+      {
+        "entry_time": "2025-02-24 03:15:00",
+        "entry_price": 95515.01,
+        "direction": "short",
+        "exit_time": "2025-02-24 03:30:00",
+        "exit_price": 95341.6015,
+        "reason": "Trailing Stop",
+        "pnl": -0.09
+      },
+      {
+        "entry_time": "2025-02-24 14:00:00",
+        "entry_price": 95412.01,
+        "direction": "short",
+        "exit_time": "2025-02-24 14:15:00",
+        "exit_price": 95389.9015,
+        "reason": "Trailing Stop",
+        "pnl": -0.89
+      },
+      {
+        "entry_time": "2025-02-26 12:15:00",
+        "entry_price": 88333.38,
+        "direction": "short",
+        "exit_time": "2025-02-26 12:30:00",
+        "exit_price": 88244.9885,
+        "reason": "Trailing Stop",
+        "pnl": -0.5
+      },
+      {
+        "entry_time": "2025-02-27 14:45:00",
+        "entry_price": 84968.65,
+        "direction": "short",
+        "exit_time": "2025-02-27 15:00:00",
+        "exit_price": 84689.935,
+        "reason": "Trailing Stop",
+        "pnl": 0.64
+      },
+      {
+        "entry_time": "2025-03-02 15:30:00",
+        "entry_price": 88081.19,
+        "direction": "long",
+        "exit_time": "2025-03-02 15:45:00",
+        "exit_price": 88216.17,
+        "reason": "Trailing Stop",
+        "pnl": -0.24
+      },
+      {
+        "entry_time": "2025-03-03 14:45:00",
+        "entry_price": 89278.88,
+        "direction": "short",
+        "exit_time": "2025-03-03 15:00:00",
+        "exit_price": 89141.282,
+        "reason": "Trailing Stop",
+        "pnl": -0.23
+      },
+      {
+        "entry_time": "2025-03-05 17:15:00",
+        "entry_price": 90040.81,
+        "direction": "long",
+        "exit_time": "2025-03-05 17:30:00",
+        "exit_price": 90410.1265,
+        "reason": "Trailing Stop",
+        "pnl": 1.05
+      },
+      {
+        "entry_time": "2025-03-07 00:15:00",
+        "entry_price": 87037.48,
+        "direction": "short",
+        "exit_time": "2025-03-07 00:30:00",
+        "exit_price": 85815.622,
+        "reason": "Trailing Stop",
+        "pnl": 6.03
+      },
+      {
+        "entry_time": "2025-03-07 16:15:00",
+        "entry_price": 87476.22,
+        "direction": "short",
+        "exit_time": "2025-03-07 16:30:00",
+        "exit_price": 87036.753,
+        "reason": "Trailing Stop",
+        "pnl": 1.52
+      },
+      {
+        "entry_time": "2025-03-10 08:30:00",
+        "entry_price": 81466.02,
+        "direction": "short",
+        "exit_time": "2025-03-10 08:45:00",
+        "exit_price": 81198.253,
+        "reason": "Trailing Stop",
+        "pnl": 0.65
+      },
+      {
+        "entry_time": "2025-03-10 14:00:00",
+        "entry_price": 80162.28,
+        "direction": "short",
+        "exit_time": "2025-03-10 14:15:00",
+        "exit_price": 79456.542,
+        "reason": "Trailing Stop",
+        "pnl": 3.41
+      },
+      {
+        "entry_time": "2025-03-11 14:30:00",
+        "entry_price": 79470.69,
+        "direction": "short",
+        "exit_time": "2025-03-11 14:45:00",
+        "exit_price": 79304.0815,
+        "reason": "Trailing Stop",
+        "pnl": 0.05
+      },
+      {
+        "entry_time": "2025-03-12 08:30:00",
+        "entry_price": 82690.86,
+        "direction": "long",
+        "exit_time": "2025-03-12 08:45:00",
+        "exit_price": 82788.0575,
+        "reason": "Trailing Stop",
+        "pnl": -0.41
+      },
+      {
+        "entry_time": "2025-03-12 14:45:00",
+        "entry_price": 81535.72,
+        "direction": "short",
+        "exit_time": "2025-03-12 15:00:00",
+        "exit_price": 80746.8605,
+        "reason": "Trailing Stop",
+        "pnl": 3.85
+      },
+      {
+        "entry_time": "2025-03-16 16:15:00",
+        "entry_price": 84350.65,
+        "direction": "long",
+        "exit_time": "2025-03-16 16:30:00",
+        "exit_price": 84368.3725,
+        "reason": "Trailing Stop",
+        "pnl": -0.9
+      },
+      {
+        "entry_time": "2025-03-17 12:45:00",
+        "entry_price": 83052.0,
+        "direction": "short",
+        "exit_time": "2025-03-17 13:00:00",
+        "exit_price": 82883.0285,
+        "reason": "Trailing Stop",
+        "pnl": 0.02
+      },
+      {
+        "entry_time": "2025-03-20 14:15:00",
+        "entry_price": 86344.29,
+        "direction": "long",
+        "exit_time": "2025-03-20 14:30:00",
+        "exit_price": 86366.6195,
+        "reason": "Trailing Stop",
+        "pnl": -0.87
+      },
+      {
+        "entry_time": "2025-03-20 15:45:00",
+        "entry_price": 84691.76,
+        "direction": "short",
+        "exit_time": "2025-03-20 16:00:00",
+        "exit_price": 84409.016,
+        "reason": "Trailing Stop",
+        "pnl": 0.67
+      },
+      {
+        "entry_time": "2025-03-22 18:30:00",
+        "entry_price": 84318.17,
+        "direction": "long",
+        "exit_time": "2025-03-22 18:45:00",
+        "exit_price": 84319.7255,
+        "reason": "Trailing Stop",
+        "pnl": -0.99
+      },
+      {
+        "entry_time": "2025-03-23 02:30:00",
+        "entry_price": 84221.07,
+        "direction": "long",
+        "exit_time": "2025-03-23 02:45:00",
+        "exit_price": 84268.67,
+        "reason": "Trailing Stop",
+        "pnl": -0.72
+      },
+      {
+        "entry_time": "2025-03-27 11:00:00",
+        "entry_price": 87179.3,
+        "direction": "short",
+        "exit_time": "2025-03-27 11:15:00",
+        "exit_price": 86946.4255,
+        "reason": "Trailing Stop",
+        "pnl": 0.34
+      },
+      {
+        "entry_time": "2025-04-01 14:00:00",
+        "entry_price": 82796.1,
+        "direction": "short",
+        "exit_time": "2025-04-01 14:15:00",
+        "exit_price": 82581.815,
+        "reason": "Trailing Stop",
+        "pnl": 0.3
+      },
+      {
+        "entry_time": "2025-04-01 15:00:00",
+        "entry_price": 84906.0,
+        "direction": "long",
+        "exit_time": "2025-04-01 15:15:00",
+        "exit_price": 85179.0795,
+        "reason": "Trailing Stop",
+        "pnl": 0.61
+      },
+      {
+        "entry_time": "2025-04-02 09:00:00",
+        "entry_price": 85311.84,
+        "direction": "long",
+        "exit_time": "2025-04-02 09:15:00",
+        "exit_price": 85352.776,
+        "reason": "Trailing Stop",
+        "pnl": -0.76
+      },
+      {
+        "entry_time": "2025-04-02 21:00:00",
+        "entry_price": 84549.91,
+        "direction": "short",
+        "exit_time": "2025-04-02 21:15:00",
+        "exit_price": 84258.6575,
+        "reason": "Trailing Stop",
+        "pnl": 0.73
+      },
+      {
+        "entry_time": "2025-04-04 11:00:00",
+        "entry_price": 82153.64,
+        "direction": "short",
+        "exit_time": "2025-04-04 11:15:00",
+        "exit_price": 81749.346,
+        "reason": "Trailing Stop",
+        "pnl": 1.47
+      },
+      {
+        "entry_time": "2025-04-08 12:00:00",
+        "entry_price": 79986.01,
+        "direction": "long",
+        "exit_time": "2025-04-08 12:15:00",
+        "exit_price": 79988.764,
+        "reason": "Trailing Stop",
+        "pnl": -0.99
+      },
+      {
+        "entry_time": "2025-04-08 14:45:00",
+        "entry_price": 78479.91,
+        "direction": "short",
+        "exit_time": "2025-04-08 15:00:00",
+        "exit_price": 78237.6175,
+        "reason": "Trailing Stop",
+        "pnl": 0.55
+      },
+      {
+        "entry_time": "2025-04-09 11:30:00",
+        "entry_price": 75952.72,
+        "direction": "short",
+        "exit_time": "2025-04-09 11:45:00",
+        "exit_price": 75833.5755,
+        "reason": "Trailing Stop",
+        "pnl": -0.22
+      },
+      {
+        "entry_time": "2025-04-11 02:00:00",
+        "entry_price": 80316.64,
+        "direction": "long",
+        "exit_time": "2025-04-11 02:15:00",
+        "exit_price": 80752.163,
+        "reason": "Trailing Stop",
+        "pnl": 1.71
+      },
+      {
+        "entry_time": "2025-04-13 17:30:00",
+        "entry_price": 84843.75,
+        "direction": "long",
+        "exit_time": "2025-04-13 17:45:00",
+        "exit_price": 84911.954,
+        "reason": "Trailing Stop",
+        "pnl": -0.6
+      },
+      {
+        "entry_time": "2025-04-13 19:30:00",
+        "entry_price": 83530.86,
+        "direction": "short",
+        "exit_time": "2025-04-13 19:45:00",
+        "exit_price": 83430.339,
+        "reason": "Trailing Stop",
+        "pnl": -0.4
+      },
+      {
+        "entry_time": "2025-04-14 00:30:00",
+        "entry_price": 84782.6,
+        "direction": "long",
+        "exit_time": "2025-04-14 00:45:00",
+        "exit_price": 84819.49,
+        "reason": "Trailing Stop",
+        "pnl": -0.79
+      },
+      {
+        "entry_time": "2025-04-14 15:45:00",
+        "entry_price": 84101.16,
+        "direction": "short",
+        "exit_time": "2025-04-14 16:00:00",
+        "exit_price": 83899.2595,
+        "reason": "Trailing Stop",
+        "pnl": 0.2
+      },
+      {
+        "entry_time": "2025-04-17 14:15:00",
+        "entry_price": 84040.0,
+        "direction": "short",
+        "exit_time": "2025-04-17 14:30:00",
+        "exit_price": 83781.821,
+        "reason": "Trailing Stop",
+        "pnl": 0.54
+      }
+    ],
+    "params": {
+      "fast": 10,
+      "slow": 34,
+      "sl_mult": 2.0,
+      "tp_mult": 4.5,
+      "tp_multipliers": [
+        2.0,
+        3.0
+      ],
+      "trailing_stop_ratio": 0.15,
+      "use_trailing_stop": true,
+      "use_partial_tp": true,
+      "use_rsi_filter": true,
+      "use_macd_confirm": false
+    },
+    "aggregate_score": 0.9252
+  },
+  {
+    "pnl": 30.71,
+    "sharpe": 0.11,
+    "max_drawdown": 12.3,
+    "trades": 69,
+    "win_rate": 40.58,
+    "hodl_pnl": -1867.32,
+    "alpha_vs_hodl": 1898.04,
+    "trades_log": [
+      {
+        "entry_time": "2025-01-18 19:30:00",
+        "entry_price": 104439.29,
+        "direction": "long",
+        "exit_time": "2025-01-18 19:45:00",
+        "exit_price": 104479.784,
+        "reason": "Trailing Stop",
+        "pnl": -0.81
+      },
+      {
+        "entry_time": "2025-01-19 09:00:00",
+        "entry_price": 104121.85,
+        "direction": "short",
+        "exit_time": "2025-01-19 09:15:00",
+        "exit_price": 103551.364,
+        "reason": "Trailing Stop",
+        "pnl": 1.74
+      },
+      {
+        "entry_time": "2025-01-19 21:45:00",
+        "entry_price": 103684.44,
+        "direction": "short",
+        "exit_time": "2025-01-19 22:00:00",
+        "exit_price": 102860.11,
+        "reason": "Trailing Stop",
+        "pnl": 2.98
+      },
+      {
+        "entry_time": "2025-01-20 06:30:00",
+        "entry_price": 104689.49,
+        "direction": "long",
+        "exit_time": "2025-01-20 06:45:00",
+        "exit_price": 108853.2235,
+        "reason": "Trailing Stop",
+        "pnl": 18.86
+      },
+      {
+        "entry_time": "2025-01-20 16:00:00",
+        "entry_price": 104513.09,
+        "direction": "short",
+        "exit_time": "2025-01-20 16:15:00",
+        "exit_price": 104359.1635,
+        "reason": "Trailing Stop",
+        "pnl": -0.26
+      },
+      {
+        "entry_time": "2025-01-23 14:30:00",
+        "entry_price": 104940.95,
+        "direction": "long",
+        "exit_time": "2025-01-23 14:45:00",
+        "exit_price": 105884.3735,
+        "reason": "Trailing Stop",
+        "pnl": 3.5
+      },
+      {
+        "entry_time": "2025-01-23 21:15:00",
+        "entry_price": 102734.0,
+        "direction": "short",
+        "exit_time": "2025-01-23 21:30:00",
+        "exit_price": 102364.1735,
+        "reason": "Trailing Stop",
+        "pnl": 0.8
+      },
+      {
+        "entry_time": "2025-01-26 00:15:00",
+        "entry_price": 104664.36,
+        "direction": "short",
+        "exit_time": "2025-01-26 00:30:00",
+        "exit_price": 104564.434,
+        "reason": "Trailing Stop",
+        "pnl": -0.52
+      },
+      {
+        "entry_time": "2025-01-26 03:45:00",
+        "entry_price": 105062.42,
+        "direction": "long",
+        "exit_time": "2025-01-26 04:00:00",
+        "exit_price": 105135.367,
+        "reason": "Trailing Stop",
+        "pnl": -0.66
+      },
+      {
+        "entry_time": "2025-01-26 09:30:00",
+        "entry_price": 104629.16,
+        "direction": "short",
+        "exit_time": "2025-01-26 09:45:00",
+        "exit_price": 104553.0425,
+        "reason": "Trailing Stop",
+        "pnl": -0.64
+      },
+      {
+        "entry_time": "2025-01-28 14:00:00",
+        "entry_price": 101962.98,
+        "direction": "short",
+        "exit_time": "2025-01-28 14:15:00",
+        "exit_price": 101941.084,
+        "reason": "Trailing Stop",
+        "pnl": -0.89
+      },
+      {
+        "entry_time": "2025-01-29 13:15:00",
+        "entry_price": 101896.01,
+        "direction": "short",
+        "exit_time": "2025-01-29 13:30:00",
+        "exit_price": 101788.7145,
+        "reason": "Trailing Stop",
+        "pnl": -0.47
+      },
+      {
+        "entry_time": "2025-01-29 17:30:00",
+        "entry_price": 102600.0,
+        "direction": "long",
+        "exit_time": "2025-01-29 17:45:00",
+        "exit_price": 102651.714,
+        "reason": "Trailing Stop",
+        "pnl": -0.75
+      },
+      {
+        "entry_time": "2025-01-29 19:15:00",
+        "entry_price": 101547.87,
+        "direction": "short",
+        "exit_time": "2025-01-29 19:30:00",
+        "exit_price": 101485.174,
+        "reason": "Trailing Stop",
+        "pnl": -0.69
+      },
+      {
+        "entry_time": "2025-01-31 11:15:00",
+        "entry_price": 104823.5,
+        "direction": "long",
+        "exit_time": "2025-01-31 11:30:00",
+        "exit_price": 104823.5,
+        "reason": "Trailing Stop",
+        "pnl": -1.0
+      },
+      {
+        "entry_time": "2025-01-31 18:15:00",
+        "entry_price": 104018.68,
+        "direction": "short",
+        "exit_time": "2025-01-31 18:30:00",
+        "exit_price": 103152.8105,
+        "reason": "Trailing Stop",
+        "pnl": 3.17
+      },
+      {
+        "entry_time": "2025-02-03 13:15:00",
+        "entry_price": 94374.36,
+        "direction": "short",
+        "exit_time": "2025-02-03 13:30:00",
+        "exit_price": 94372.337,
+        "reason": "Trailing Stop",
+        "pnl": -0.99
+      },
+      {
+        "entry_time": "2025-02-04 14:30:00",
+        "entry_price": 100147.6,
+        "direction": "long",
+        "exit_time": "2025-02-04 14:45:00",
+        "exit_price": 100252.762,
+        "reason": "Trailing Stop",
+        "pnl": -0.48
+      },
+      {
+        "entry_time": "2025-02-04 20:15:00",
+        "entry_price": 98274.48,
+        "direction": "short",
+        "exit_time": "2025-02-04 20:30:00",
+        "exit_price": 98181.6345,
+        "reason": "Trailing Stop",
+        "pnl": -0.53
+      },
+      {
+        "entry_time": "2025-02-06 14:45:00",
+        "entry_price": 97835.98,
+        "direction": "short",
+        "exit_time": "2025-02-06 15:00:00",
+        "exit_price": 97670.859,
+        "reason": "Trailing Stop",
+        "pnl": -0.16
+      },
+      {
+        "entry_time": "2025-02-07 06:45:00",
+        "entry_price": 96746.87,
+        "direction": "short",
+        "exit_time": "2025-02-07 07:00:00",
+        "exit_price": 96717.8255,
+        "reason": "Trailing Stop",
+        "pnl": -0.85
+      },
+      {
+        "entry_time": "2025-02-09 10:45:00",
+        "entry_price": 96762.01,
+        "direction": "short",
+        "exit_time": "2025-02-09 11:00:00",
+        "exit_price": 96762.0015,
+        "reason": "Trailing Stop",
+        "pnl": -1.0
+      },
+      {
+        "entry_time": "2025-02-10 00:00:00",
+        "entry_price": 96946.65,
+        "direction": "long",
+        "exit_time": "2025-02-10 00:15:00",
+        "exit_price": 97103.747,
+        "reason": "Trailing Stop",
+        "pnl": -0.19
+      },
+      {
+        "entry_time": "2025-02-10 03:30:00",
+        "entry_price": 96996.97,
+        "direction": "long",
+        "exit_time": "2025-02-10 03:45:00",
+        "exit_price": 97062.7685,
+        "reason": "Trailing Stop",
+        "pnl": -0.66
+      },
+      {
+        "entry_time": "2025-02-11 00:00:00",
+        "entry_price": 97735.32,
+        "direction": "long",
+        "exit_time": "2025-02-11 00:15:00",
+        "exit_price": 97837.405,
+        "reason": "Trailing Stop",
+        "pnl": -0.48
+      },
+      {
+        "entry_time": "2025-02-12 13:30:00",
+        "entry_price": 94520.37,
+        "direction": "short",
+        "exit_time": "2025-02-12 13:45:00",
+        "exit_price": 94460.5555,
+        "reason": "Trailing Stop",
+        "pnl": -0.68
+      },
+      {
+        "entry_time": "2025-02-12 16:45:00",
+        "entry_price": 96986.14,
+        "direction": "long",
+        "exit_time": "2025-02-12 17:00:00",
+        "exit_price": 97211.985,
+        "reason": "Trailing Stop",
+        "pnl": 0.16
+      },
+      {
+        "entry_time": "2025-02-14 14:45:00",
+        "entry_price": 97290.95,
+        "direction": "long",
+        "exit_time": "2025-02-14 15:00:00",
+        "exit_price": 97391.5475,
+        "reason": "Trailing Stop",
+        "pnl": -0.48
+      },
+      {
+        "entry_time": "2025-02-14 16:45:00",
+        "entry_price": 97658.7,
+        "direction": "long",
+        "exit_time": "2025-02-14 17:00:00",
+        "exit_price": 97658.7,
+        "reason": "Trailing Stop",
+        "pnl": -1.0
+      },
+      {
+        "entry_time": "2025-02-17 15:45:00",
+        "entry_price": 95659.46,
+        "direction": "short",
+        "exit_time": "2025-02-17 16:00:00",
+        "exit_price": 95566.419,
+        "reason": "Trailing Stop",
+        "pnl": -0.51
+      },
+      {
+        "entry_time": "2025-02-18 05:45:00",
+        "entry_price": 95609.49,
+        "direction": "short",
+        "exit_time": "2025-02-18 06:00:00",
+        "exit_price": 95346.4235,
+        "reason": "Trailing Stop",
+        "pnl": 0.38
+      },
+      {
+        "entry_time": "2025-02-18 15:15:00",
+        "entry_price": 95403.51,
+        "direction": "short",
+        "exit_time": "2025-02-18 15:30:00",
+        "exit_price": 95368.439,
+        "reason": "Trailing Stop",
+        "pnl": -0.82
+      },
+      {
+        "entry_time": "2025-02-19 18:45:00",
+        "entry_price": 95670.54,
+        "direction": "short",
+        "exit_time": "2025-02-19 19:00:00",
+        "exit_price": 95446.8795,
+        "reason": "Trailing Stop",
+        "pnl": 0.17
+      },
+      {
+        "entry_time": "2025-02-21 15:30:00",
+        "entry_price": 97600.6,
+        "direction": "short",
+        "exit_time": "2025-02-21 15:45:00",
+        "exit_price": 97450.0905,
+        "reason": "Trailing Stop",
+        "pnl": -0.23
+      },
+      {
+        "entry_time": "2025-02-24 03:15:00",
+        "entry_price": 95515.01,
+        "direction": "short",
+        "exit_time": "2025-02-24 03:30:00",
+        "exit_price": 95341.6015,
+        "reason": "Trailing Stop",
+        "pnl": -0.09
+      },
+      {
+        "entry_time": "2025-02-24 14:00:00",
+        "entry_price": 95412.01,
+        "direction": "short",
+        "exit_time": "2025-02-24 14:15:00",
+        "exit_price": 95389.9015,
+        "reason": "Trailing Stop",
+        "pnl": -0.89
+      },
+      {
+        "entry_time": "2025-02-26 12:15:00",
+        "entry_price": 88333.38,
+        "direction": "short",
+        "exit_time": "2025-02-26 12:30:00",
+        "exit_price": 88244.9885,
+        "reason": "Trailing Stop",
+        "pnl": -0.5
+      },
+      {
+        "entry_time": "2025-02-27 14:45:00",
+        "entry_price": 84968.65,
+        "direction": "short",
+        "exit_time": "2025-02-27 15:00:00",
+        "exit_price": 84689.935,
+        "reason": "Trailing Stop",
+        "pnl": 0.64
+      },
+      {
+        "entry_time": "2025-03-02 15:30:00",
+        "entry_price": 88081.19,
+        "direction": "long",
+        "exit_time": "2025-03-02 15:45:00",
+        "exit_price": 88216.17,
+        "reason": "Trailing Stop",
+        "pnl": -0.24
+      },
+      {
+        "entry_time": "2025-03-03 14:45:00",
+        "entry_price": 89278.88,
+        "direction": "short",
+        "exit_time": "2025-03-03 15:00:00",
+        "exit_price": 89141.282,
+        "reason": "Trailing Stop",
+        "pnl": -0.23
+      },
+      {
+        "entry_time": "2025-03-05 17:15:00",
+        "entry_price": 90040.81,
+        "direction": "long",
+        "exit_time": "2025-03-05 17:30:00",
+        "exit_price": 90410.1265,
+        "reason": "Trailing Stop",
+        "pnl": 1.05
+      },
+      {
+        "entry_time": "2025-03-07 00:15:00",
+        "entry_price": 87037.48,
+        "direction": "short",
+        "exit_time": "2025-03-07 00:30:00",
+        "exit_price": 85815.622,
+        "reason": "Trailing Stop",
+        "pnl": 6.03
+      },
+      {
+        "entry_time": "2025-03-07 16:15:00",
+        "entry_price": 87476.22,
+        "direction": "short",
+        "exit_time": "2025-03-07 16:30:00",
+        "exit_price": 87036.753,
+        "reason": "Trailing Stop",
+        "pnl": 1.52
+      },
+      {
+        "entry_time": "2025-03-10 08:30:00",
+        "entry_price": 81466.02,
+        "direction": "short",
+        "exit_time": "2025-03-10 08:45:00",
+        "exit_price": 81198.253,
+        "reason": "Trailing Stop",
+        "pnl": 0.65
+      },
+      {
+        "entry_time": "2025-03-10 14:00:00",
+        "entry_price": 80162.28,
+        "direction": "short",
+        "exit_time": "2025-03-10 14:15:00",
+        "exit_price": 79456.542,
+        "reason": "Trailing Stop",
+        "pnl": 3.41
+      },
+      {
+        "entry_time": "2025-03-11 14:30:00",
+        "entry_price": 79470.69,
+        "direction": "short",
+        "exit_time": "2025-03-11 14:45:00",
+        "exit_price": 79304.0815,
+        "reason": "Trailing Stop",
+        "pnl": 0.05
+      },
+      {
+        "entry_time": "2025-03-12 08:30:00",
+        "entry_price": 82690.86,
+        "direction": "long",
+        "exit_time": "2025-03-12 08:45:00",
+        "exit_price": 82788.0575,
+        "reason": "Trailing Stop",
+        "pnl": -0.41
+      },
+      {
+        "entry_time": "2025-03-12 14:45:00",
+        "entry_price": 81535.72,
+        "direction": "short",
+        "exit_time": "2025-03-12 15:00:00",
+        "exit_price": 80746.8605,
+        "reason": "Trailing Stop",
+        "pnl": 3.85
+      },
+      {
+        "entry_time": "2025-03-16 16:15:00",
+        "entry_price": 84350.65,
+        "direction": "long",
+        "exit_time": "2025-03-16 16:30:00",
+        "exit_price": 84368.3725,
+        "reason": "Trailing Stop",
+        "pnl": -0.9
+      },
+      {
+        "entry_time": "2025-03-17 12:45:00",
+        "entry_price": 83052.0,
+        "direction": "short",
+        "exit_time": "2025-03-17 13:00:00",
+        "exit_price": 82883.0285,
+        "reason": "Trailing Stop",
+        "pnl": 0.02
+      },
+      {
+        "entry_time": "2025-03-20 14:15:00",
+        "entry_price": 86344.29,
+        "direction": "long",
+        "exit_time": "2025-03-20 14:30:00",
+        "exit_price": 86366.6195,
+        "reason": "Trailing Stop",
+        "pnl": -0.87
+      },
+      {
+        "entry_time": "2025-03-20 15:45:00",
+        "entry_price": 84691.76,
+        "direction": "short",
+        "exit_time": "2025-03-20 16:00:00",
+        "exit_price": 84409.016,
+        "reason": "Trailing Stop",
+        "pnl": 0.67
+      },
+      {
+        "entry_time": "2025-03-22 18:30:00",
+        "entry_price": 84318.17,
+        "direction": "long",
+        "exit_time": "2025-03-22 18:45:00",
+        "exit_price": 84319.7255,
+        "reason": "Trailing Stop",
+        "pnl": -0.99
+      },
+      {
+        "entry_time": "2025-03-23 02:30:00",
+        "entry_price": 84221.07,
+        "direction": "long",
+        "exit_time": "2025-03-23 02:45:00",
+        "exit_price": 84268.67,
+        "reason": "Trailing Stop",
+        "pnl": -0.72
+      },
+      {
+        "entry_time": "2025-03-27 11:00:00",
+        "entry_price": 87179.3,
+        "direction": "short",
+        "exit_time": "2025-03-27 11:15:00",
+        "exit_price": 86946.4255,
+        "reason": "Trailing Stop",
+        "pnl": 0.34
+      },
+      {
+        "entry_time": "2025-04-01 14:00:00",
+        "entry_price": 82796.1,
+        "direction": "short",
+        "exit_time": "2025-04-01 14:15:00",
+        "exit_price": 82581.815,
+        "reason": "Trailing Stop",
+        "pnl": 0.3
+      },
+      {
+        "entry_time": "2025-04-01 15:00:00",
+        "entry_price": 84906.0,
+        "direction": "long",
+        "exit_time": "2025-04-01 15:15:00",
+        "exit_price": 85179.0795,
+        "reason": "Trailing Stop",
+        "pnl": 0.61
+      },
+      {
+        "entry_time": "2025-04-02 09:00:00",
+        "entry_price": 85311.84,
+        "direction": "long",
+        "exit_time": "2025-04-02 09:15:00",
+        "exit_price": 85352.776,
+        "reason": "Trailing Stop",
+        "pnl": -0.76
+      },
+      {
+        "entry_time": "2025-04-02 21:00:00",
+        "entry_price": 84549.91,
+        "direction": "short",
+        "exit_time": "2025-04-02 21:15:00",
+        "exit_price": 84258.6575,
+        "reason": "Trailing Stop",
+        "pnl": 0.73
+      },
+      {
+        "entry_time": "2025-04-04 11:00:00",
+        "entry_price": 82153.64,
+        "direction": "short",
+        "exit_time": "2025-04-04 11:15:00",
+        "exit_price": 81749.346,
+        "reason": "Trailing Stop",
+        "pnl": 1.47
+      },
+      {
+        "entry_time": "2025-04-08 12:00:00",
+        "entry_price": 79986.01,
+        "direction": "long",
+        "exit_time": "2025-04-08 12:15:00",
+        "exit_price": 79988.764,
+        "reason": "Trailing Stop",
+        "pnl": -0.99
+      },
+      {
+        "entry_time": "2025-04-08 14:45:00",
+        "entry_price": 78479.91,
+        "direction": "short",
+        "exit_time": "2025-04-08 15:00:00",
+        "exit_price": 78237.6175,
+        "reason": "Trailing Stop",
+        "pnl": 0.55
+      },
+      {
+        "entry_time": "2025-04-09 11:30:00",
+        "entry_price": 75952.72,
+        "direction": "short",
+        "exit_time": "2025-04-09 11:45:00",
+        "exit_price": 75833.5755,
+        "reason": "Trailing Stop",
+        "pnl": -0.22
+      },
+      {
+        "entry_time": "2025-04-11 02:00:00",
+        "entry_price": 80316.64,
+        "direction": "long",
+        "exit_time": "2025-04-11 02:15:00",
+        "exit_price": 80752.163,
+        "reason": "Trailing Stop",
+        "pnl": 1.71
+      },
+      {
+        "entry_time": "2025-04-13 17:30:00",
+        "entry_price": 84843.75,
+        "direction": "long",
+        "exit_time": "2025-04-13 17:45:00",
+        "exit_price": 84911.954,
+        "reason": "Trailing Stop",
+        "pnl": -0.6
+      },
+      {
+        "entry_time": "2025-04-13 19:30:00",
+        "entry_price": 83530.86,
+        "direction": "short",
+        "exit_time": "2025-04-13 19:45:00",
+        "exit_price": 83430.339,
+        "reason": "Trailing Stop",
+        "pnl": -0.4
+      },
+      {
+        "entry_time": "2025-04-14 00:30:00",
+        "entry_price": 84782.6,
+        "direction": "long",
+        "exit_time": "2025-04-14 00:45:00",
+        "exit_price": 84819.49,
+        "reason": "Trailing Stop",
+        "pnl": -0.79
+      },
+      {
+        "entry_time": "2025-04-14 15:45:00",
+        "entry_price": 84101.16,
+        "direction": "short",
+        "exit_time": "2025-04-14 16:00:00",
+        "exit_price": 83899.2595,
+        "reason": "Trailing Stop",
+        "pnl": 0.2
+      },
+      {
+        "entry_time": "2025-04-17 14:15:00",
+        "entry_price": 84040.0,
+        "direction": "short",
+        "exit_time": "2025-04-17 14:30:00",
+        "exit_price": 83781.821,
+        "reason": "Trailing Stop",
+        "pnl": 0.54
+      }
+    ],
+    "params": {
+      "fast": 10,
+      "slow": 34,
+      "sl_mult": 2.0,
+      "tp_mult": 4.5,
+      "tp_multipliers": [
+        2.5,
+        3.5
+      ],
+      "trailing_stop_ratio": 0.15,
+      "use_trailing_stop": true,
+      "use_partial_tp": true,
+      "use_rsi_filter": true,
+      "use_macd_confirm": false
+    },
+    "aggregate_score": 0.9252
+  },
+  {
+    "pnl": 30.71,
+    "sharpe": 0.11,
+    "max_drawdown": 12.3,
+    "trades": 69,
+    "win_rate": 40.58,
+    "hodl_pnl": -1867.32,
+    "alpha_vs_hodl": 1898.04,
+    "trades_log": [
+      {
+        "entry_time": "2025-01-18 19:30:00",
+        "entry_price": 104439.29,
+        "direction": "long",
+        "exit_time": "2025-01-18 19:45:00",
+        "exit_price": 104479.784,
+        "reason": "Trailing Stop",
+        "pnl": -0.81
+      },
+      {
+        "entry_time": "2025-01-19 09:00:00",
+        "entry_price": 104121.85,
+        "direction": "short",
+        "exit_time": "2025-01-19 09:15:00",
+        "exit_price": 103551.364,
+        "reason": "Trailing Stop",
+        "pnl": 1.74
+      },
+      {
+        "entry_time": "2025-01-19 21:45:00",
+        "entry_price": 103684.44,
+        "direction": "short",
+        "exit_time": "2025-01-19 22:00:00",
+        "exit_price": 102860.11,
+        "reason": "Trailing Stop",
+        "pnl": 2.98
+      },
+      {
+        "entry_time": "2025-01-20 06:30:00",
+        "entry_price": 104689.49,
+        "direction": "long",
+        "exit_time": "2025-01-20 06:45:00",
+        "exit_price": 108853.2235,
+        "reason": "Trailing Stop",
+        "pnl": 18.86
+      },
+      {
+        "entry_time": "2025-01-20 16:00:00",
+        "entry_price": 104513.09,
+        "direction": "short",
+        "exit_time": "2025-01-20 16:15:00",
+        "exit_price": 104359.1635,
+        "reason": "Trailing Stop",
+        "pnl": -0.26
+      },
+      {
+        "entry_time": "2025-01-23 14:30:00",
+        "entry_price": 104940.95,
+        "direction": "long",
+        "exit_time": "2025-01-23 14:45:00",
+        "exit_price": 105884.3735,
+        "reason": "Trailing Stop",
+        "pnl": 3.5
+      },
+      {
+        "entry_time": "2025-01-23 21:15:00",
+        "entry_price": 102734.0,
+        "direction": "short",
+        "exit_time": "2025-01-23 21:30:00",
+        "exit_price": 102364.1735,
+        "reason": "Trailing Stop",
+        "pnl": 0.8
+      },
+      {
+        "entry_time": "2025-01-26 00:15:00",
+        "entry_price": 104664.36,
+        "direction": "short",
+        "exit_time": "2025-01-26 00:30:00",
+        "exit_price": 104564.434,
+        "reason": "Trailing Stop",
+        "pnl": -0.52
+      },
+      {
+        "entry_time": "2025-01-26 03:45:00",
+        "entry_price": 105062.42,
+        "direction": "long",
+        "exit_time": "2025-01-26 04:00:00",
+        "exit_price": 105135.367,
+        "reason": "Trailing Stop",
+        "pnl": -0.66
+      },
+      {
+        "entry_time": "2025-01-26 09:30:00",
+        "entry_price": 104629.16,
+        "direction": "short",
+        "exit_time": "2025-01-26 09:45:00",
+        "exit_price": 104553.0425,
+        "reason": "Trailing Stop",
+        "pnl": -0.64
+      },
+      {
+        "entry_time": "2025-01-28 14:00:00",
+        "entry_price": 101962.98,
+        "direction": "short",
+        "exit_time": "2025-01-28 14:15:00",
+        "exit_price": 101941.084,
+        "reason": "Trailing Stop",
+        "pnl": -0.89
+      },
+      {
+        "entry_time": "2025-01-29 13:15:00",
+        "entry_price": 101896.01,
+        "direction": "short",
+        "exit_time": "2025-01-29 13:30:00",
+        "exit_price": 101788.7145,
+        "reason": "Trailing Stop",
+        "pnl": -0.47
+      },
+      {
+        "entry_time": "2025-01-29 17:30:00",
+        "entry_price": 102600.0,
+        "direction": "long",
+        "exit_time": "2025-01-29 17:45:00",
+        "exit_price": 102651.714,
+        "reason": "Trailing Stop",
+        "pnl": -0.75
+      },
+      {
+        "entry_time": "2025-01-29 19:15:00",
+        "entry_price": 101547.87,
+        "direction": "short",
+        "exit_time": "2025-01-29 19:30:00",
+        "exit_price": 101485.174,
+        "reason": "Trailing Stop",
+        "pnl": -0.69
+      },
+      {
+        "entry_time": "2025-01-31 11:15:00",
+        "entry_price": 104823.5,
+        "direction": "long",
+        "exit_time": "2025-01-31 11:30:00",
+        "exit_price": 104823.5,
+        "reason": "Trailing Stop",
+        "pnl": -1.0
+      },
+      {
+        "entry_time": "2025-01-31 18:15:00",
+        "entry_price": 104018.68,
+        "direction": "short",
+        "exit_time": "2025-01-31 18:30:00",
+        "exit_price": 103152.8105,
+        "reason": "Trailing Stop",
+        "pnl": 3.17
+      },
+      {
+        "entry_time": "2025-02-03 13:15:00",
+        "entry_price": 94374.36,
+        "direction": "short",
+        "exit_time": "2025-02-03 13:30:00",
+        "exit_price": 94372.337,
+        "reason": "Trailing Stop",
+        "pnl": -0.99
+      },
+      {
+        "entry_time": "2025-02-04 14:30:00",
+        "entry_price": 100147.6,
+        "direction": "long",
+        "exit_time": "2025-02-04 14:45:00",
+        "exit_price": 100252.762,
+        "reason": "Trailing Stop",
+        "pnl": -0.48
+      },
+      {
+        "entry_time": "2025-02-04 20:15:00",
+        "entry_price": 98274.48,
+        "direction": "short",
+        "exit_time": "2025-02-04 20:30:00",
+        "exit_price": 98181.6345,
+        "reason": "Trailing Stop",
+        "pnl": -0.53
+      },
+      {
+        "entry_time": "2025-02-06 14:45:00",
+        "entry_price": 97835.98,
+        "direction": "short",
+        "exit_time": "2025-02-06 15:00:00",
+        "exit_price": 97670.859,
+        "reason": "Trailing Stop",
+        "pnl": -0.16
+      },
+      {
+        "entry_time": "2025-02-07 06:45:00",
+        "entry_price": 96746.87,
+        "direction": "short",
+        "exit_time": "2025-02-07 07:00:00",
+        "exit_price": 96717.8255,
+        "reason": "Trailing Stop",
+        "pnl": -0.85
+      },
+      {
+        "entry_time": "2025-02-09 10:45:00",
+        "entry_price": 96762.01,
+        "direction": "short",
+        "exit_time": "2025-02-09 11:00:00",
+        "exit_price": 96762.0015,
+        "reason": "Trailing Stop",
+        "pnl": -1.0
+      },
+      {
+        "entry_time": "2025-02-10 00:00:00",
+        "entry_price": 96946.65,
+        "direction": "long",
+        "exit_time": "2025-02-10 00:15:00",
+        "exit_price": 97103.747,
+        "reason": "Trailing Stop",
+        "pnl": -0.19
+      },
+      {
+        "entry_time": "2025-02-10 03:30:00",
+        "entry_price": 96996.97,
+        "direction": "long",
+        "exit_time": "2025-02-10 03:45:00",
+        "exit_price": 97062.7685,
+        "reason": "Trailing Stop",
+        "pnl": -0.66
+      },
+      {
+        "entry_time": "2025-02-11 00:00:00",
+        "entry_price": 97735.32,
+        "direction": "long",
+        "exit_time": "2025-02-11 00:15:00",
+        "exit_price": 97837.405,
+        "reason": "Trailing Stop",
+        "pnl": -0.48
+      },
+      {
+        "entry_time": "2025-02-12 13:30:00",
+        "entry_price": 94520.37,
+        "direction": "short",
+        "exit_time": "2025-02-12 13:45:00",
+        "exit_price": 94460.5555,
+        "reason": "Trailing Stop",
+        "pnl": -0.68
+      },
+      {
+        "entry_time": "2025-02-12 16:45:00",
+        "entry_price": 96986.14,
+        "direction": "long",
+        "exit_time": "2025-02-12 17:00:00",
+        "exit_price": 97211.985,
+        "reason": "Trailing Stop",
+        "pnl": 0.16
+      },
+      {
+        "entry_time": "2025-02-14 14:45:00",
+        "entry_price": 97290.95,
+        "direction": "long",
+        "exit_time": "2025-02-14 15:00:00",
+        "exit_price": 97391.5475,
+        "reason": "Trailing Stop",
+        "pnl": -0.48
+      },
+      {
+        "entry_time": "2025-02-14 16:45:00",
+        "entry_price": 97658.7,
+        "direction": "long",
+        "exit_time": "2025-02-14 17:00:00",
+        "exit_price": 97658.7,
+        "reason": "Trailing Stop",
+        "pnl": -1.0
+      },
+      {
+        "entry_time": "2025-02-17 15:45:00",
+        "entry_price": 95659.46,
+        "direction": "short",
+        "exit_time": "2025-02-17 16:00:00",
+        "exit_price": 95566.419,
+        "reason": "Trailing Stop",
+        "pnl": -0.51
+      },
+      {
+        "entry_time": "2025-02-18 05:45:00",
+        "entry_price": 95609.49,
+        "direction": "short",
+        "exit_time": "2025-02-18 06:00:00",
+        "exit_price": 95346.4235,
+        "reason": "Trailing Stop",
+        "pnl": 0.38
+      },
+      {
+        "entry_time": "2025-02-18 15:15:00",
+        "entry_price": 95403.51,
+        "direction": "short",
+        "exit_time": "2025-02-18 15:30:00",
+        "exit_price": 95368.439,
+        "reason": "Trailing Stop",
+        "pnl": -0.82
+      },
+      {
+        "entry_time": "2025-02-19 18:45:00",
+        "entry_price": 95670.54,
+        "direction": "short",
+        "exit_time": "2025-02-19 19:00:00",
+        "exit_price": 95446.8795,
+        "reason": "Trailing Stop",
+        "pnl": 0.17
+      },
+      {
+        "entry_time": "2025-02-21 15:30:00",
+        "entry_price": 97600.6,
+        "direction": "short",
+        "exit_time": "2025-02-21 15:45:00",
+        "exit_price": 97450.0905,
+        "reason": "Trailing Stop",
+        "pnl": -0.23
+      },
+      {
+        "entry_time": "2025-02-24 03:15:00",
+        "entry_price": 95515.01,
+        "direction": "short",
+        "exit_time": "2025-02-24 03:30:00",
+        "exit_price": 95341.6015,
+        "reason": "Trailing Stop",
+        "pnl": -0.09
+      },
+      {
+        "entry_time": "2025-02-24 14:00:00",
+        "entry_price": 95412.01,
+        "direction": "short",
+        "exit_time": "2025-02-24 14:15:00",
+        "exit_price": 95389.9015,
+        "reason": "Trailing Stop",
+        "pnl": -0.89
+      },
+      {
+        "entry_time": "2025-02-26 12:15:00",
+        "entry_price": 88333.38,
+        "direction": "short",
+        "exit_time": "2025-02-26 12:30:00",
+        "exit_price": 88244.9885,
+        "reason": "Trailing Stop",
+        "pnl": -0.5
+      },
+      {
+        "entry_time": "2025-02-27 14:45:00",
+        "entry_price": 84968.65,
+        "direction": "short",
+        "exit_time": "2025-02-27 15:00:00",
+        "exit_price": 84689.935,
+        "reason": "Trailing Stop",
+        "pnl": 0.64
+      },
+      {
+        "entry_time": "2025-03-02 15:30:00",
+        "entry_price": 88081.19,
+        "direction": "long",
+        "exit_time": "2025-03-02 15:45:00",
+        "exit_price": 88216.17,
+        "reason": "Trailing Stop",
+        "pnl": -0.24
+      },
+      {
+        "entry_time": "2025-03-03 14:45:00",
+        "entry_price": 89278.88,
+        "direction": "short",
+        "exit_time": "2025-03-03 15:00:00",
+        "exit_price": 89141.282,
+        "reason": "Trailing Stop",
+        "pnl": -0.23
+      },
+      {
+        "entry_time": "2025-03-05 17:15:00",
+        "entry_price": 90040.81,
+        "direction": "long",
+        "exit_time": "2025-03-05 17:30:00",
+        "exit_price": 90410.1265,
+        "reason": "Trailing Stop",
+        "pnl": 1.05
+      },
+      {
+        "entry_time": "2025-03-07 00:15:00",
+        "entry_price": 87037.48,
+        "direction": "short",
+        "exit_time": "2025-03-07 00:30:00",
+        "exit_price": 85815.622,
+        "reason": "Trailing Stop",
+        "pnl": 6.03
+      },
+      {
+        "entry_time": "2025-03-07 16:15:00",
+        "entry_price": 87476.22,
+        "direction": "short",
+        "exit_time": "2025-03-07 16:30:00",
+        "exit_price": 87036.753,
+        "reason": "Trailing Stop",
+        "pnl": 1.52
+      },
+      {
+        "entry_time": "2025-03-10 08:30:00",
+        "entry_price": 81466.02,
+        "direction": "short",
+        "exit_time": "2025-03-10 08:45:00",
+        "exit_price": 81198.253,
+        "reason": "Trailing Stop",
+        "pnl": 0.65
+      },
+      {
+        "entry_time": "2025-03-10 14:00:00",
+        "entry_price": 80162.28,
+        "direction": "short",
+        "exit_time": "2025-03-10 14:15:00",
+        "exit_price": 79456.542,
+        "reason": "Trailing Stop",
+        "pnl": 3.41
+      },
+      {
+        "entry_time": "2025-03-11 14:30:00",
+        "entry_price": 79470.69,
+        "direction": "short",
+        "exit_time": "2025-03-11 14:45:00",
+        "exit_price": 79304.0815,
+        "reason": "Trailing Stop",
+        "pnl": 0.05
+      },
+      {
+        "entry_time": "2025-03-12 08:30:00",
+        "entry_price": 82690.86,
+        "direction": "long",
+        "exit_time": "2025-03-12 08:45:00",
+        "exit_price": 82788.0575,
+        "reason": "Trailing Stop",
+        "pnl": -0.41
+      },
+      {
+        "entry_time": "2025-03-12 14:45:00",
+        "entry_price": 81535.72,
+        "direction": "short",
+        "exit_time": "2025-03-12 15:00:00",
+        "exit_price": 80746.8605,
+        "reason": "Trailing Stop",
+        "pnl": 3.85
+      },
+      {
+        "entry_time": "2025-03-16 16:15:00",
+        "entry_price": 84350.65,
+        "direction": "long",
+        "exit_time": "2025-03-16 16:30:00",
+        "exit_price": 84368.3725,
+        "reason": "Trailing Stop",
+        "pnl": -0.9
+      },
+      {
+        "entry_time": "2025-03-17 12:45:00",
+        "entry_price": 83052.0,
+        "direction": "short",
+        "exit_time": "2025-03-17 13:00:00",
+        "exit_price": 82883.0285,
+        "reason": "Trailing Stop",
+        "pnl": 0.02
+      },
+      {
+        "entry_time": "2025-03-20 14:15:00",
+        "entry_price": 86344.29,
+        "direction": "long",
+        "exit_time": "2025-03-20 14:30:00",
+        "exit_price": 86366.6195,
+        "reason": "Trailing Stop",
+        "pnl": -0.87
+      },
+      {
+        "entry_time": "2025-03-20 15:45:00",
+        "entry_price": 84691.76,
+        "direction": "short",
+        "exit_time": "2025-03-20 16:00:00",
+        "exit_price": 84409.016,
+        "reason": "Trailing Stop",
+        "pnl": 0.67
+      },
+      {
+        "entry_time": "2025-03-22 18:30:00",
+        "entry_price": 84318.17,
+        "direction": "long",
+        "exit_time": "2025-03-22 18:45:00",
+        "exit_price": 84319.7255,
+        "reason": "Trailing Stop",
+        "pnl": -0.99
+      },
+      {
+        "entry_time": "2025-03-23 02:30:00",
+        "entry_price": 84221.07,
+        "direction": "long",
+        "exit_time": "2025-03-23 02:45:00",
+        "exit_price": 84268.67,
+        "reason": "Trailing Stop",
+        "pnl": -0.72
+      },
+      {
+        "entry_time": "2025-03-27 11:00:00",
+        "entry_price": 87179.3,
+        "direction": "short",
+        "exit_time": "2025-03-27 11:15:00",
+        "exit_price": 86946.4255,
+        "reason": "Trailing Stop",
+        "pnl": 0.34
+      },
+      {
+        "entry_time": "2025-04-01 14:00:00",
+        "entry_price": 82796.1,
+        "direction": "short",
+        "exit_time": "2025-04-01 14:15:00",
+        "exit_price": 82581.815,
+        "reason": "Trailing Stop",
+        "pnl": 0.3
+      },
+      {
+        "entry_time": "2025-04-01 15:00:00",
+        "entry_price": 84906.0,
+        "direction": "long",
+        "exit_time": "2025-04-01 15:15:00",
+        "exit_price": 85179.0795,
+        "reason": "Trailing Stop",
+        "pnl": 0.61
+      },
+      {
+        "entry_time": "2025-04-02 09:00:00",
+        "entry_price": 85311.84,
+        "direction": "long",
+        "exit_time": "2025-04-02 09:15:00",
+        "exit_price": 85352.776,
+        "reason": "Trailing Stop",
+        "pnl": -0.76
+      },
+      {
+        "entry_time": "2025-04-02 21:00:00",
+        "entry_price": 84549.91,
+        "direction": "short",
+        "exit_time": "2025-04-02 21:15:00",
+        "exit_price": 84258.6575,
+        "reason": "Trailing Stop",
+        "pnl": 0.73
+      },
+      {
+        "entry_time": "2025-04-04 11:00:00",
+        "entry_price": 82153.64,
+        "direction": "short",
+        "exit_time": "2025-04-04 11:15:00",
+        "exit_price": 81749.346,
+        "reason": "Trailing Stop",
+        "pnl": 1.47
+      },
+      {
+        "entry_time": "2025-04-08 12:00:00",
+        "entry_price": 79986.01,
+        "direction": "long",
+        "exit_time": "2025-04-08 12:15:00",
+        "exit_price": 79988.764,
+        "reason": "Trailing Stop",
+        "pnl": -0.99
+      },
+      {
+        "entry_time": "2025-04-08 14:45:00",
+        "entry_price": 78479.91,
+        "direction": "short",
+        "exit_time": "2025-04-08 15:00:00",
+        "exit_price": 78237.6175,
+        "reason": "Trailing Stop",
+        "pnl": 0.55
+      },
+      {
+        "entry_time": "2025-04-09 11:30:00",
+        "entry_price": 75952.72,
+        "direction": "short",
+        "exit_time": "2025-04-09 11:45:00",
+        "exit_price": 75833.5755,
+        "reason": "Trailing Stop",
+        "pnl": -0.22
+      },
+      {
+        "entry_time": "2025-04-11 02:00:00",
+        "entry_price": 80316.64,
+        "direction": "long",
+        "exit_time": "2025-04-11 02:15:00",
+        "exit_price": 80752.163,
+        "reason": "Trailing Stop",
+        "pnl": 1.71
+      },
+      {
+        "entry_time": "2025-04-13 17:30:00",
+        "entry_price": 84843.75,
+        "direction": "long",
+        "exit_time": "2025-04-13 17:45:00",
+        "exit_price": 84911.954,
+        "reason": "Trailing Stop",
+        "pnl": -0.6
+      },
+      {
+        "entry_time": "2025-04-13 19:30:00",
+        "entry_price": 83530.86,
+        "direction": "short",
+        "exit_time": "2025-04-13 19:45:00",
+        "exit_price": 83430.339,
+        "reason": "Trailing Stop",
+        "pnl": -0.4
+      },
+      {
+        "entry_time": "2025-04-14 00:30:00",
+        "entry_price": 84782.6,
+        "direction": "long",
+        "exit_time": "2025-04-14 00:45:00",
+        "exit_price": 84819.49,
+        "reason": "Trailing Stop",
+        "pnl": -0.79
+      },
+      {
+        "entry_time": "2025-04-14 15:45:00",
+        "entry_price": 84101.16,
+        "direction": "short",
+        "exit_time": "2025-04-14 16:00:00",
+        "exit_price": 83899.2595,
+        "reason": "Trailing Stop",
+        "pnl": 0.2
+      },
+      {
+        "entry_time": "2025-04-17 14:15:00",
+        "entry_price": 84040.0,
+        "direction": "short",
+        "exit_time": "2025-04-17 14:30:00",
+        "exit_price": 83781.821,
+        "reason": "Trailing Stop",
+        "pnl": 0.54
+      }
+    ],
+    "params": {
+      "fast": 10,
+      "slow": 34,
+      "sl_mult": 2.0,
+      "tp_mult": 5.0,
+      "tp_multipliers": [
+        2.0,
+        3.0
+      ],
+      "trailing_stop_ratio": 0.15,
+      "use_trailing_stop": true,
+      "use_partial_tp": true,
+      "use_rsi_filter": true,
+      "use_macd_confirm": false
+    },
+    "aggregate_score": 0.9252
+  },
+  {
+    "pnl": 30.71,
+    "sharpe": 0.11,
+    "max_drawdown": 12.3,
+    "trades": 69,
+    "win_rate": 40.58,
+    "hodl_pnl": -1867.32,
+    "alpha_vs_hodl": 1898.04,
+    "trades_log": [
+      {
+        "entry_time": "2025-01-18 19:30:00",
+        "entry_price": 104439.29,
+        "direction": "long",
+        "exit_time": "2025-01-18 19:45:00",
+        "exit_price": 104479.784,
+        "reason": "Trailing Stop",
+        "pnl": -0.81
+      },
+      {
+        "entry_time": "2025-01-19 09:00:00",
+        "entry_price": 104121.85,
+        "direction": "short",
+        "exit_time": "2025-01-19 09:15:00",
+        "exit_price": 103551.364,
+        "reason": "Trailing Stop",
+        "pnl": 1.74
+      },
+      {
+        "entry_time": "2025-01-19 21:45:00",
+        "entry_price": 103684.44,
+        "direction": "short",
+        "exit_time": "2025-01-19 22:00:00",
+        "exit_price": 102860.11,
+        "reason": "Trailing Stop",
+        "pnl": 2.98
+      },
+      {
+        "entry_time": "2025-01-20 06:30:00",
+        "entry_price": 104689.49,
+        "direction": "long",
+        "exit_time": "2025-01-20 06:45:00",
+        "exit_price": 108853.2235,
+        "reason": "Trailing Stop",
+        "pnl": 18.86
+      },
+      {
+        "entry_time": "2025-01-20 16:00:00",
+        "entry_price": 104513.09,
+        "direction": "short",
+        "exit_time": "2025-01-20 16:15:00",
+        "exit_price": 104359.1635,
+        "reason": "Trailing Stop",
+        "pnl": -0.26
+      },
+      {
+        "entry_time": "2025-01-23 14:30:00",
+        "entry_price": 104940.95,
+        "direction": "long",
+        "exit_time": "2025-01-23 14:45:00",
+        "exit_price": 105884.3735,
+        "reason": "Trailing Stop",
+        "pnl": 3.5
+      },
+      {
+        "entry_time": "2025-01-23 21:15:00",
+        "entry_price": 102734.0,
+        "direction": "short",
+        "exit_time": "2025-01-23 21:30:00",
+        "exit_price": 102364.1735,
+        "reason": "Trailing Stop",
+        "pnl": 0.8
+      },
+      {
+        "entry_time": "2025-01-26 00:15:00",
+        "entry_price": 104664.36,
+        "direction": "short",
+        "exit_time": "2025-01-26 00:30:00",
+        "exit_price": 104564.434,
+        "reason": "Trailing Stop",
+        "pnl": -0.52
+      },
+      {
+        "entry_time": "2025-01-26 03:45:00",
+        "entry_price": 105062.42,
+        "direction": "long",
+        "exit_time": "2025-01-26 04:00:00",
+        "exit_price": 105135.367,
+        "reason": "Trailing Stop",
+        "pnl": -0.66
+      },
+      {
+        "entry_time": "2025-01-26 09:30:00",
+        "entry_price": 104629.16,
+        "direction": "short",
+        "exit_time": "2025-01-26 09:45:00",
+        "exit_price": 104553.0425,
+        "reason": "Trailing Stop",
+        "pnl": -0.64
+      },
+      {
+        "entry_time": "2025-01-28 14:00:00",
+        "entry_price": 101962.98,
+        "direction": "short",
+        "exit_time": "2025-01-28 14:15:00",
+        "exit_price": 101941.084,
+        "reason": "Trailing Stop",
+        "pnl": -0.89
+      },
+      {
+        "entry_time": "2025-01-29 13:15:00",
+        "entry_price": 101896.01,
+        "direction": "short",
+        "exit_time": "2025-01-29 13:30:00",
+        "exit_price": 101788.7145,
+        "reason": "Trailing Stop",
+        "pnl": -0.47
+      },
+      {
+        "entry_time": "2025-01-29 17:30:00",
+        "entry_price": 102600.0,
+        "direction": "long",
+        "exit_time": "2025-01-29 17:45:00",
+        "exit_price": 102651.714,
+        "reason": "Trailing Stop",
+        "pnl": -0.75
+      },
+      {
+        "entry_time": "2025-01-29 19:15:00",
+        "entry_price": 101547.87,
+        "direction": "short",
+        "exit_time": "2025-01-29 19:30:00",
+        "exit_price": 101485.174,
+        "reason": "Trailing Stop",
+        "pnl": -0.69
+      },
+      {
+        "entry_time": "2025-01-31 11:15:00",
+        "entry_price": 104823.5,
+        "direction": "long",
+        "exit_time": "2025-01-31 11:30:00",
+        "exit_price": 104823.5,
+        "reason": "Trailing Stop",
+        "pnl": -1.0
+      },
+      {
+        "entry_time": "2025-01-31 18:15:00",
+        "entry_price": 104018.68,
+        "direction": "short",
+        "exit_time": "2025-01-31 18:30:00",
+        "exit_price": 103152.8105,
+        "reason": "Trailing Stop",
+        "pnl": 3.17
+      },
+      {
+        "entry_time": "2025-02-03 13:15:00",
+        "entry_price": 94374.36,
+        "direction": "short",
+        "exit_time": "2025-02-03 13:30:00",
+        "exit_price": 94372.337,
+        "reason": "Trailing Stop",
+        "pnl": -0.99
+      },
+      {
+        "entry_time": "2025-02-04 14:30:00",
+        "entry_price": 100147.6,
+        "direction": "long",
+        "exit_time": "2025-02-04 14:45:00",
+        "exit_price": 100252.762,
+        "reason": "Trailing Stop",
+        "pnl": -0.48
+      },
+      {
+        "entry_time": "2025-02-04 20:15:00",
+        "entry_price": 98274.48,
+        "direction": "short",
+        "exit_time": "2025-02-04 20:30:00",
+        "exit_price": 98181.6345,
+        "reason": "Trailing Stop",
+        "pnl": -0.53
+      },
+      {
+        "entry_time": "2025-02-06 14:45:00",
+        "entry_price": 97835.98,
+        "direction": "short",
+        "exit_time": "2025-02-06 15:00:00",
+        "exit_price": 97670.859,
+        "reason": "Trailing Stop",
+        "pnl": -0.16
+      },
+      {
+        "entry_time": "2025-02-07 06:45:00",
+        "entry_price": 96746.87,
+        "direction": "short",
+        "exit_time": "2025-02-07 07:00:00",
+        "exit_price": 96717.8255,
+        "reason": "Trailing Stop",
+        "pnl": -0.85
+      },
+      {
+        "entry_time": "2025-02-09 10:45:00",
+        "entry_price": 96762.01,
+        "direction": "short",
+        "exit_time": "2025-02-09 11:00:00",
+        "exit_price": 96762.0015,
+        "reason": "Trailing Stop",
+        "pnl": -1.0
+      },
+      {
+        "entry_time": "2025-02-10 00:00:00",
+        "entry_price": 96946.65,
+        "direction": "long",
+        "exit_time": "2025-02-10 00:15:00",
+        "exit_price": 97103.747,
+        "reason": "Trailing Stop",
+        "pnl": -0.19
+      },
+      {
+        "entry_time": "2025-02-10 03:30:00",
+        "entry_price": 96996.97,
+        "direction": "long",
+        "exit_time": "2025-02-10 03:45:00",
+        "exit_price": 97062.7685,
+        "reason": "Trailing Stop",
+        "pnl": -0.66
+      },
+      {
+        "entry_time": "2025-02-11 00:00:00",
+        "entry_price": 97735.32,
+        "direction": "long",
+        "exit_time": "2025-02-11 00:15:00",
+        "exit_price": 97837.405,
+        "reason": "Trailing Stop",
+        "pnl": -0.48
+      },
+      {
+        "entry_time": "2025-02-12 13:30:00",
+        "entry_price": 94520.37,
+        "direction": "short",
+        "exit_time": "2025-02-12 13:45:00",
+        "exit_price": 94460.5555,
+        "reason": "Trailing Stop",
+        "pnl": -0.68
+      },
+      {
+        "entry_time": "2025-02-12 16:45:00",
+        "entry_price": 96986.14,
+        "direction": "long",
+        "exit_time": "2025-02-12 17:00:00",
+        "exit_price": 97211.985,
+        "reason": "Trailing Stop",
+        "pnl": 0.16
+      },
+      {
+        "entry_time": "2025-02-14 14:45:00",
+        "entry_price": 97290.95,
+        "direction": "long",
+        "exit_time": "2025-02-14 15:00:00",
+        "exit_price": 97391.5475,
+        "reason": "Trailing Stop",
+        "pnl": -0.48
+      },
+      {
+        "entry_time": "2025-02-14 16:45:00",
+        "entry_price": 97658.7,
+        "direction": "long",
+        "exit_time": "2025-02-14 17:00:00",
+        "exit_price": 97658.7,
+        "reason": "Trailing Stop",
+        "pnl": -1.0
+      },
+      {
+        "entry_time": "2025-02-17 15:45:00",
+        "entry_price": 95659.46,
+        "direction": "short",
+        "exit_time": "2025-02-17 16:00:00",
+        "exit_price": 95566.419,
+        "reason": "Trailing Stop",
+        "pnl": -0.51
+      },
+      {
+        "entry_time": "2025-02-18 05:45:00",
+        "entry_price": 95609.49,
+        "direction": "short",
+        "exit_time": "2025-02-18 06:00:00",
+        "exit_price": 95346.4235,
+        "reason": "Trailing Stop",
+        "pnl": 0.38
+      },
+      {
+        "entry_time": "2025-02-18 15:15:00",
+        "entry_price": 95403.51,
+        "direction": "short",
+        "exit_time": "2025-02-18 15:30:00",
+        "exit_price": 95368.439,
+        "reason": "Trailing Stop",
+        "pnl": -0.82
+      },
+      {
+        "entry_time": "2025-02-19 18:45:00",
+        "entry_price": 95670.54,
+        "direction": "short",
+        "exit_time": "2025-02-19 19:00:00",
+        "exit_price": 95446.8795,
+        "reason": "Trailing Stop",
+        "pnl": 0.17
+      },
+      {
+        "entry_time": "2025-02-21 15:30:00",
+        "entry_price": 97600.6,
+        "direction": "short",
+        "exit_time": "2025-02-21 15:45:00",
+        "exit_price": 97450.0905,
+        "reason": "Trailing Stop",
+        "pnl": -0.23
+      },
+      {
+        "entry_time": "2025-02-24 03:15:00",
+        "entry_price": 95515.01,
+        "direction": "short",
+        "exit_time": "2025-02-24 03:30:00",
+        "exit_price": 95341.6015,
+        "reason": "Trailing Stop",
+        "pnl": -0.09
+      },
+      {
+        "entry_time": "2025-02-24 14:00:00",
+        "entry_price": 95412.01,
+        "direction": "short",
+        "exit_time": "2025-02-24 14:15:00",
+        "exit_price": 95389.9015,
+        "reason": "Trailing Stop",
+        "pnl": -0.89
+      },
+      {
+        "entry_time": "2025-02-26 12:15:00",
+        "entry_price": 88333.38,
+        "direction": "short",
+        "exit_time": "2025-02-26 12:30:00",
+        "exit_price": 88244.9885,
+        "reason": "Trailing Stop",
+        "pnl": -0.5
+      },
+      {
+        "entry_time": "2025-02-27 14:45:00",
+        "entry_price": 84968.65,
+        "direction": "short",
+        "exit_time": "2025-02-27 15:00:00",
+        "exit_price": 84689.935,
+        "reason": "Trailing Stop",
+        "pnl": 0.64
+      },
+      {
+        "entry_time": "2025-03-02 15:30:00",
+        "entry_price": 88081.19,
+        "direction": "long",
+        "exit_time": "2025-03-02 15:45:00",
+        "exit_price": 88216.17,
+        "reason": "Trailing Stop",
+        "pnl": -0.24
+      },
+      {
+        "entry_time": "2025-03-03 14:45:00",
+        "entry_price": 89278.88,
+        "direction": "short",
+        "exit_time": "2025-03-03 15:00:00",
+        "exit_price": 89141.282,
+        "reason": "Trailing Stop",
+        "pnl": -0.23
+      },
+      {
+        "entry_time": "2025-03-05 17:15:00",
+        "entry_price": 90040.81,
+        "direction": "long",
+        "exit_time": "2025-03-05 17:30:00",
+        "exit_price": 90410.1265,
+        "reason": "Trailing Stop",
+        "pnl": 1.05
+      },
+      {
+        "entry_time": "2025-03-07 00:15:00",
+        "entry_price": 87037.48,
+        "direction": "short",
+        "exit_time": "2025-03-07 00:30:00",
+        "exit_price": 85815.622,
+        "reason": "Trailing Stop",
+        "pnl": 6.03
+      },
+      {
+        "entry_time": "2025-03-07 16:15:00",
+        "entry_price": 87476.22,
+        "direction": "short",
+        "exit_time": "2025-03-07 16:30:00",
+        "exit_price": 87036.753,
+        "reason": "Trailing Stop",
+        "pnl": 1.52
+      },
+      {
+        "entry_time": "2025-03-10 08:30:00",
+        "entry_price": 81466.02,
+        "direction": "short",
+        "exit_time": "2025-03-10 08:45:00",
+        "exit_price": 81198.253,
+        "reason": "Trailing Stop",
+        "pnl": 0.65
+      },
+      {
+        "entry_time": "2025-03-10 14:00:00",
+        "entry_price": 80162.28,
+        "direction": "short",
+        "exit_time": "2025-03-10 14:15:00",
+        "exit_price": 79456.542,
+        "reason": "Trailing Stop",
+        "pnl": 3.41
+      },
+      {
+        "entry_time": "2025-03-11 14:30:00",
+        "entry_price": 79470.69,
+        "direction": "short",
+        "exit_time": "2025-03-11 14:45:00",
+        "exit_price": 79304.0815,
+        "reason": "Trailing Stop",
+        "pnl": 0.05
+      },
+      {
+        "entry_time": "2025-03-12 08:30:00",
+        "entry_price": 82690.86,
+        "direction": "long",
+        "exit_time": "2025-03-12 08:45:00",
+        "exit_price": 82788.0575,
+        "reason": "Trailing Stop",
+        "pnl": -0.41
+      },
+      {
+        "entry_time": "2025-03-12 14:45:00",
+        "entry_price": 81535.72,
+        "direction": "short",
+        "exit_time": "2025-03-12 15:00:00",
+        "exit_price": 80746.8605,
+        "reason": "Trailing Stop",
+        "pnl": 3.85
+      },
+      {
+        "entry_time": "2025-03-16 16:15:00",
+        "entry_price": 84350.65,
+        "direction": "long",
+        "exit_time": "2025-03-16 16:30:00",
+        "exit_price": 84368.3725,
+        "reason": "Trailing Stop",
+        "pnl": -0.9
+      },
+      {
+        "entry_time": "2025-03-17 12:45:00",
+        "entry_price": 83052.0,
+        "direction": "short",
+        "exit_time": "2025-03-17 13:00:00",
+        "exit_price": 82883.0285,
+        "reason": "Trailing Stop",
+        "pnl": 0.02
+      },
+      {
+        "entry_time": "2025-03-20 14:15:00",
+        "entry_price": 86344.29,
+        "direction": "long",
+        "exit_time": "2025-03-20 14:30:00",
+        "exit_price": 86366.6195,
+        "reason": "Trailing Stop",
+        "pnl": -0.87
+      },
+      {
+        "entry_time": "2025-03-20 15:45:00",
+        "entry_price": 84691.76,
+        "direction": "short",
+        "exit_time": "2025-03-20 16:00:00",
+        "exit_price": 84409.016,
+        "reason": "Trailing Stop",
+        "pnl": 0.67
+      },
+      {
+        "entry_time": "2025-03-22 18:30:00",
+        "entry_price": 84318.17,
+        "direction": "long",
+        "exit_time": "2025-03-22 18:45:00",
+        "exit_price": 84319.7255,
+        "reason": "Trailing Stop",
+        "pnl": -0.99
+      },
+      {
+        "entry_time": "2025-03-23 02:30:00",
+        "entry_price": 84221.07,
+        "direction": "long",
+        "exit_time": "2025-03-23 02:45:00",
+        "exit_price": 84268.67,
+        "reason": "Trailing Stop",
+        "pnl": -0.72
+      },
+      {
+        "entry_time": "2025-03-27 11:00:00",
+        "entry_price": 87179.3,
+        "direction": "short",
+        "exit_time": "2025-03-27 11:15:00",
+        "exit_price": 86946.4255,
+        "reason": "Trailing Stop",
+        "pnl": 0.34
+      },
+      {
+        "entry_time": "2025-04-01 14:00:00",
+        "entry_price": 82796.1,
+        "direction": "short",
+        "exit_time": "2025-04-01 14:15:00",
+        "exit_price": 82581.815,
+        "reason": "Trailing Stop",
+        "pnl": 0.3
+      },
+      {
+        "entry_time": "2025-04-01 15:00:00",
+        "entry_price": 84906.0,
+        "direction": "long",
+        "exit_time": "2025-04-01 15:15:00",
+        "exit_price": 85179.0795,
+        "reason": "Trailing Stop",
+        "pnl": 0.61
+      },
+      {
+        "entry_time": "2025-04-02 09:00:00",
+        "entry_price": 85311.84,
+        "direction": "long",
+        "exit_time": "2025-04-02 09:15:00",
+        "exit_price": 85352.776,
+        "reason": "Trailing Stop",
+        "pnl": -0.76
+      },
+      {
+        "entry_time": "2025-04-02 21:00:00",
+        "entry_price": 84549.91,
+        "direction": "short",
+        "exit_time": "2025-04-02 21:15:00",
+        "exit_price": 84258.6575,
+        "reason": "Trailing Stop",
+        "pnl": 0.73
+      },
+      {
+        "entry_time": "2025-04-04 11:00:00",
+        "entry_price": 82153.64,
+        "direction": "short",
+        "exit_time": "2025-04-04 11:15:00",
+        "exit_price": 81749.346,
+        "reason": "Trailing Stop",
+        "pnl": 1.47
+      },
+      {
+        "entry_time": "2025-04-08 12:00:00",
+        "entry_price": 79986.01,
+        "direction": "long",
+        "exit_time": "2025-04-08 12:15:00",
+        "exit_price": 79988.764,
+        "reason": "Trailing Stop",
+        "pnl": -0.99
+      },
+      {
+        "entry_time": "2025-04-08 14:45:00",
+        "entry_price": 78479.91,
+        "direction": "short",
+        "exit_time": "2025-04-08 15:00:00",
+        "exit_price": 78237.6175,
+        "reason": "Trailing Stop",
+        "pnl": 0.55
+      },
+      {
+        "entry_time": "2025-04-09 11:30:00",
+        "entry_price": 75952.72,
+        "direction": "short",
+        "exit_time": "2025-04-09 11:45:00",
+        "exit_price": 75833.5755,
+        "reason": "Trailing Stop",
+        "pnl": -0.22
+      },
+      {
+        "entry_time": "2025-04-11 02:00:00",
+        "entry_price": 80316.64,
+        "direction": "long",
+        "exit_time": "2025-04-11 02:15:00",
+        "exit_price": 80752.163,
+        "reason": "Trailing Stop",
+        "pnl": 1.71
+      },
+      {
+        "entry_time": "2025-04-13 17:30:00",
+        "entry_price": 84843.75,
+        "direction": "long",
+        "exit_time": "2025-04-13 17:45:00",
+        "exit_price": 84911.954,
+        "reason": "Trailing Stop",
+        "pnl": -0.6
+      },
+      {
+        "entry_time": "2025-04-13 19:30:00",
+        "entry_price": 83530.86,
+        "direction": "short",
+        "exit_time": "2025-04-13 19:45:00",
+        "exit_price": 83430.339,
+        "reason": "Trailing Stop",
+        "pnl": -0.4
+      },
+      {
+        "entry_time": "2025-04-14 00:30:00",
+        "entry_price": 84782.6,
+        "direction": "long",
+        "exit_time": "2025-04-14 00:45:00",
+        "exit_price": 84819.49,
+        "reason": "Trailing Stop",
+        "pnl": -0.79
+      },
+      {
+        "entry_time": "2025-04-14 15:45:00",
+        "entry_price": 84101.16,
+        "direction": "short",
+        "exit_time": "2025-04-14 16:00:00",
+        "exit_price": 83899.2595,
+        "reason": "Trailing Stop",
+        "pnl": 0.2
+      },
+      {
+        "entry_time": "2025-04-17 14:15:00",
+        "entry_price": 84040.0,
+        "direction": "short",
+        "exit_time": "2025-04-17 14:30:00",
+        "exit_price": 83781.821,
+        "reason": "Trailing Stop",
+        "pnl": 0.54
+      }
+    ],
+    "params": {
+      "fast": 10,
+      "slow": 34,
+      "sl_mult": 2.0,
+      "tp_mult": 5.0,
+      "tp_multipliers": [
+        2.5,
+        3.5
+      ],
+      "trailing_stop_ratio": 0.15,
+      "use_trailing_stop": true,
+      "use_partial_tp": true,
+      "use_rsi_filter": true,
+      "use_macd_confirm": false
+    },
+    "aggregate_score": 0.9252
+  }
+]
