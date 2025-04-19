@@ -1,11 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&family=Roboto+Mono&display=swap');
 
-/* 💜 VOLT custom styles */
+/* 💜 VOLT Custom Stylesheet – Light Mode Version
+   ---------------------------------------------------
+   Includes:
+   - Font overrides (Roboto Mono + Space Grotesk)
+   - Accent colors
+   - Sidebar polish + active highlighting
+   - Sticky nav
+   - Custom selection
+   - Soft animation + layout upgrades
+   ---------------------------------------------------
+*/
 
+/* === Base Typography & Layout === */
 body {
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 400;
   background-color: #fdfefe;
+  color: #1a1a1a;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -16,18 +28,19 @@ h1, h2, h3, h4, h5, h6,
   letter-spacing: -0.5px;
 }
 
-/* 💜 Accent color */
+/* === Accent + Link Styling === */
 a, .nav-list-link:hover {
   color: #6f42c1;
+  transition: color 0.2s ease;
 }
 
-/* ⚡ Highlighted text */
+/* === Text Selection Highlight === */
 ::selection {
-  background-color: #6f42c1;
-  color: #fff;
+  background-color: #e8d9ff;
+  color: #1a1a1a;
 }
 
-/* 💻 Code blocks */
+/* === Code Styling === */
 code {
   background-color: #f3f2ff;
   border-radius: 4px;
@@ -35,20 +48,31 @@ code {
   font-size: 0.85em;
 }
 
-/* 📉 Sidebar tweaks */
+/* === Sidebar Navigation === */
 .nav-list .nav-list-item > a {
   font-weight: 500;
-  padding: 0.75rem 1rem;
   font-size: 1rem;
+  padding: 0.75rem 1rem;
+  transition: all 0.2s ease;
 }
 
-/* 🌟 Current page highlight */
+.nav-list .nav-list-item > a:hover {
+  padding-left: 1.5rem;
+  color: #6f42c1;
+}
+
 .nav-list .nav-list-item > a.current {
   color: #6f42c1;
   font-weight: bold;
 }
 
-/* 📌 Sticky top nav */
+/* Sidebar visual cleanup */
+.site-nav, .side-bar {
+  background-color: #ffffff;
+  border-right: 1px solid #eee;
+}
+
+/* === Sticky Header Nav === */
 .site-header {
   position: sticky;
   top: 0;
@@ -57,47 +81,35 @@ code {
   border-bottom: 1px solid #eee;
 }
 
-/* 🔍 Larger search input */
+/* === Search Bar Styling === */
 .site-search input[type="search"] {
   font-size: 1rem;
   padding: 0.4rem 0.6rem;
 }
 
-/* 🧹 Footer cleanup */
+/* === Footer Hidden === */
 .site-footer {
   display: none !important;
 }
 
-/* 🌙 Dark Mode (respects user system preference) */
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #1e1e1e;
-    color: #eee;
-  }
+/* === Main Content Polish === */
+.main-content {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
 
-  a, .nav-list-link:hover {
-    color: #bb86fc;
-  }
+/* Headings Spacing */
+.main-content h2,
+.main-content h3 {
+  letter-spacing: 0.25px;
+  margin-top: 2rem;
+}
 
-  code {
-    background-color: #2e2e3e;
-  }
-
-  .site-header {
-    background-color: #111;
-    border-bottom: 1px solid #333;
-  }
-
-  .nav-list .nav-list-item > a {
-    color: #ccc;
-  }
-
-  .nav-list .nav-list-item > a.current {
-    color: #bb86fc;
-  }
-
-  ::selection {
-    background-color: #bb86fc;
-    color: #000;
-  }
+/* List Item Spacing (esp. for emoji bullets) */
+ul li {
+  padding-left: 0.2rem;
+  margin-bottom: 0.4rem;
+  line-height: 1.5;
 }
