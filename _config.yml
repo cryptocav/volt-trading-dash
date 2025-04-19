@@ -32,6 +32,9 @@ just_the_docs:
       url: "/contact/"
     - title: "⚡ About"
       url: "/about/"
+  
+  # 👇 ADD THIS LINE
+  include_head: custom-head
 
 # ──  GitHub Pages config ───────────────────────────────────
 url: "https://cryptocav.github.io"
