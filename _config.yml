@@ -1,14 +1,17 @@
-# volt-trading-dash/_config.yml
-
 title: "⚡ VOLT Trading Dashboard"
 description: >
   Backtest results, PineScript indicators, strategy sweep summaries,
   and live dev logs for the VOLT crypto trading engine.
 
-remote_theme: just-the-docs/just-the-docs@v0.5.4
+remote_theme: just-the-docs/just-the-docs
 color_scheme: light
 
-# ── Sidebar nav + custom CSS
+collections:
+  docs:
+    output: true
+    directory: _docs
+    permalink: /:path/
+
 just_the_docs:
   nav:
     - title: "⚡ Home"
@@ -25,27 +28,17 @@ just_the_docs:
       url: "/contact/"
     - title: "⚡ About"
       url: "/about/"
-  custom_css:
-    - /assets/css/custom.css
+  # ✅ This enables your head override
+  include_head: head-custom
 
-# ── GitHub Pages specifics
 url: "https://cryptocav.github.io"
 baseurl: "/volt-trading-dash"
 
-# ── Required for Pages to see _docs
 include:
   - _docs
 
-# ── Favicon and search
 search_enabled: true
 favicon_ico: "/assets/images/favicon.ico"
 
-# ── CSS/SASS loader
-sass:
-  load_paths:
-    - _sass
-    - assets/css
-
-# ── Plugins
 plugins:
   - jekyll-remote-theme
