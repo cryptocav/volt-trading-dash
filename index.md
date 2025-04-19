@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "⚡ VOLT Strategy Dashboard"
+title: "VOLT Strategy Dashboard"
 nav_exclude: true
 description: >
   Public‑facing lab for the **VOLT crypto trading engine** —
