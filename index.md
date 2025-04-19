@@ -51,7 +51,7 @@ Whether you're looking to build your own trading framework, run signal sweeps, o
 ---
 
 VOLT is designed to be lightweight, modular, and clean.  
-It’s not a black box — it’s a public ritual system for thinking clearly about markets.
+It’s not a black box — it’s a public system for thinking clearly about markets.
 
 Stay sharp.  
 –– cavpatrol

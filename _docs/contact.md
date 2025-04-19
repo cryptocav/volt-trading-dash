@@ -18,6 +18,7 @@ You can reach me here:
 - 📡 **Telegram:** [`@volt_signals`](https://t.me/volt_signals)
 
 If you’re using or testing the VOLT system, feel free to reach out with your config, sweep results, or any PineScript improvements.  
+
 Feedback is always welcome — especially if you’re running the system in the wild.
 
 ---
