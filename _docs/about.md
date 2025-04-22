@@ -2,6 +2,7 @@
 layout: default
 title: "⚡ About VOLT"
 permalink: /about/
+image: /assets/images/volt_X.png
 nav_order: 99
 ---
 

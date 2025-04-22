@@ -4,6 +4,7 @@ title: "📊 Strategy Results"
 has_children: true
 nav_order: 1
 permalink: /results/
+image: /assets/images/volt_X.png
 description: >
   View sweep-tested strategy configurations for the VOLT crypto trading engine — ranked by Sharpe, alpha vs HODL, PnL, and win rate.
 ---

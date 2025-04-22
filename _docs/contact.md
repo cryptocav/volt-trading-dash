@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "📬 Contact"
+image: /assets/images/volt_X.png
 permalink: /contact/
 description: >
   Reach out to Cav, creator of VOLT, for strategy questions, collaborations, or signal updates.

@@ -2,6 +2,7 @@
 layout: default
 title: "🙌 Support"
 permalink: /support/
+image: /assets/images/volt_X.png
 description: >
   Help accelerate the development of VOLT — a transparent, open crypto trading system.
 ---

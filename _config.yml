@@ -62,3 +62,4 @@ favicon_ico: "/assets/images/favicon.ico"
 
 plugins:
   - jekyll-remote-theme
+  - jekyll-seo-tag

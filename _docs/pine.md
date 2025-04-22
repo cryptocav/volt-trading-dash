@@ -2,6 +2,7 @@
 layout: default
 title: "📈 PineScripts"
 permalink: /pine/
+image: /assets/images/volt_X.png
 nav_order: 3
 ---
 
