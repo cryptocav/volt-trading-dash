@@ -55,6 +55,7 @@ Look for strategies with strong alpha vs HODL, realistic drawdown, and 3+ trades
 You can explore each strategy below by symbol + timeframe:
 
 - [BTCUSDT 15m – Apr 19, 2025]({{ "/results/btc_15m_20250419" | relative_url }})
+- [SOLUSDT 1d – Apr 22, 2025]({{ "/results/sol_1d_20250422" | relative_url }})
 
 More pairs and timeframes coming soon.
 
