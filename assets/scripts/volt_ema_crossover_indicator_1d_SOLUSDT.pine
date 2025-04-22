@@ -1,0 +1,120 @@
+//@version=5
+indicator("VOLT – EMA Crossover (trailing_after_tp1)", overlay=true, max_labels_count=500)
+
+// === GLOBAL ===
+strategyMode = input.string("trailing_after_tp1", "Strategy Mode", options=["trailing_only","partial_tp","trailing_after_tp1"])
+
+// === CORE ===
+fast = input.int(9, "EMA Fast"), slow = input.int(21, "EMA Slow"), trendLen = input.int(200, "Macro Trend EMA")
+atrLen = input.int(14, "ATR Length"), slMult = input.float(0.5, "SL Multiplier"), useTrailIn = input.bool(true, "Use Trailing SL")
+trailRatio = input.float(0.2, "Trailing Ratio"), trailMode = input.string("percent", "Trailing Mode", options=["percent","atr","slow_ema","fast_ema"])
+usePTIn = input.bool(true, "Use Partial TP"), tpString = input.string("1.5,3,5", "TP Multipliers")
+
+// === FILTERS ===
+useTrendFilt = input.bool(true, "Use Trend Filter"), useMACD = input.bool(true, "MACD Confirm"), useRSI = input.bool(false, "RSI Filter")
+rsiMin = input.int(40, "RSI Min"), rsiMax = input.int(60, "RSI Max"), rsiPeriod = input.int(14, "RSI Period")
+macdFast = input.int(12, "MACD Fast"), macdSlow = input.int(26, "MACD Slow"), macdSignal = input.int(9, "MACD Signal")
+
+// === INDICATORS ===
+emaFast = ta.ema(close, fast), emaSlow = ta.ema(close, slow), trend = ta.ema(close, trendLen)
+atr = ta.atr(atrLen), macdLine = ta.ema(close, macdFast) - ta.ema(close, macdSlow), signalLine = ta.ema(macdLine, macdSignal)
+rsi = ta.rsi(close, rsiPeriod)
+
+// === TP PARSE ===
+tpMultipliers = array.new_float()
+for val in str.split(tpString, ",")
+    vt = str.trim(val)
+    if str.length(vt) > 0
+        array.push(tpMultipliers, str.tonumber(vt))
+tp1Mult = array.size(tpMultipliers) > 0 ? array.get(tpMultipliers, 0) : na
+tp2Mult = array.size(tpMultipliers) > 1 ? array.get(tpMultipliers, 1) : na
+
+// === STATE ===
+var bool inTrade = false
+var bool tp1Hit = false
+var string dir = ""
+var float entry = float(na)
+var float sl = float(na)
+var float tp1 = float(na)
+var float tp2 = float(na)
+var float peak = float(na)
+var float trailSL = float(na)
+
+// === MODE FLAGS ===
+useTrail = strategyMode=="trailing_only" ? true : strategyMode=="partial_tp" ? false : useTrailIn
+usePT = strategyMode=="trailing_only" ? false : strategyMode=="partial_tp" ? true : usePTIn
+
+// === FILTER CONDITIONS ===
+crossLong = ta.crossover(emaFast, emaSlow), crossShort = ta.crossunder(emaFast, emaSlow)
+trendOKL = not useTrendFilt or close > trend, trendOKS = not useTrendFilt or close < trend
+rsiBlock = useRSI and (rsi >= rsiMin and rsi <= rsiMax)
+macdBlockL = useMACD and (macdLine <= signalLine), macdBlockS = useMACD and (macdLine >= signalLine)
+longEntry = crossLong and trendOKL and not rsiBlock and not macdBlockL
+shortEntry = crossShort and trendOKS and not rsiBlock and not macdBlockS
+
+// === ENTRY EXECUTION ===
+if not inTrade
+    if longEntry
+        entry := close, sl := entry - atr * slMult
+        tp1 := na(tp1Mult) ? na : entry + atr * tp1Mult, tp2 := na(tp2Mult) ? na : entry + atr * tp2Mult
+        peak := entry, dir := "long", tp1Hit := strategyMode == "trailing_only", inTrade := true
+        alert("🟢 LONG @ " + str.tostring(entry, "#.##"), alert.freq_once_per_bar)
+        label.new(bar_index, entry, "🟢 LONG @ " + str.tostring(entry, "#.##"), style=label.style_label_up, color=color.green, textcolor=color.white)
+        if usePT and not na(tp1)
+            label.new(bar_index, tp1, "TP1", style=label.style_label_left, color=color.green, textcolor=color.white)
+        if usePT and not na(tp2)
+            label.new(bar_index, tp2, "TP2", style=label.style_label_left, color=color.green, textcolor=color.white)
+    else if shortEntry
+        entry := close, sl := entry + atr * slMult
+        tp1 := na(tp1Mult) ? na : entry - atr * tp1Mult, tp2 := na(tp2Mult) ? na : entry - atr * tp2Mult
+        peak := entry, dir := "short", tp1Hit := strategyMode == "trailing_only", inTrade := true
+        alert("🔴 SHORT @ " + str.tostring(entry, "#.##"), alert.freq_once_per_bar)
+        label.new(bar_index, entry, "🔴 SHORT @ " + str.tostring(entry, "#.##"), style=label.style_label_down, color=color.red, textcolor=color.white)
+        if usePT and not na(tp1)
+            label.new(bar_index, tp1, "TP1", style=label.style_label_left, color=color.red, textcolor=color.white)
+        if usePT and not na(tp2)
+            label.new(bar_index, tp2, "TP2", style=label.style_label_left, color=color.red, textcolor=color.white)
+
+// === TRADE MANAGEMENT ===
+if inTrade
+    var bool exitNow = false
+    var float exitPx = float(na)
+    var string reason = ""
+    exitNow := false
+
+    tp1Exit = usePT and not tp1Hit and not na(tp1) and ((dir=="long" and high>=tp1) or (dir=="short" and low<=tp1))
+    if tp1Exit
+        tp1Hit := true
+        if strategyMode == "partial_tp"
+            exitNow := true, exitPx := tp1, reason := "TP1"
+
+    if useTrail and tp1Hit and not exitNow
+        peak := dir=="long" ? math.max(peak, high) : math.min(peak, low)
+        trailSL := trailMode == "atr" ? (dir=="long" ? peak - atr * trailRatio : peak + atr * trailRatio) : trailMode == "percent" ? (dir=="long" ? peak * (1 - trailRatio) : peak * (1 + trailRatio)) : trailMode == "slow_ema" ? emaSlow : trailMode == "fast_ema" ? emaFast : na
+        trailExit = (dir=="long" and low <= trailSL) or (dir=="short" and high >= trailSL)
+        if trailExit
+            exitNow := true, exitPx := trailSL, reason := "Trail SL"
+
+    tp2Exit = usePT and not exitNow and not na(tp2) and ((dir=="long" and high>=tp2) or (dir=="short" and low<=tp2))
+    if tp2Exit
+        exitNow := true, exitPx := tp2, reason := "TP2"
+
+    slExit = not exitNow and ((dir=="long" and low<=sl) or (dir=="short" and high>=sl))
+    if slExit
+        exitNow := true, exitPx := sl, reason := "SL"
+
+    if not exitNow and barstate.islast
+        exitNow := true, exitPx := close, reason := "Final Bar"
+
+    if exitNow
+        inTrade := false, tp1Hit := false, trailSL := float(na)
+        labelColor = reason=="SL" ? color.red : reason=="Trail SL" ? color.orange : str.contains(reason, "TP") ? color.green : color.gray
+        label.new(bar_index, exitPx, "EXIT (" + reason + ") @ " + str.tostring(exitPx, "#.##"), style=label.style_label_right, color=labelColor, textcolor=color.white)
+        alert("🚪 EXIT (" + reason + ") @ " + str.tostring(exitPx, "#.##"), alert.freq_once_per_bar)
+
+// === PLOTS ===
+plot(emaFast, "Fast EMA", color=color.teal)
+plot(emaSlow, "Slow EMA", color=color.orange)
+plot(trend, "Macro Trend", color=color.gray)
+plot(inTrade ? sl : na, "SL", color=color.red, style=plot.style_linebr, linewidth=1)
+plot(inTrade ? trailSL : na, "Trailing SL", color=color.orange, style=plot.style_linebr, linewidth=2)

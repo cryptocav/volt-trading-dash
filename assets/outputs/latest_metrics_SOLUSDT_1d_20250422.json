@@ -1,0 +1,83 @@
+{
+  "pnl": 765.65,
+  "sharpe": 0.44,
+  "max_drawdown": 226.21,
+  "trades": 8,
+  "win_rate": 37.5,
+  "hodl_pnl": -629.25,
+  "alpha_vs_hodl": 1394.9,
+  "trades_log": [
+    {
+      "entry_time": "2024-05-15 00:00:00",
+      "entry_price": 158.52,
+      "direction": "long",
+      "exit_time": "2024-05-21 00:00:00",
+      "exit_price": 188.63357143,
+      "reason": "TP step2",
+      "pnl": 469.21
+    },
+    {
+      "entry_time": "2024-07-15 00:00:00",
+      "entry_price": 159.38,
+      "direction": "long",
+      "exit_time": "2024-07-16 00:00:00",
+      "exit_price": 153.96214286,
+      "reason": "Stop Loss",
+      "pnl": -94.16
+    },
+    {
+      "entry_time": "2024-08-03 00:00:00",
+      "entry_price": 142.52,
+      "direction": "short",
+      "exit_time": "2024-08-05 00:00:00",
+      "exit_price": 132.0,
+      "reason": "Trailing Stop",
+      "pnl": 172.08
+    },
+    {
+      "entry_time": "2024-08-25 00:00:00",
+      "entry_price": 158.92,
+      "direction": "long",
+      "exit_time": "2024-08-27 00:00:00",
+      "exit_price": 155.055,
+      "reason": "Stop Loss",
+      "pnl": -69.37
+    },
+    {
+      "entry_time": "2024-08-28 00:00:00",
+      "entry_price": 143.95,
+      "direction": "short",
+      "exit_time": "2024-09-19 00:00:00",
+      "exit_price": 144.0,
+      "reason": "Trailing Stop",
+      "pnl": -6.15
+    },
+    {
+      "entry_time": "2024-10-08 00:00:00",
+      "entry_price": 143.49,
+      "direction": "short",
+      "exit_time": "2024-10-13 00:00:00",
+      "exit_price": 147.44107143,
+      "reason": "Stop Loss",
+      "pnl": -77.43
+    },
+    {
+      "entry_time": "2025-01-04 00:00:00",
+      "entry_price": 216.67,
+      "direction": "long",
+      "exit_time": "2025-01-07 00:00:00",
+      "exit_price": 210.99214286,
+      "reason": "Stop Loss",
+      "pnl": -73.26
+    },
+    {
+      "entry_time": "2025-01-17 00:00:00",
+      "entry_price": 219.51,
+      "direction": "long",
+      "exit_time": "2025-01-18 00:00:00",
+      "exit_price": 257.84142857,
+      "reason": "TP step2",
+      "pnl": 444.73
+    }
+  ]
+}
