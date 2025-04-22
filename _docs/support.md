@@ -38,7 +38,7 @@ Even small tips help me allocate more time and energy to VOLT — without relyin
 - **Ethereum + L2s (Arbitrum, Optimism, Base, etc.):**  
   `0x7367B923d61eEcf9107A7Bcbc3Fd5C56C5E8e2D3`
 
-> Prefer privacy? Use [@cavpatrol](https://x.com/cavpatrol) or [Telegram @volt_signals](https://t.me/volt_signals) to coordinate alt contributions.
+> Prefer privacy? Use [@cavpatrol](https://x.com/cavpatrol) to coordinate alt contributions.
 
 ---
 
