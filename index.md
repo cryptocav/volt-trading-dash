@@ -5,7 +5,7 @@ nav_exclude: true
 image: /assets/images/volt_X.png
 description: >
   Public‑facing lab for the VOLT crypto trading engine —
-  a modular system for testing, evolving, and deploying algorithmic strategies.
+  currently showcasing PRISM, a precision allocation model designed to outperform BTC.
 ---
 
 # ⚡ VOLT Strategy Dashboard
@@ -13,9 +13,9 @@ description: >
 Welcome to the public‑facing lab for the **VOLT crypto trading engine** —  
 a modular system for testing, evolving, and deploying automated strategies with full transparency.
 
-This site documents every part of the VOLT system — from historical backtests to PineScript generation, live monitor mode, and the core design philosophy behind it all.
+Currently, this site is focused on **PRISM**, the active signal model behind VOLT’s daily allocation engine. PRISM intelligently allocates USDC into top-performing crypto assets using daily momentum, trend, and volatility filters — with results posted daily on [@volt_signals](https://t.me/volt_signals).
 
-Whether you're looking to build your own trading framework, run signal sweeps, or simply observe the system in action — you're in the right place.
+Whether you're looking to follow live signals, run your own strategy experiments, or learn how to build robust systems — you're in the right place.
 
 ---
 
@@ -43,11 +43,11 @@ Whether you're looking to build your own trading framework, run signal sweeps, o
 
 ## 🛠 What You Can Do Here
 
-- Browse live strategy configurations  
-- Download tested PineScripts + JSON output  
-- Watch the system evolve from the inside  
-- Support its development directly  
-- Fork it. Extend it. Or just learn from the structure.
+- Browse daily and historical allocation logic  
+- View backtests vs BTC and USDC-flat  
+- Download PineScripts + raw output from PRISM  
+- Watch the system evolve over time  
+- Support its open-source mission  
 
 ---
 
