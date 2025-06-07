@@ -13,16 +13,18 @@ VOLT is a solo-built crypto trading system focused on clarity, modularity, and b
 
 Every part of the stack — from backtesting to PineScript generation to Telegram alerts — is built from scratch and made transparent for others to learn from or fork.
 
+**PRISM**, the live allocation model behind VOLT, is in active testing — with results and signals evolving rapidly as the system matures.
+
 ---
 
 ## 💡 Why Support Matters
 
 Your support helps me:
 
-- ⚡ Accelerate feature development (e.g. Pine trailing logic, real-time dashboards, L2 strategy support)
-- 🧪 Test more strategies, symbols, and timeframes
+- ⚡ Accelerate feature development (dynamic allocation sizing, intraday live mode, advanced Pine exports)
+- 🧪 Test more strategies, sectors, and timeframes at scale
 - 🧰 Build public tools faster and more cleanly
-- 📡 Maintain live signal infra and documentation
+- 📡 Maintain live signal infrastructure and documentation
 
 Even small tips help me allocate more time and energy to VOLT — without relying on sponsorships or locking anything behind paywalls.
 
@@ -45,8 +47,9 @@ Even small tips help me allocate more time and energy to VOLT — without relyin
 
 ## 🤝 Other Ways to Contribute
 
-- Improve or test PineScript logic
-- Suggest ideas for new strategies
+- Improve or test PRISM PineScript logic
+- Suggest ideas for new filters, strategies, or allocation models
+- Share sweep results and backtest findings
 
 This project is designed to stay clean, transparent, and community-aligned.  
 Your support keeps it that way.
