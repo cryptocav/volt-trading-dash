@@ -10,59 +10,66 @@ nav_order: 99
 
 VOLT is a modular crypto trading engine built by **@cavpatrol** — a longtime believer in decentralization, sovereignty, and the slow art of stacking sats.
 
-I've been in crypto for over five years. I’ve worked at **Magic Eden** and now **Slingshot**, helping shape real product experiences around real market behavior.
+I've been in crypto for over five years, working at **Magic Eden** and now **Slingshot**, helping shape real product experiences around real market behavior.
 
-But beneath the charts and code is a deeper philosophy:  
+Beneath the charts and code is a deeper philosophy:  
 **Clarity over complexity. Fewer trades, better trades. Filtered, not forced.**
 
-VOLT isn't just a script or strategy. It's a **system for engaging with markets** — where every signal is earned, not guessed.
+VOLT isn't just a script or strategy. It’s a **system for engaging with markets** — where every signal is earned, not guessed — and where every allocation is driven by real momentum and sector strength.
 
 ---
 
 ## 🧰 What VOLT Is
 
-VOLT is a command-line powered system built for modularity and visibility. It includes:
+VOLT is a command-line powered system built for modularity, transparency, and intelligent allocation. It includes:
 
 - 🧪 [Backtest Engine]({{ "/results/" | relative_url }})  
-  Simulates trade execution with slippage, commissions, and risk management.
+  Simulates multi-asset allocation with slippage, commissions, and risk management.
 
-- 🔁 Sweep System   
-  Explores multiple configs and ranks them based on your goals (Sharpe, win rate, alpha vs HODL).
+- 🔁 Sweep System  
+  Explores parameter grids and ranks configs by your targets (Sharpe, max drawdown, alpha vs BTC).
 
 - 🧠 [Postprocessing + Dev Log]({{ "/blog/" | relative_url }})  
-  Documents sweep outcomes, strategy tweaks, bugfixes, and live tests.
+  Documents mass scan results, strategy refinements, and system improvements.
 
 - 📈 [PineScript Generator]({{ "/pine/" | relative_url }})  
-  Produces clean, alert-ready TradingView scripts from tested configs.
+  Generates clean, alert-ready TradingView scripts from tested configs.
 
-- 📡 Signal Monitor (TradingView)  
-  Monitors live markets and dispatches alerts to Telegram in real-time.
+- 📡 Allocation Engine + Signal Monitor  
+  Scans the crypto universe daily and dispatches top allocation signals to Telegram.
 
-All strategy results are published with downloadable `.json` and `.pine` files. The entire system is transparent, reproducible, and improving with each iteration.
+All results are published with downloadable outputs. The system is transparent, reproducible, and improving with each iteration.
 
 ---
 
 ## 🧭 Why I Built It
 
 Most retail trading strategies are overcomplicated and underperform.  
-VOLT is my answer to that — a toolset for:
+VOLT is my answer — a toolset for:
 
-- Thinking clearly about edge
-- Avoiding overfitting traps
-- Capturing directional momentum with clean filters and minimal noise
+- Thinking clearly about edge  
+- Avoiding overfitting traps  
+- Capturing **relative strength** — rotating capital into outperformers, not forcing trades  
+- Beating passive HODL with smarter, data-driven allocations
 
-The goal isn’t to flip bags.  
-The goal is to **beat passive HODL** with smarter entries, cleaner exits, and real stats to prove it.
+After years of backtesting single-asset strategies, I learned firsthand:  
+**beating BTC by trading BTC is hard.**  
+Beating BTC by allocating across **the right assets at the right time** — that is where real opportunity lies.  
+VOLT’s architecture is built around this principle.
 
 ---
 
 ## 🛣️ What’s Next
 
-The system is under active development:
+The system is under **active development** — you’ll see this reflected in evolving results and test alerts.
 
-- 🛠️ Trailing stop logic in Pine is still being refined  
-- 🚧 Breakout strategies are in prototyping  
-- 📊 Telegram loop will surface strategy health + live signals  
+Near-term roadmap:
+
+- 🛠️ Dynamic allocation sizing based on momentum strength and volatility  
+- 🚧 Live mode (intraday scans and faster alerts)  
+- 📊 Telegram loop surfacing daily allocation changes + sector performance  
+- 🔍 Validation layer to ensure clean data and transparent skipped coins  
+- ⚙️ Modular strategy framework for future expansion (long/short, sector tilt, leverage models)
 
 If you want to follow along:
 
@@ -71,8 +78,7 @@ If you want to follow along:
 - [🧠 Build Log]({{ "/blog/" | relative_url }})  
 - [🙌 Support]({{ "/support/" | relative_url }})  
 - [📬 Contact]({{ "/contact/" | relative_url }})  
-- [⚡ About]({{ "/about/" | relative_url }})
 
-Thanks for tuning in.
+Thanks for tuning in — and stay sharp.
 
 –– cavpatrol
