@@ -11,18 +11,18 @@ description: >
 # ⚡ VOLT Strategy Dashboard
 
 Welcome to the public‑facing lab for the **VOLT crypto trading engine** —  
-a modular system for testing, evolving, and deploying automated strategies with full transparency.
+a modular system for testing, evolving, and deploying automated crypto strategies with full transparency.
 
-Currently, this site is focused on **PRISM**, the active signal model behind VOLT’s daily allocation engine. PRISM intelligently allocates USDC into top-performing crypto assets using daily momentum, trend, and volatility filters — with results posted daily on [@volt_signals](https://t.me/volt_signals).
+Currently, the site is focused on **PRISM**, VOLT’s live allocation model. PRISM scans the crypto universe daily and dynamically allocates USDC into top-performing assets using a blend of momentum, trend, volatility, and sector filters.
 
-Whether you're looking to follow live signals, run your own strategy experiments, or learn how to build robust systems — you're in the right place.
+The system is in **active refinement**. You may see test alerts and intermittent signals firing to [@volt_signals](https://t.me/volt_signals) — stay tuned as the model matures and more features go live.
 
 ---
 
 ## 🔍 Explore the VOLT Engine
 
 - [📊 Strategy Results]({{ "/results/" | relative_url }})  
-  Ranked configs from live sweeps (Sharpe, PnL, Alpha vs HODL)
+  Ranked configs from live sweeps (Sharpe, PnL, Alpha vs BTC)
 
 - [📈 PineScripts]({{ "/pine/" | relative_url }})  
   Auto-generated TradingView indicators from each strategy
@@ -37,22 +37,26 @@ Whether you're looking to follow live signals, run your own strategy experiments
   Reach out to collaborate, contribute, or ask a question
 
 - [⚡ About]({{ "/about/" | relative_url }})  
-  Background on the creator, the vision, and what's coming next
+  Background on the creator, system progression, and what's coming next
 
 ---
 
 ## 🛠 What You Can Do Here
 
-- Browse daily and historical allocation logic  
-- View backtests vs BTC and USDC-flat  
-- Download PineScripts + raw output from PRISM  
-- Watch the system evolve over time  
-- Support its open-source mission  
+- Follow the live PRISM model as it evolves
+- Browse daily allocation signals vs BTC and USDC-flat benchmarks
+- View mass scan + sector performance snapshots
+- Download PineScripts + raw output
+- See how the system architecture has progressed
+- Support its ongoing open-source development
 
 ---
 
-VOLT is designed to be lightweight, modular, and clean.  
-It’s not a black box — it’s a public system for thinking clearly about markets.
+**Why multi-coin?**  
+During extensive single-asset testing, VOLT’s creator learned that consistently outperforming BTC by trading BTC itself is extremely difficult. The edge comes from identifying periods where specific sectors or altcoins are gaining relative strength and dynamically allocating capital accordingly. PRISM embodies this principle.
+
+VOLT is built to be lightweight, modular, and transparent.  
+It’s not a black box — it’s a public experiment in how to think clearly about crypto markets.
 
 Stay sharp.  
-–– cavpatrol
+—— cavpatrol
