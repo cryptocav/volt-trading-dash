@@ -18,9 +18,9 @@ You can reach me here:
 - 📧 **Email:** [volt-signals@proton.me](mailto:volt-signals@proton.me)  
 - 📡 **Telegram:** [`@volt_signals`](https://t.me/volt_signals)
 
-If you’re using or testing the VOLT system, feel free to reach out with your config, sweep results, or any PineScript improvements.  
+If you’re testing or following the VOLT system, feel free to share your configs, sweep results, or any PineScript improvements — or just reach out to compare notes.
 
-Feedback is always welcome — especially if you’re running the system in the wild.
+**Feedback is always welcome — especially as PRISM continues to evolve in its live testing phase.**
 
 ---
 
