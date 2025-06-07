@@ -4,6 +4,7 @@ title: "⚡ The VOLT Journey So Far — From Backtests to Allocation Engine"
 parent: "🧠 Build Log"
 image: /assets/images/volt_X.png
 nav_order: 1
+permalink: /blog/volt_journey/   # optional but safe
 ---
 
 # ⚡ The VOLT Journey So Far — From Backtests to Allocation Engine
