@@ -8,6 +8,16 @@ description: >
   currently showcasing PRISM, a precision allocation model designed to outperform BTC.
 ---
 
+<div style="text-align: center; margin-top: 2em;">
+
+<a href="https://t.me/volt_signals" target="_blank" style="display: inline-block; background-color: #f7c948; color: #000; font-weight: bold; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-size: 16px;">
+⚡ Join the Signal Feed →
+</a>
+
+</div>
+
+---
+
 # ⚡ VOLT Strategy Dashboard
 
 Welcome to the public‑facing lab for the **VOLT crypto trading engine** —  
@@ -61,12 +71,4 @@ It’s not a black box — it’s a public experiment in how to think clearly ab
 Stay sharp.  
 —— cavpatrol
 
----
 
-<div style="text-align: center; margin-top: 2em;">
-
-<a href="https://t.me/volt_signals" target="_blank" style="display: inline-block; background-color: #f7c948; color: #000; font-weight: bold; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-size: 16px;">
-⚡ Join the Signal Feed →
-</a>
-
-</div>
