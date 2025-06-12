@@ -19,7 +19,12 @@ The log will track major architecture improvements, system philosophy, and pract
 
 ### Recent Highlights
 
-- [⚡ The VOLT Journey So Far — From Backtests to Allocation Engine]({{ "/blog/volt_journey/" | relative_url }})
+<ul>
+{% assign children = site.pages | where: "parent", "🧠 Build Log" | sort: "nav_order" %}
+{% for child in children %}
+  <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
+{% endfor %}
+</ul>
 
 ---
 
