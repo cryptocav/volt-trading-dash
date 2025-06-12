@@ -19,12 +19,8 @@ The log will track major architecture improvements, system philosophy, and pract
 
 ### Recent Highlights
 
-<ul>
-{% assign children = site.pages | where: "parent", "🧠 Build Log" | sort: "nav_order" %}
-{% for child in children %}
-  <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
-{% endfor %}
-</ul>
+- [⚡ The VOLT Journey So Far — From Backtests to Allocation Engine]({{ "/blog/volt_journey/" | relative_url }})
+- [🛠️ The Invisible Work — Why Good Data Matters in Trading Systems]({{ "/blog/data_quality/" | relative_url }})
 
 ---
 
